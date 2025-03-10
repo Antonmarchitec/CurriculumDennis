@@ -7,22 +7,21 @@
 .contHeader .contHeaderFondo {
   width: 100%;
   background: rgba(12, 27, 50, 0.768627451);
-  padding: 30px 20px;
+  padding: 50px 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
 }
 .contHeader .contHeaderFondo .contHeaderPhoto {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 220px;
   border-radius: 100%;
   overflow: hidden;
 }
 .contHeader .contHeaderFondo .contHeaderDescription {
   width: 720px;
   padding: 10px 20px;
-  background: rgba(128, 128, 128, 0.367);
   text-align: center;
 }
 .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__name {
@@ -32,9 +31,20 @@
 }
 .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__description {
   color: white;
+  font-size: 26px;
+  color: #56fbd3;
+}
+.contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__line {
+  margin: 16px auto;
+  width: 200px;
+  height: 1px;
+  border: none;
+  background: #56fbd3;
 }
 .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__nivel {
+  margin-top: 40px;
   color: white;
+  color: #56fbd3;
 }
 
 /*
@@ -50,6 +60,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
+  font-size: 16px;
 }
 
 .contBase {
