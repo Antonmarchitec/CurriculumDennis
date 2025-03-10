@@ -3,35 +3,73 @@
 .contBaseBloqueAB{
     width: 100%;
     padding: 10px 20px;
-    background: grey;
+    background: var.$blue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
     .contBloqueA{
         width: 350px;
-        color: white;
-        background: rgb(172, 172, 172);
+        background: var.$white;
+
         .contBloqueA__base{
             width: 100%;
             padding: 10px 20px;
-            background: rgb(76, 76, 76);
-        }
-        .contBloqueA__Subtitles{
-            font-size: 28px;
-            color: black;
-            
-        }
-        .contBloqueA__linea{
+            background: transparent;
 
+            .contBloqueA__Subtitles{
+                font-size: 28px;
+                color: black;
+                
+            }
+            .contBloqueA__linea{
+                width: 38%;
+                height: 3px;
+                background: var.$green;
+                border: none;
+            }
+            .contBloqueA__description{
+                margin-top: 20px;
+                color: var.$parrafo-right;
+            }
         }
-        .contBloqueA__description{
 
+        .contBloqueB__base{
+            width: 100%;
+            padding: 10px 20px;
+            background: transparent;
+            .contBloqueB__Subtitles{
+                font-size: 28px;
+                color: black;
+                
+            }
+            .contBloqueB__linea{
+                width: 38%;
+                height: 3px;
+                background: var.$green;
+                border: none;
+            }
+            .contBloqueB__sectionIcons{
+                margin-top: 20px;
+                color: var.$parrafo-right;
+                .iconContact{
+                    width: 22px;
+                    color: var.$Titulo-right;
+                    font-size: 18px;
+                }
+                .enlaceHi{
+                    color: var.$parrafo-right;
+                }
+            }
+         
+           
         }
+      
     }
 
     .contBloqueB{
-        width: 800px;
+        width:69%;
+        padding: 10px 20px;
         color: white;
         background: rgb(243, 214, 214);
     }
