@@ -1,3 +1,42 @@
+.contHeader {
+  width: 100%;
+  background-image: url(../source/desarrollando.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.contHeader .contHeaderFondo {
+  width: 100%;
+  background: rgba(12, 27, 50, 0.768627451);
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.contHeader .contHeaderFondo .contHeaderPhoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.contHeader .contHeaderFondo .contHeaderDescription {
+  width: 720px;
+  padding: 10px 20px;
+  background: rgba(128, 128, 128, 0.367);
+  text-align: center;
+}
+.contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__name {
+  color: white;
+  font-weight: 500;
+  font-size: 36px;
+}
+.contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__description {
+  color: white;
+}
+.contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__nivel {
+  color: white;
+}
+
 /*
     font-family: "Poppins", sans-serif;
     font-weight: 100;
@@ -11,6 +50,14 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
+}
+
+.contBase {
+  width: 100%;
+  max-width: 1440px;
+  padding: 30px 0px;
+  background: rgb(223, 223, 223);
+  margin: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

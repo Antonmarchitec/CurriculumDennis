@@ -1,0 +1,44 @@
+@use "var";
+
+.contHeader{
+    width: 100%;
+    background-image: url(../source/desarrollando.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    .contHeaderFondo{
+        width: 100%;
+        background: var.$blue-trans;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: center;
+        .contHeaderPhoto{
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            overflow: hidden;
+        }
+    
+        .contHeaderDescription{
+            width: 720px;
+            padding: 10px 20px;
+            background: rgba(128, 128, 128, 0.367);
+            text-align: center;
+            .contHeaderDescription__name{
+                color: white;
+                font-weight: 500;
+                font-size: 36px;
+            }
+
+            .contHeaderDescription__description{
+                color: white;
+            }
+            
+            .contHeaderDescription__nivel{
+                color: white;
+            }
+        }
+    }
+   
+}
