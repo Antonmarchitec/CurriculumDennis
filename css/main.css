@@ -47,6 +47,35 @@
   color: #56fbd3;
 }
 
+.contBaseBloqueAB {
+  width: 100%;
+  padding: 10px 20px;
+  background: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+.contBaseBloqueAB .contBloqueA {
+  width: 350px;
+  color: white;
+  background: rgb(172, 172, 172);
+}
+.contBaseBloqueAB .contBloqueA .contBloqueA__base {
+  width: 100%;
+  padding: 10px 20px;
+  background: rgb(76, 76, 76);
+}
+.contBaseBloqueAB .contBloqueA .contBloqueA__Subtitles {
+  font-size: 28px;
+  color: black;
+}
+.contBaseBloqueAB .contBloqueB {
+  width: 800px;
+  color: white;
+  background: rgb(243, 214, 214);
+}
+
 /*
     font-family: "Poppins", sans-serif;
     font-weight: 100;
