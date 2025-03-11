@@ -56,15 +56,34 @@
             .contBloqueB__sectionIcons{
                 margin-top: 20px;
                 color: var.$parrafo-right;
-                .iconContact{
-                    width: 22px;
-                    color: var.$green;
-                    font-size: 17px;
+                .contBloqueB__sectionIcons__icon{
+                    padding: 5px 0px;
+                    margin-bottom: 2px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: start;
+                    align-items: center;
+                    .iconContact{
+                        width: 45px;
+                        height: 45px;
+                        background: var.$blue;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: var.$green;
+                        font-size: 20px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+                    .iconText{
+                        color: var.$parrafo-right;
+                    }
+
+                    .enlaceHi{
+                        text-decoration: none;
+                    }
                 }
-                .enlaceHi{
-                    color: var.$parrafo-right;
-                    text-decoration: none;
-                }
+              
             }
          
            
