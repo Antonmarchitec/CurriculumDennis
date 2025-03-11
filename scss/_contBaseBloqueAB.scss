@@ -2,12 +2,13 @@
 
 .contBaseBloqueAB{
     width: 100%;
-    padding: 10px 20px;
+    padding: 30px 20px;
     background: var.$blue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: start;
+
     .contBloqueA{
         width: 350px;
         background: var.$white;
@@ -159,26 +160,80 @@
                 }
             }
         }
-        /*
-        contBloqueD__base
-        contBloqueD__Subtitles
-        contBloqueD__linea
-        contBloqueD
-        contBloqueD__bloque
-        contBloqueD__bloque__title
-        contBloqueD__bloque__description
-        
-        */
       
     }
 
-
-
     .contBloqueB{
-        width:69%;
+        width:70%;
         padding: 10px 20px;
         color: white;
-        background: rgb(243, 214, 214);
+        background: rgba(243, 214, 214, 0.056);
+        .contBloqueB__baseSkills{
+            width: 100%;
+            padding: 10px 0px;
+
+            .sectionRight_title{
+                color: var.$green;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 26px;
+                text-align: center;
+            }
+
+            .contBloqueB_cont{
+                width: 100%;
+                padding: 10px 0px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .bloque__A{
+                    width: 38%;
+                    padding: 10px 0px;
+                    background: transparent;
+                    .contBloqueB_contBloc{
+                        width: 100%;
+                        background:transparent;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        .contBloqueB_contBloc__text{
+                            color: var.$green;
+                            font-weight: 300;
+                            font-size: 18px;
+                        }
+                        .contBloqueB_contBloc__ball{
+                            background:transparent;
+                            padding: 3px;
+                        }
+                    }
+                }
+
+                .bloque__B{
+                    width: 38%;
+                    padding: 10px 0px;
+                    background: transparent;
+                    .contBloqueB_contBloc{
+                        width: 100%;
+                        background:transparent;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        .contBloqueB_contBloc__text{
+                            color: var.$green;
+                            font-weight: 300;
+                            font-size: 18px;
+                        }
+                        .contBloqueB_contBloc__ball{
+                            background:transparent;
+                            padding: 3px;
+                        }
+                    }
+                }
+            }
+        }
     }
 
 
