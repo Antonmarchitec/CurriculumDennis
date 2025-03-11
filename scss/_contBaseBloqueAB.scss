@@ -12,15 +12,17 @@
         width: 350px;
         background: var.$white;
 
+        /****************/
         .contBloqueA__base{
             width: 100%;
-            padding: 10px 20px;
+            padding: 20px 20px;
             background: transparent;
 
             .contBloqueA__Subtitles{
-                font-size: 28px;
+                font-size: 26px;
                 color: black;
-                
+                font-weight: 500;
+                text-transform: uppercase;
             }
             .contBloqueA__linea{
                 width: 38%;
@@ -34,14 +36,16 @@
             }
         }
 
+        /******************/
         .contBloqueB__base{
             width: 100%;
-            padding: 10px 20px;
+            padding: 20px 20px;
             background: transparent;
             .contBloqueB__Subtitles{
-                font-size: 28px;
+                font-size: 26px;
                 color: black;
-                
+                font-weight: 500;
+                text-transform: uppercase;
             }
             .contBloqueB__linea{
                 width: 38%;
@@ -54,18 +58,102 @@
                 color: var.$parrafo-right;
                 .iconContact{
                     width: 22px;
-                    color: var.$Titulo-right;
-                    font-size: 18px;
+                    color: var.$green;
+                    font-size: 17px;
                 }
                 .enlaceHi{
                     color: var.$parrafo-right;
+                    text-decoration: none;
                 }
             }
          
            
         }
+
+        /******************/
+        .contBloqueC__base{
+            width: 100%;
+            padding: 20px 20px;
+            background: transparent;
+            .contBloqueC__Subtitles{
+                font-size: 26px;
+                color: black;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            .contBloqueC__linea{
+                width: 38%;
+                height: 3px;
+                background: var.$green;
+                border: none;
+            }
+            .contBloqueC__section{
+                width: 100%;
+                margin-top: 20px;
+                .fa-solid{
+                    color: var.$green;
+                    margin-right:5px;
+                    
+                }
+            }
+        }
+
+        /******************/
+        .contBloqueD__base{
+            width: 100%;
+            padding: 20px 20px;
+            background: transparent;
+            .contBloqueD__base{
+                font-size: 26px;
+                color: black;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            .contBloqueD__Subtitles{
+                font-size: 26px;
+                color: black;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+            .contBloqueD__linea{
+                width: 38%;
+                height: 3px;
+                background: var.$green;
+                border: none;
+            }
+
+            .contBloqueD{
+                width: 100%;
+                padding: 10px 0px;
+                background: transparent;
+                .contBloqueD__bloque{
+                    margin: 10px 0px ;
+                    .contBloqueD__bloque__title{
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+
+                    .contBloqueD__bloque__description{
+                        margin: 10px 30px;
+                        color: var.$parrafo-right;
+                    }
+                }
+            }
+        }
+        /*
+        contBloqueD__base
+        contBloqueD__Subtitles
+        contBloqueD__linea
+        contBloqueD
+        contBloqueD__bloque
+        contBloqueD__bloque__title
+        contBloqueD__bloque__description
+        
+        */
       
     }
+
+
 
     .contBloqueB{
         width:69%;
@@ -73,4 +161,6 @@
         color: white;
         background: rgb(243, 214, 214);
     }
+
+
 }

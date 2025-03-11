@@ -58,16 +58,32 @@
 }
 .contBaseBloqueAB .contBloqueA {
   width: 350px;
-  background: white;
+  background: #ffffff;
+  /****************/
+  /******************/
+  /******************/
+  /******************/
+  /*
+  contBloqueD__base
+  contBloqueD__Subtitles
+  contBloqueD__linea
+  contBloqueD
+  contBloqueD__bloque
+  contBloqueD__bloque__title
+  contBloqueD__bloque__description
+
+  */
 }
 .contBaseBloqueAB .contBloqueA .contBloqueA__base {
   width: 100%;
-  padding: 10px 20px;
+  padding: 20px 20px;
   background: transparent;
 }
 .contBaseBloqueAB .contBloqueA .contBloqueA__base .contBloqueA__Subtitles {
-  font-size: 28px;
+  font-size: 26px;
   color: black;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .contBaseBloqueAB .contBloqueA .contBloqueA__base .contBloqueA__linea {
   width: 38%;
@@ -77,16 +93,18 @@
 }
 .contBaseBloqueAB .contBloqueA .contBloqueA__base .contBloqueA__description {
   margin-top: 20px;
-  color: #7f7f7f;
+  color: #414141;
 }
 .contBaseBloqueAB .contBloqueA .contBloqueB__base {
   width: 100%;
-  padding: 10px 20px;
+  padding: 20px 20px;
   background: transparent;
 }
 .contBaseBloqueAB .contBloqueA .contBloqueB__base .contBloqueB__Subtitles {
-  font-size: 28px;
+  font-size: 26px;
   color: black;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 .contBaseBloqueAB .contBloqueA .contBloqueB__base .contBloqueB__linea {
   width: 38%;
@@ -96,15 +114,80 @@
 }
 .contBaseBloqueAB .contBloqueA .contBloqueB__base .contBloqueB__sectionIcons {
   margin-top: 20px;
-  color: #7f7f7f;
+  color: #414141;
 }
 .contBaseBloqueAB .contBloqueA .contBloqueB__base .contBloqueB__sectionIcons .iconContact {
   width: 22px;
-  color: #535353;
-  font-size: 18px;
+  color: #56fbd3;
+  font-size: 17px;
 }
 .contBaseBloqueAB .contBloqueA .contBloqueB__base .contBloqueB__sectionIcons .enlaceHi {
-  color: #7f7f7f;
+  color: #414141;
+  text-decoration: none;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueC__base {
+  width: 100%;
+  padding: 20px 20px;
+  background: transparent;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueC__base .contBloqueC__Subtitles {
+  font-size: 26px;
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueC__base .contBloqueC__linea {
+  width: 38%;
+  height: 3px;
+  background: #56fbd3;
+  border: none;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueC__base .contBloqueC__section {
+  width: 100%;
+  margin-top: 20px;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueC__base .contBloqueC__section .fa-solid {
+  color: #56fbd3;
+  margin-right: 5px;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueD__base {
+  width: 100%;
+  padding: 20px 20px;
+  background: transparent;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueD__base .contBloqueD__base {
+  font-size: 26px;
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueD__base .contBloqueD__Subtitles {
+  font-size: 26px;
+  color: black;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueD__base .contBloqueD__linea {
+  width: 38%;
+  height: 3px;
+  background: #56fbd3;
+  border: none;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueD__base .contBloqueD {
+  width: 100%;
+  padding: 10px 0px;
+  background: transparent;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueD__base .contBloqueD .contBloqueD__bloque {
+  margin: 10px 0px;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueD__base .contBloqueD .contBloqueD__bloque .contBloqueD__bloque__title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.contBaseBloqueAB .contBloqueA .contBloqueD__base .contBloqueD .contBloqueD__bloque .contBloqueD__bloque__description {
+  margin: 10px 30px;
+  color: #414141;
 }
 .contBaseBloqueAB .contBloqueB {
   width: 69%;
