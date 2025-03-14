@@ -173,14 +173,21 @@
             padding: 10px 0px;
 
             .sectionRight_title{
+                width: 240px;
+                border-radius: 20px;
+                margin: auto;
+                padding: 3px 0px;
                 color: var.$green;
                 text-transform: uppercase;
                 font-weight: 500;
                 font-size: 30px;
                 text-align: center;
+                background: var.$green;
+                color: var.$blue;
             }
 
             .contBloqueB_cont{
+                margin-top: 20px;
                 width: 100%;
                 padding: 10px 0px;
                 display: flex;

@@ -10,16 +10,18 @@
   padding: 50px 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .contHeader .contHeaderFondo .contHeaderPhoto {
-  width: 220px;
-  height: 220px;
+  margin-left: 50px;
+  width: 240px;
+  height: 240px;
   border-radius: 100%;
   overflow: hidden;
 }
 .contHeader .contHeaderFondo .contHeaderDescription {
+  margin-right: calc(50% - 550px);
   width: 720px;
   padding: 10px 20px;
   text-align: center;
@@ -207,13 +209,20 @@
   padding: 10px 0px;
 }
 .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .sectionRight_title {
+  width: 240px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 3px 0px;
   color: #56fbd3;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 30px;
   text-align: center;
+  background: #56fbd3;
+  color: #0c1b32;
 }
 .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont {
+  margin-top: 20px;
   width: 100%;
   padding: 10px 0px;
   display: flex;
