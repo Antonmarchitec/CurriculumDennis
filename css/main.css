@@ -321,7 +321,7 @@
 .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .lineaVertical {
   margin-left: 30px;
   background: #0c1b32;
-  height: 390px;
+  height: 480px;
   width: 10px;
   border: none;
   display: flex;
@@ -338,7 +338,7 @@
 }
 .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content {
   width: calc(100% - 180px);
-  height: 390px;
+  height: 480px;
   padding: 10px 0px;
   background: rgb(255, 255, 255);
   margin-left: 30px;
