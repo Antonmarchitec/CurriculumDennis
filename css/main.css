@@ -338,9 +338,8 @@
 }
 .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content {
   width: calc(100% - 180px);
-  height: 480px;
-  padding: 10px 0px;
-  background: rgb(255, 255, 255);
+  padding: 30px;
+  background: #0c1b32;
   margin-left: 30px;
 }
 
