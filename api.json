@@ -14,7 +14,7 @@
     },
     {
         "id":2,
-        "placa":"GTD123",
+        "gestion":"GTD123",
         "clase":"clase2",
         "title": "Mazda",
         "background":"#ffef11",

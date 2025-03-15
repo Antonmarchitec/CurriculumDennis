@@ -249,7 +249,7 @@
             margin-top: 50px;
             width: 100%;
             padding: 10px 0px;
-            background: grey;
+            background: rgba(128, 128, 128, 0.148);
             .contExperiencia__title{
                 width: 340px;
                 border-radius: 20px;
@@ -312,6 +312,31 @@
                     padding: 30px;
                     background: var.$blue;
                     margin-left: 30px;
+                    .contBaseExp{
+                        width: 100%;
+                        .contBaseExp__title{
+                            color: var.$green;
+                            font-weight: 300;
+                        }
+
+                        .contBaseExp__text{
+                            color: var.$white;
+                        }
+
+                        .contBaseExp__web{
+                            color: #56fbd3;
+                            .webLink{
+                                color: var.$white;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    /*
+                    contExperiencia__content
+contBaseExp
+contBaseExp__title
+contBaseExp__text
+                    */
                 }
             }
             

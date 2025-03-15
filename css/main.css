@@ -279,7 +279,7 @@
   margin-top: 50px;
   width: 100%;
   padding: 10px 0px;
-  background: grey;
+  background: rgba(128, 128, 128, 0.148);
 }
 .contBaseBloqueAB .contBloqueB .contExperiencia .contExperiencia__title {
   width: 340px;
@@ -341,6 +341,29 @@
   padding: 30px;
   background: #0c1b32;
   margin-left: 30px;
+  /*
+                      contExperiencia__content
+  contBaseExp
+  contBaseExp__title
+  contBaseExp__text
+                      */
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp {
+  width: 100%;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__title {
+  color: #56fbd3;
+  font-weight: 300;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__text {
+  color: #ffffff;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__web {
+  color: #56fbd3;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__web .webLink {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /*
