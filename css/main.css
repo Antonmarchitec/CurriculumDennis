@@ -217,7 +217,7 @@
   color: #56fbd3;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
   background: #56fbd3;
   color: #0c1b32;
@@ -274,6 +274,74 @@
 .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__B .contBloqueB_contBloc .contBloqueB_contBloc__ball {
   background: transparent;
   padding: 3px;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia {
+  margin-top: 50px;
+  width: 100%;
+  padding: 10px 0px;
+  background: grey;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contExperiencia__title {
+  width: 340px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 3px 0px;
+  color: #56fbd3;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  background: #56fbd3;
+  color: #0c1b32;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp {
+  margin-top: 30px;
+  width: 100%;
+  background: rgba(255, 166, 0, 0.134);
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas {
+  width: auto;
+  padding: 10px 20px;
+  background: #0c1b32;
+  text-align: center;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas .contExperiencia__fechas__caja {
+  color: #56fbd3;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .lineaVertical {
+  margin-left: 30px;
+  background: #0c1b32;
+  height: 390px;
+  width: 10px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .lineaVertical .circulo {
+  width: 22px;
+  height: 22px;
+  background: #0c1b32;
+  border-radius: 50%;
+  margin-left: -6px;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content {
+  width: calc(100% - 180px);
+  height: 390px;
+  padding: 10px 0px;
+  background: rgb(255, 255, 255);
+  margin-left: 30px;
 }
 
 /*
