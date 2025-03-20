@@ -4,7 +4,7 @@ let contBaseExp = document.querySelector("#contBaseExp")
 let contTemplateExp = document.querySelector("#contTemplateExp").content
 let contFragmentExp = document.createDocumentFragment()
 
-document.addEventListener("DOMContentLoaded", ()=>{
+document.addEventListener("DOMContentLoaded", () =>{
     mostrarFuncionPrincipal()
 })
 
@@ -14,21 +14,9 @@ const mostrarFuncionPrincipal = async () =>{
     try{
         const data = await fetch("api.json")
         const res = await data.json() 
-        pintarExpConecta(res)     
+        pintarInvertronic(res)
 
-        document.addEventListener("click",(e)=>{
-            if(e.target.id === "fecha4"){
-                console.log(" Soy fecha4 ")
-            }else if(e.target.id === "fecha3"){
-                console.log(" Soy fecha3 ")
-            }else if(e.target.id === "fecha2"){
-                console.log(" Soy fecha2 ")
-            }else if(e.target.id === "fecha1"){
-                console.log(" Soy fecha1 ")
-            }
-        })
-
-
+      
 
     }catch(error){
         console.log("Error en la carga de datos")
@@ -39,17 +27,25 @@ const mostrarFuncionPrincipal = async () =>{
 
 
 const pintarInvertronic = (res) =>{
-    console.log(res)
+    //console.log(res)
         
     contTemplateExp.querySelector("#title1").textContent = res[4].title1
-    contTemplateExp.querySelector("#title2").textContent = res[4].title2
-    contTemplateExp.querySelector("#title3").textContent = res[4].title3
-    contTemplateExp.querySelector("#title4").textContent = res[4].title4
+    contTemplateExp.querySelector("#title1").style.paddingBottom = "20px"
+
+
+    contTemplateExp.querySelector("#title2").textContent = res[4].vacio
+    contTemplateExp.querySelector("#title3").textContent = res[4].vacio
+    contTemplateExp.querySelector("#title4").textContent = res[4].vacio
 
     contTemplateExp.querySelector("#text1").textContent = res[4].description1
+    contTemplateExp.querySelector("#text1").style.paddingBottom = "20px"
+
     contTemplateExp.querySelector("#text2").textContent = res[4].description2
-    contTemplateExp.querySelector("#text3").textContent = res[4].description3
-    contTemplateExp.querySelector("#text4").textContent = res[4].description4
+    contTemplateExp.querySelector("#text2").style.paddingBottom = "20px"
+
+    contTemplateExp.querySelector("#text3").textContent = res[4].vacio
+    contTemplateExp.querySelector("#text4").textContent = res[4].vacio
+    
 
     contTemplateExp.querySelector("#textWeb").textContent = res[4].sitioWeb
     contTemplateExp.querySelector("#textWeb").setAttribute("href",res[4].sitioWeb)            
@@ -57,6 +53,7 @@ const pintarInvertronic = (res) =>{
     //Bases apendChild
     contFragmentExp.appendChild(contTemplateExp)
     contBaseExp.appendChild(contFragmentExp)
+
 
 }
 
@@ -83,7 +80,7 @@ const pintarSTProvin = (res) =>{
 
 }
 
-
+/*
 const pintarSTLive = (res) =>{
     console.log(res)
         
@@ -151,3 +148,5 @@ const pintarExpConecta = (res) =>{
     contBaseExp.appendChild(contFragmentExp)
 
 }
+
+*/
