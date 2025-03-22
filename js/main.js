@@ -6,6 +6,8 @@ let contFragmentExp = document.createDocumentFragment()
 
 document.addEventListener("DOMContentLoaded", () =>{
     mostrarFuncionPrincipal()
+
+   
 })
 
 
@@ -16,6 +18,24 @@ const mostrarFuncionPrincipal = async () =>{
         const res = await data.json() 
         pintarInvertronic(res)
 
+
+
+        document.addEventListener("click", (e) =>{
+            if(e.target.id === "fecha1"){
+                console.log(" Fecha1 ")
+              
+            }else if(e.target.id === "fecha2"){
+                console.log(" Fecha2 ")
+              
+            }else if(e.target.id === "fecha3"){
+                console.log(" Fecha3 ")
+            }else if(e.target.id === "fecha4"){
+                console.log(" Fecha4 ")
+            }else if(e.target.id === "fecha5"){
+                console.log(" Fecha5 ")
+            }
+        })
+        
       
 
     }catch(error){
@@ -26,9 +46,11 @@ const mostrarFuncionPrincipal = async () =>{
 
 
 
-const pintarInvertronic = (res) =>{
-    //console.log(res)
-        
+const pintarInvertronic = ( res ) =>{
+    console.log(res)
+
+
+
     contTemplateExp.querySelector("#title1").textContent = res[4].title1
     contTemplateExp.querySelector("#title1").style.paddingBottom = "20px"
 
@@ -54,11 +76,12 @@ const pintarInvertronic = (res) =>{
     contFragmentExp.appendChild(contTemplateExp)
     contBaseExp.appendChild(contFragmentExp)
 
+   
 
 }
 
 
-const pintarSTProvin = (res) =>{
+const pintarSTProvin = ( res ) =>{
     console.log(res)
         
     contTemplateExp.querySelector("#title1").textContent = res[3].title1
@@ -150,3 +173,4 @@ const pintarExpConecta = (res) =>{
 }
 
 */
+

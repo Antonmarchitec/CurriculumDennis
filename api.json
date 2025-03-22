@@ -1,13 +1,13 @@
 [
     {
-        "id":1,
+        "id":100,
         "title1": " CONECTA REDES Y SERVICIOS ",
         "description1": "- Desarrollo de landing page y sitios web con HTML, CSS3 y vanilla JavaScript.",
         "sitioWeb":"https://www.conecta.com.bo/",
         "imagen":"https://w7.pngwing.com/pngs/913/112/png-transparent-2018-chevrolet-impala-ls-2015-chevrolet-impala-car-2013-chevrolet-impala-ltz-citroen-c-elysee-hd-compact-car-sedan-car.png"
     },
     {
-        "id":2,
+        "id":200,
         "title1": " DESARROLLO WEB FRONTEND ",
         "description1": "- Desarrollo de landing page y sitios web con HTML, CSS3 y vanilla JavaScript.",
         "title2": " Diseño grafico",
@@ -16,14 +16,14 @@
         "imagen":"https://w7.pngwing.com/pngs/913/112/png-transparent-2018-chevrolet-impala-ls-2015-chevrolet-impala-car-2013-chevrolet-impala-ltz-citroen-c-elysee-hd-compact-car-sedan-car.png"
     },
     {
-        "id":3,
+        "id":300,
         "title1": " SUPERTICKET LIVE ",
         "description1": "- Manejo externo de la plataforma de ventas y transmisión de espectáculos vía digital.",
         "sitioWeb":" SIN SITIO ",
         "imagen":"https://w7.pngwing.com/pngs/913/112/png-transparent-2018-chevrolet-impala-ls-2015-chevrolet-impala-car-2013-chevrolet-impala-ltz-citroen-c-elysee-hd-compact-car-sedan-car.png"
     },
     {
-        "id":4,
+        "id":400,
         "title1": " PROVIN SRL. SuperTicket: ",
         "description1": "- Encargado de equipos y soporte técnico (dar el mantenimiento correspondiente para que los equipos estén en funcionalidad óptima para su uso).",
         "description2": "- Ventas de boletaje masivo y caja (apertura y cierre de caja, arqueo, rendición de cuentas, entrega de efectivo debidamente planchado y depositado).",
@@ -34,7 +34,7 @@
         "imagen":"https://w7.pngwing.com/pngs/913/112/png-transparent-2018-chevrolet-impala-ls-2015-chevrolet-impala-car-2013-chevrolet-impala-ltz-citroen-c-elysee-hd-compact-car-sedan-car.png"
     },
     {
-        "id":5,
+        "id":500,
         "title1": " INVERTRONICS ",
         "description1": "- Encargado de almacén (Entrada y salida de materiales respaldado bajo planillas debidamente organizado).",
         "description2": "- Operador de computadoras. (desarrollo de documentos con Microsoft Word y elaboración de tablas de control con Excel).",
