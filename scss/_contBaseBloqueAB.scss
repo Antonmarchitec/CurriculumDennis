@@ -317,10 +317,13 @@
                         .contBaseExp__title{
                             color: var.$green;
                             font-weight: 500;
+                            font-size: 24px;
+                            text-transform: uppercase;
                         }
 
                         .contBaseExp__text{
                             color: var.$white;
+                            background: teal;
                         }
 
                         .contBaseExp__web{

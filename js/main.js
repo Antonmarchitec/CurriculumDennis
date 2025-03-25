@@ -67,7 +67,6 @@ const pintarInvertronic = ( res ) =>{
     contTemplateExp.querySelector("#title1").textContent = res[4].title1
     contTemplateExp.querySelector("#title1").style.paddingBottom = "20px"
 
-
     contTemplateExp.querySelector("#title2").textContent = res[4].vacio
     contTemplateExp.querySelector("#title3").textContent = res[4].vacio
     contTemplateExp.querySelector("#title4").textContent = res[4].vacio
@@ -80,14 +79,10 @@ const pintarInvertronic = ( res ) =>{
 
     contTemplateExp.querySelector("#text3").textContent = res[4].vacio
     contTemplateExp.querySelector("#text4").textContent = res[4].vacio
-    
-
     contTemplateExp.querySelector("#textWeb").textContent = res[4].sitioWeb
-    contTemplateExp.querySelector("#textWeb").setAttribute("href",res[4].sitioWeb)            
 
     //Bases apendChild
     let cloneTemp = contTemplateExp.cloneNode(true)
-
     contFragmentExp.appendChild(cloneTemp)
     contBaseExp.appendChild(contFragmentExp)
 
@@ -114,7 +109,6 @@ const pintarSTProvin = ( res ) =>{
     contTemplateExp.querySelector("#text4").textContent = res[3].description4
     contTemplateExp.querySelector("#text4").style.paddingBottom = "20px"
 
-
     contTemplateExp.querySelector("#textWeb").textContent = res[3].sitioWeb
     contTemplateExp.querySelector("#textWeb").setAttribute("href",res[3].sitioWeb)            
 
@@ -130,17 +124,17 @@ const pintarSTLive = (res) =>{
     console.log(res)
         
     contTemplateExp.querySelector("#title1").textContent = res[2].title1
-    contTemplateExp.querySelector("#title2").textContent = res[2].title2
-    contTemplateExp.querySelector("#title3").textContent = res[2].title3
-    contTemplateExp.querySelector("#title4").textContent = res[2].title4
+    contTemplateExp.querySelector("#title2").textContent = res[2].vacio
+    contTemplateExp.querySelector("#title3").textContent = res[2].vacio
+    contTemplateExp.querySelector("#title4").textContent = res[2].vacio
 
     contTemplateExp.querySelector("#text1").textContent = res[2].description1
-    contTemplateExp.querySelector("#text2").textContent = res[2].description2
-    contTemplateExp.querySelector("#text3").textContent = res[2].description3
-    contTemplateExp.querySelector("#text4").textContent = res[2].description4
+    contTemplateExp.querySelector("#text2").textContent = res[2].vacio
+    contTemplateExp.querySelector("#text3").textContent = res[2].vacio
+    contTemplateExp.querySelector("#text4").textContent = res[2].vacio
 
     contTemplateExp.querySelector("#textWeb").textContent = res[2].sitioWeb
-    contTemplateExp.querySelector("#textWeb").setAttribute("href",res[2].sitioWeb)            
+            
 
    //Bases apendChild
    let cloneTemp = contTemplateExp.cloneNode(true)
@@ -155,13 +149,13 @@ const pintarFrontend = (res) =>{
         
     contTemplateExp.querySelector("#title1").textContent = res[1].title1
     contTemplateExp.querySelector("#title2").textContent = res[1].title2
-    contTemplateExp.querySelector("#title3").textContent = res[1].title3
-    contTemplateExp.querySelector("#title4").textContent = res[1].title4
+    contTemplateExp.querySelector("#title3").textContent = res[1].vacio
+    contTemplateExp.querySelector("#title4").textContent = res[1].vacio
 
     contTemplateExp.querySelector("#text1").textContent = res[1].description1
     contTemplateExp.querySelector("#text2").textContent = res[1].description2
-    contTemplateExp.querySelector("#text3").textContent = res[1].description3
-    contTemplateExp.querySelector("#text4").textContent = res[1].description4
+    contTemplateExp.querySelector("#text3").textContent = res[1].vacio
+    contTemplateExp.querySelector("#text4").textContent = res[1].vacio
 
     contTemplateExp.querySelector("#textWeb").textContent = res[1].sitioWeb
     contTemplateExp.querySelector("#textWeb").setAttribute("href",res[1].sitioWeb)            
