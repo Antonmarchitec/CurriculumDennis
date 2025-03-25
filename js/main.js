@@ -33,10 +33,19 @@ const mostrarFuncionPrincipal = async () =>{
               
             }else if(e.target.id === "fecha3"){
                 console.log(" Fecha3 ")
+                contBaseExp.textContent =   pintarSTLive(res)
+                pintarSTLive(res)
+
             }else if(e.target.id === "fecha4"){
                 console.log(" Fecha4 ")
+                contBaseExp.textContent =   pintarFrontend(res)
+                pintarFrontend(res)
+
             }else if(e.target.id === "fecha5"){
                 console.log(" Fecha5 ")
+                contBaseExp.textContent =   pintarExpConecta(res)
+                pintarExpConecta(res)
+
             }
         })
         
@@ -116,7 +125,7 @@ const pintarSTProvin = ( res ) =>{
 
 }
 
-/*
+
 const pintarSTLive = (res) =>{
     console.log(res)
         
@@ -133,9 +142,10 @@ const pintarSTLive = (res) =>{
     contTemplateExp.querySelector("#textWeb").textContent = res[2].sitioWeb
     contTemplateExp.querySelector("#textWeb").setAttribute("href",res[2].sitioWeb)            
 
-    //Bases apendChild
-    contFragmentExp.appendChild(contTemplateExp)
-    contBaseExp.appendChild(contFragmentExp)
+   //Bases apendChild
+   let cloneTemp = contTemplateExp.cloneNode(true)
+   contFragmentExp.appendChild(cloneTemp)
+   contBaseExp.appendChild(contFragmentExp)
 
 }
 
@@ -157,8 +167,10 @@ const pintarFrontend = (res) =>{
     contTemplateExp.querySelector("#textWeb").setAttribute("href",res[1].sitioWeb)            
 
     //Bases apendChild
-    contFragmentExp.appendChild(contTemplateExp)
-    contBaseExp.appendChild(contFragmentExp)
+    let cloneTemp = contTemplateExp.cloneNode(true)
+   contFragmentExp.appendChild(cloneTemp)
+   contBaseExp.appendChild(contFragmentExp)
+
 
 }
 
@@ -180,10 +192,12 @@ const pintarExpConecta = (res) =>{
     contTemplateExp.querySelector("#textWeb").setAttribute("href",res[0].sitioWeb)            
 
     //Bases apendChild
-    contFragmentExp.appendChild(contTemplateExp)
-    contBaseExp.appendChild(contFragmentExp)
+    let cloneTemp = contTemplateExp.cloneNode(true)
+   contFragmentExp.appendChild(cloneTemp)
+   contBaseExp.appendChild(contFragmentExp)
+
 
 }
 
-*/
+
 
