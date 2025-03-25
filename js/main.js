@@ -23,9 +23,13 @@ const mostrarFuncionPrincipal = async () =>{
         document.addEventListener("click", (e) =>{
             if(e.target.id === "fecha1"){
                 console.log(" Fecha1 ")
-              
+                contBaseExp.textContent =   pintarInvertronic(res)
+                pintarInvertronic(res)
+
             }else if(e.target.id === "fecha2"){
                 console.log(" Fecha2 ")
+                contBaseExp.textContent =   pintarSTProvin(res)
+                pintarSTProvin(res)
               
             }else if(e.target.id === "fecha3"){
                 console.log(" Fecha3 ")
@@ -73,10 +77,10 @@ const pintarInvertronic = ( res ) =>{
     contTemplateExp.querySelector("#textWeb").setAttribute("href",res[4].sitioWeb)            
 
     //Bases apendChild
-    contFragmentExp.appendChild(contTemplateExp)
-    contBaseExp.appendChild(contFragmentExp)
+    let cloneTemp = contTemplateExp.cloneNode(true)
 
-   
+    contFragmentExp.appendChild(cloneTemp)
+    contBaseExp.appendChild(contFragmentExp)
 
 }
 
@@ -90,15 +94,24 @@ const pintarSTProvin = ( res ) =>{
     contTemplateExp.querySelector("#title4").textContent = res[3].title4
 
     contTemplateExp.querySelector("#text1").textContent = res[3].description1
+    contTemplateExp.querySelector("#text1").style.paddingBottom = "20px"
+
     contTemplateExp.querySelector("#text2").textContent = res[3].description2
+    contTemplateExp.querySelector("#text2").style.paddingBottom = "20px"
+
     contTemplateExp.querySelector("#text3").textContent = res[3].description3
+    contTemplateExp.querySelector("#text3").style.paddingBottom = "20px"
+
     contTemplateExp.querySelector("#text4").textContent = res[3].description4
+    contTemplateExp.querySelector("#text4").style.paddingBottom = "20px"
+
 
     contTemplateExp.querySelector("#textWeb").textContent = res[3].sitioWeb
     contTemplateExp.querySelector("#textWeb").setAttribute("href",res[3].sitioWeb)            
 
     //Bases apendChild
-    contFragmentExp.appendChild(contTemplateExp)
+    let cloneTemp = contTemplateExp.cloneNode(true)
+    contFragmentExp.appendChild(cloneTemp)
     contBaseExp.appendChild(contFragmentExp)
 
 }
