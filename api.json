@@ -12,14 +12,14 @@
         "description1": "- Desarrollo de landing page y sitios web con HTML, CSS3 y vanilla JavaScript.",
         "title2": " Diseño gráfico",
         "description2": "- Creacion de tarjetas personalizadas , flayers y logos personalizados en adobe Photoshop e illustrator.",
-        "sitioWeb":" SIN SITIO ",
+        "sitioWeb":" https://tarjetadigital.digitizingcode.com/ ",
         "imagen":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs2uBHQqevtNJkvKKvdKOkSFtf3RIQl-Mzhg&s"
     },
     {
         "id":300,
         "title1": " SUPERTICKET LIVE ",
         "description1": "- Manejo externo de la plataforma de ventas y transmisión de espectáculos vía digital.",
-        "sitioWeb":" SIN SITIO ",
+        "sitioWeb":" https://superticket.bo/ ",
         "imagen":"https://pbs.twimg.com/profile_images/564445933497118720/QPToZJ69_400x400.jpeg"
     },
     {
@@ -38,7 +38,7 @@
         "title1": " INVERTRONICS ",
         "description1": "- Encargado de almacén (Entrada y salida de materiales respaldado bajo planillas debidamente organizado).",
         "description2": "- Operador de computadoras. (desarrollo de documentos con Microsoft Word y elaboración de tablas de control con Excel).",
-        "sitioWeb":" SIN SITIO ",
+        "sitioWeb":" Sin sitio ",
         "imagen":"https://play-lh.googleusercontent.com/Jo-EhpQ7SavqSs39wwWWBrVal2Ek4zjCHMbXl3Qme5OlXinMWABMpHj1EgzryK_Snw=w3840-h2160-rw"
     }
 ]
