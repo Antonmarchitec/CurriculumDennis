@@ -323,7 +323,12 @@
 
                         .contBaseExp__text{
                             color: var.$white;
-                            background: teal;
+                        }
+
+                        .contBaseExp__figure{
+                            width: 120px;
+                            height: 120px;
+                            background: grey;
                         }
 
                         .contBaseExp__web{
