@@ -78,6 +78,7 @@ const pintarInvertronic = ( res ) =>{
     contTemplateExp.querySelector("#figure").setAttribute("alt", res[4].title1)
 
     contTemplateExp.querySelector("#textWeb").textContent = res[4].sitioWeb
+    contTemplateExp.querySelector("#textWeb").setAttribute("href",res[4].vacio)   
 
 
     //ELEMENTOS VACIOS
@@ -136,7 +137,9 @@ const pintarSTLive = (res) =>{
     contTemplateExp.querySelector("#text1").textContent = res[2].description1
     contTemplateExp.querySelector("#figure").setAttribute("src", res[2].imagen)
     contTemplateExp.querySelector("#figure").setAttribute("alt", res[2].title1)
+    
     contTemplateExp.querySelector("#textWeb").textContent = res[2].sitioWeb
+    contTemplateExp.querySelector("#textWeb").setAttribute("href",res[2].sitioWeb)   
     
 
     //ELEMENTOS VACIOS
