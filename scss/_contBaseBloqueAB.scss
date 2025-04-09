@@ -167,7 +167,7 @@
         width:70%;
         padding: 10px 20px;
         color: white;
-        background: rgba(243, 214, 214, 0.056);
+        background: rgba(243, 214, 214, 0.132);
         
         //Bloque habilidades
         .contBloqueB__baseSkills{
@@ -249,7 +249,6 @@
             margin-top: 50px;
             width: 100%;
             padding: 10px 0px;
-            background: rgba(152, 38, 38, 0.148);
             .contExperiencia__title{
                 width: 340px;
                 border-radius: 20px;
@@ -267,7 +266,6 @@
             .contBlockExp{
                 margin-top: 30px;
                 width: 100%;
-                background: rgba(255, 166, 0, 0.134);
                 padding: 10px 0px;
                 display: flex;
                 flex-direction: row;
@@ -281,7 +279,7 @@
                     .contExperiencia__fechas__caja{
                         color: var.$green;
                         font-size: 18px;
-                        font-weight: 500;
+                        font-weight: 300;
                         line-height: 24px;
                         margin: 10px 0px;
                         cursor: pointer;

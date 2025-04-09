@@ -23,27 +23,68 @@ const mostrarFuncionPrincipal = async () =>{
         document.addEventListener("click", (e) =>{
             if(e.target.id === "fecha1"){
                 console.log(" Fecha1 ")
+                document.querySelector("#circleUno").style.background = "#56fbd3"
+                document.querySelector("#circleUno").style.transition = "1s all"
+
+                document.querySelector("#circleDos").style.background = "#0c1b32"
+                document.querySelector("#circleTres").style.background = "#0c1b32"
+                document.querySelector("#circleCuatro").style.background = "#0c1b32"
+                document.querySelector("#circleCinco").style.background = "#0c1b32"
+
+
                 contBaseExp.textContent =   pintarInvertronic(res)
                 pintarInvertronic(res)
 
 
             }else if(e.target.id === "fecha2"){
                 console.log(" Fecha2 ")
+                document.querySelector("#circleUno").style.background = "#0c1b32"
+                document.querySelector("#circleDos").style.transition = "1s all"
+
+                document.querySelector("#circleDos").style.background = "#56fbd3"
+                document.querySelector("#circleTres").style.background = "#0c1b32"
+                document.querySelector("#circleCuatro").style.background = "#0c1b32"
+                document.querySelector("#circleCinco").style.background = "#0c1b32"
+
                 contBaseExp.textContent =   pintarSTProvin(res)
                 pintarSTProvin(res)
               
             }else if(e.target.id === "fecha3"){
                 console.log(" Fecha3 ")
+                document.querySelector("#circleUno").style.background = "#0c1b32"
+                document.querySelector("#circleTres").style.transition = "1s all"
+
+                document.querySelector("#circleDos").style.background = "#0c1b32"
+                document.querySelector("#circleTres").style.background = "#56fbd3"
+                document.querySelector("#circleCuatro").style.background = "#0c1b32"
+                document.querySelector("#circleCinco").style.background = "#0c1b32"
+
                 contBaseExp.textContent =   pintarSTLive(res)
                 pintarSTLive(res)
 
             }else if(e.target.id === "fecha4"){
                 console.log(" Fecha4 ")
+                document.querySelector("#circleUno").style.background = "#0c1b32"
+                document.querySelector("#circleCuatro").style.transition = "1s all"
+
+                document.querySelector("#circleDos").style.background = "#0c1b32"
+                document.querySelector("#circleTres").style.background = "#0c1b32"
+                document.querySelector("#circleCuatro").style.background = "#56fbd3"
+                document.querySelector("#circleCinco").style.background = "#0c1b32"
+
                 contBaseExp.textContent =   pintarFrontend(res)
                 pintarFrontend(res)
 
             }else if(e.target.id === "fecha5"){
                 console.log(" Fecha5 ")
+                document.querySelector("#circleUno").style.background = "#0c1b32"
+                document.querySelector("#circleCinco").style.transition = "1s all"
+
+                document.querySelector("#circleDos").style.background = "#0c1b32"
+                document.querySelector("#circleTres").style.background = "#0c1b32"
+                document.querySelector("#circleCuatro").style.background = "#0c1b32"
+                document.querySelector("#circleCinco").style.background = "#56fbd3"
+
                 contBaseExp.textContent =   pintarExpConecta(res)
                 pintarExpConecta(res)
 
@@ -63,8 +104,6 @@ const mostrarFuncionPrincipal = async () =>{
 const pintarInvertronic = ( res ) =>{
     console.log(res)
 
-
-
     contTemplateExp.querySelector("#title1").textContent = res[4].title1
     contTemplateExp.querySelector("#title1").style.paddingBottom = "20px"
 
@@ -80,6 +119,9 @@ const pintarInvertronic = ( res ) =>{
     contTemplateExp.querySelector("#textWeb").textContent = res[4].sitioWeb
     contTemplateExp.querySelector("#textWeb").setAttribute("href",res[4].vacio)   
 
+    document.querySelector("#circleUno").style.background = "#56fbd3"
+
+
 
     //ELEMENTOS VACIOS
     contTemplateExp.querySelector("#title2").textContent = res[4].vacio
@@ -92,6 +134,8 @@ const pintarInvertronic = ( res ) =>{
     let cloneTemp = contTemplateExp.cloneNode(true)
     contFragmentExp.appendChild(cloneTemp)
     contBaseExp.appendChild(contFragmentExp)
+
+    
 
 }
 
