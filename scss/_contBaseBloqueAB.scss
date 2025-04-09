@@ -3,7 +3,7 @@
 .contBaseBloqueAB{
     width: 100%;
     padding: 30px 20px;
-    background: var.$blue;
+    background: var.$white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,8 +11,8 @@
 
     .contBloqueA{
         width: 350px;
-        background: var.$white;
-        border-radius: 10px;
+        background: var.$blue;
+        border-radius: 5px;
         /****************/
         .contBloqueA__base{
             width: 100%;
@@ -21,7 +21,7 @@
 
             .contBloqueA__Subtitles{
                 font-size: 26px;
-                color: black;
+                color: var.$white;
                 font-weight: 500;
                 text-transform: uppercase;
             }
@@ -30,10 +30,11 @@
                 height: 3px;
                 background: var.$green;
                 border: none;
+                margin-top: 18px;
             }
             .contBloqueA__description{
                 margin-top: 20px;
-                color: var.$parrafo-right;
+                color: var.$white;
             }
         }
 
@@ -44,18 +45,19 @@
             background: transparent;
             .contBloqueB__Subtitles{
                 font-size: 26px;
-                color: black;
+                color: var.$white;
                 font-weight: 500;
                 text-transform: uppercase;
             }
             .contBloqueB__linea{
+                margin-top: 18px;
                 width: 38%;
                 height: 3px;
                 background: var.$green;
                 border: none;
             }
             .contBloqueB__sectionIcons{
-                margin-top: 20px;
+                margin-top: 24px;
                 color: var.$parrafo-right;
                 .contBloqueB__sectionIcons__icon{
                     padding: 5px 0px;
@@ -67,17 +69,17 @@
                     .iconContact{
                         width: 45px;
                         height: 45px;
-                        background: var.$blue;
+                        background: var.$green;
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        color: var.$green;
+                        color: var.$blue;
                         font-size: 20px;
                         border-radius: 50%;
-                        margin-right: 10px;
+                        margin-right: 14px;
                     }
                     .iconText{
-                        color: var.$parrafo-right;
+                        color: var.$white;
                     }
 
                     .enlaceHi{
@@ -97,7 +99,7 @@
             background: transparent;
             .contBloqueC__Subtitles{
                 font-size: 26px;
-                color: black;
+                color: var.$white;
                 font-weight: 500;
                 text-transform: uppercase;
             }
@@ -106,10 +108,12 @@
                 height: 3px;
                 background: var.$green;
                 border: none;
+                margin-top: 18px;
             }
             .contBloqueC__section{
                 width: 100%;
                 margin-top: 20px;
+                color: var.$white;
                 .fa-solid{
                     color: var.$green;
                     margin-right:5px;
@@ -125,13 +129,12 @@
             background: transparent;
             .contBloqueD__base{
                 font-size: 26px;
-                color: black;
                 font-weight: 500;
                 text-transform: uppercase;
             }
             .contBloqueD__Subtitles{
                 font-size: 26px;
-                color: black;
+                color: var.$white;
                 font-weight: 500;
                 text-transform: uppercase;
             }
@@ -140,6 +143,7 @@
                 height: 3px;
                 background: var.$green;
                 border: none;
+                margin-top: 18px;
             }
 
             .contBloqueD{
@@ -151,11 +155,13 @@
                     .contBloqueD__bloque__title{
                         font-size: 16px;
                         font-weight: 500;
+                        color: var.$green;
                     }
 
                     .contBloqueD__bloque__description{
                         margin: 10px 30px;
                         color: var.$parrafo-right;
+                        color: var.$white;
                     }
                 }
             }
