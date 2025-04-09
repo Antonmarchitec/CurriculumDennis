@@ -2,7 +2,6 @@
 
 .contBaseBloqueAB{
     width: 100%;
-    padding: 30px 20px;
     background: var.$white;
     display: flex;
     flex-direction: row;
@@ -12,7 +11,6 @@
     .contBloqueA{
         width: 350px;
         background: var.$blue;
-        border-radius: 5px;
         /****************/
         .contBloqueA__base{
             width: 100%;
@@ -173,8 +171,6 @@
         width:70%;
         padding: 10px 20px;
         color: white;
-        background: rgba(0, 0, 0, 0.248);
-        border-radius: 10px;
         //Bloque habilidades
         .contBloqueB__baseSkills{
             width: 100%;
@@ -190,8 +186,8 @@
                 font-weight: 500;
                 font-size: 26px;
                 text-align: center;
-                background: var.$green;
-                color: var.$blue;
+                background: var.$blue;
+                color: var.$green;
             }
 
             .contBloqueB_cont{
@@ -214,13 +210,15 @@
                         justify-content: space-between;
                         align-items: center;
                         .contBloqueB_contBloc__text{
-                            color: var.$green;
+                            color: var.$blue;
                             font-weight: 300;
                             font-size: 18px;
                         }
                         .contBloqueB_contBloc__ball{
                             background:transparent;
                             padding: 3px;
+                            color: var.$blue;
+                            
                         }
                     }
                 }
@@ -237,13 +235,14 @@
                         justify-content: space-between;
                         align-items: center;
                         .contBloqueB_contBloc__text{
-                            color: var.$green;
+                            color: var.$blue;
                             font-weight: 300;
                             font-size: 18px;
                         }
                         .contBloqueB_contBloc__ball{
                             background:transparent;
                             padding: 3px;
+                            color: var.$blue;
                         }
                     }
                 }
@@ -265,8 +264,8 @@
                 font-weight: 500;
                 font-size: 26px;
                 text-align: center;
-                background: #56fbd3;
-                color: #0c1b32;
+                background: var.$blue;
+                color: var.$green;
             }
 
             .contBlockExp{
@@ -282,6 +281,7 @@
                     padding: 10px 20px;
                     background: var.$blue;
                     text-align: center;
+                    border-radius: 10px 0px 0px 10px;
                     .contExperiencia__fechas__caja{
                         color: var.$green;
                         font-size: 18px;
@@ -316,6 +316,8 @@
                     padding: 30px;
                     background: var.$blue;
                     margin-left: 30px;
+                    border-radius: 0px 10px 10px 0px;
+
                     .contBaseExp{
                         width: 100%;
                         .contBaseExp__title{
