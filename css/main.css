@@ -203,7 +203,7 @@
   width: 70%;
   padding: 10px 20px;
   color: white;
-  background: rgba(255, 255, 255, 0.034);
+  background: rgba(0, 0, 0, 0.248);
   border-radius: 10px;
 }
 .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills {
@@ -370,6 +370,24 @@
 .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__web .webLink {
   color: #ffffff;
   text-decoration: none;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos {
+  width: 100%;
+  padding: 50px 0px;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__title {
+  color: #56fbd3;
+  font-size: 26px;
+  width: 340px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 3px 0px;
+  color: #56fbd3;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  background: #56fbd3;
+  color: #0c1b32;
 }
 
 /*
