@@ -394,8 +394,7 @@
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section {
   margin-top: 30px;
   width: 100%;
-  padding: 10px 0px;
-  background: rgba(128, 128, 128, 0.286);
+  background: rgba(128, 128, 128, 0.132);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -403,6 +402,7 @@
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block {
   width: 260px;
+  padding: 20px;
   background: rgba(0, 128, 128, 0.062);
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro {
@@ -428,24 +428,37 @@
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc {
   width: 100%;
-  padding: 20px 30px;
+  background: brown;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
-.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDesc__title {
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA {
+  width: 60%;
+  padding: 20px 30px;
+  background: gold;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyectos__blockDesc__title {
   color: #0c1b32;
   font-weight: 500;
   font-size: 22px;
   text-transform: uppercase;
 }
-.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDesc__text {
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyectos__blockDesc__text {
   margin: 10px 0px;
   font-size: 14px;
   font-weight: 300;
   color: black;
 }
-.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .hiperProy {
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .hiperProy {
   text-decoration: none;
   color: #0c1b32;
   font-size: 14px;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescB {
+  width: 200px;
+  padding: 10px 0px;
+  background: rgba(128, 128, 128, 0.31);
 }
 
 /*

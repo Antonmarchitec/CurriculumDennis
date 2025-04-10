@@ -376,14 +376,14 @@ contBaseExp__text
             .contProyectos__section{
                 margin-top: 30px;
                 width: 100%;
-                padding: 10px 0px;
-                background: rgba(128, 128, 128, 0.286);
+                background: rgba(128, 128, 128, 0.132);
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
                 align-items: flex-start;
                 .contProyectos__block{
                     width: 260px;
+                    padding: 20px;
                     background: rgba(0, 128, 128, 0.062);
                     .hiperPro{
                         text-decoration: none;
@@ -394,7 +394,6 @@ contBaseExp__text
                             justify-content: flex-start;
                             align-items: center;
                             margin-top:5px;
-    
                             .iconProyect{
                                 font-size: 20px;
                                 margin-right: 10px;
@@ -412,26 +411,41 @@ contBaseExp__text
 
                 .contProyectos__blockDesc{
                     width: 100%;
-                    padding:20px 30px;
-                    .contProyectos__blockDesc__title{
-                        color: var.$blue;
-                        font-weight: 500;
-                        font-size: 22px;
-                        text-transform: uppercase;   
-                    }
-                    .contProyectos__blockDesc__text{
-                        margin: 10px 0px;
-                        font-size: 14px;
-                        font-weight: 300;
-                        color: black;
+                    background: brown;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items:center;
+                    .contProyectos__blockDescA{
+                        width: 60%;
+                        padding:20px 30px;
+                        background: gold;
+                        .contProyectos__blockDesc__title{
+                            color: var.$blue;
+                            font-weight: 500;
+                            font-size: 22px;
+                            text-transform: uppercase;   
+                        }
+                        .contProyectos__blockDesc__text{
+                            margin: 10px 0px;
+                            font-size: 14px;
+                            font-weight: 300;
+                            color: black;
+                        }
+    
+                        .hiperProy{
+                            text-decoration: none;
+                            color: var.$blue;
+                            font-size: 14px;
+                        }
                     }
 
-                    .hiperProy{
-                        text-decoration: none;
-                        color: var.$blue;
-                        font-size: 14px;
+                    .contProyectos__blockDescB{
+                        width: 200px;
+                        padding: 10px 0px;
+                        background: rgba(128, 128, 128, 0.31);
                     }
                 }
+              
                 
             }
           
