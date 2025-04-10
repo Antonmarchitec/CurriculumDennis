@@ -434,7 +434,7 @@
   align-items: center;
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA {
-  width: 60%;
+  width: 68%;
   padding: 20px 30px;
   background: gold;
 }
@@ -457,6 +457,7 @@
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescB {
   width: 200px;
+  height: 300px;
   padding: 10px 0px;
   background: rgba(128, 128, 128, 0.31);
 }
