@@ -59,6 +59,7 @@
 }
 .contBaseBloqueAB .contBloqueA {
   width: 350px;
+  padding: 0px 10px;
   background: #0c1b32;
   /****************/
   /******************/
@@ -282,7 +283,6 @@
 .contBaseBloqueAB .contBloqueB .contExperiencia {
   margin-top: 50px;
   width: 100%;
-  padding: 10px 0px;
 }
 .contBaseBloqueAB .contBloqueB .contExperiencia .contExperiencia__title {
   width: 340px;
@@ -380,18 +380,56 @@
   padding: 50px 0px;
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__title {
-  color: #56fbd3;
+  background: #0c1b32;
   font-size: 26px;
   width: 340px;
   border-radius: 20px;
   margin: auto;
   padding: 3px 0px;
-  color: #56fbd3;
+  color: #ffffff;
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
-  background: #56fbd3;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section {
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px 0px;
+  background: rgba(128, 128, 128, 0.286);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block {
+  width: 260px;
+  background: rgba(0, 128, 128, 0.062);
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro {
+  text-decoration: none;
   color: #0c1b32;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box .iconProyect {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #0c1b32;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box .contProyectos__boxText {
+  text-decoration: none;
+  color: #0c1b32;
+  font-size: 14px;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc {
+  width: 100%;
+  padding: 10px 0px;
+  background: rgba(82, 82, 81, 0.336);
 }
 
 /*
