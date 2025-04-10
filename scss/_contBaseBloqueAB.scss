@@ -393,7 +393,7 @@ contBaseExp__text
                             flex-direction: row;
                             justify-content: flex-start;
                             align-items: center;
-                            margin-top:10px;
+                            margin-top:5px;
     
                             .iconProyect{
                                 font-size: 20px;
@@ -412,8 +412,25 @@ contBaseExp__text
 
                 .contProyectos__blockDesc{
                     width: 100%;
-                    padding: 10px 0px;
-                    background: rgba(82, 82, 81, 0.336);
+                    padding:20px 30px;
+                    .contProyectos__blockDesc__title{
+                        color: var.$blue;
+                        font-weight: 500;
+                        font-size: 22px;
+                        text-transform: uppercase;   
+                    }
+                    .contProyectos__blockDesc__text{
+                        margin: 10px 0px;
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: black;
+                    }
+
+                    .hiperProy{
+                        text-decoration: none;
+                        color: var.$blue;
+                        font-size: 14px;
+                    }
                 }
                 
             }
