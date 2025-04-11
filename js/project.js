@@ -23,11 +23,15 @@ const loadingProject = async () =>{
 
 
 const mostrarProjectA = ( data ) =>{
-    console.log(data)
+    console.log(data[0].descPro)
 
-    tempProyect.querySelector("#titlePro").textContent  = data[0].titlePro
+    tempProyect.querySelector("#titlePro"),textContent = data[0].titlePro
+    tempProyect.querySelector("#descriptionPro"),textContent = data[0].descPro
 
-    let cloneNode = tempProyect.cloneNode(true)
-    fragmentProyect.appendChild(cloneNode)
+
+    let cloneProject = tempProyect.cloneNode(true)
+    fragmentProyect.appendChild(cloneProject)
     contProyectosBase.appendChild(fragmentProyect)
+
+
 }
