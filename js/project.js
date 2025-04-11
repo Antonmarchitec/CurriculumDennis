@@ -10,23 +10,23 @@ document.addEventListener("DOMContentLoaded",() =>{
 
 const loadingProject = async () =>{
     try{
-        const res = await fetch("proyect.json")
-        const data = await res.json()
-        mostrarProjectA(data)
+        const dataP = await fetch("proyect.json")
+        const resP = await dataP.json()
+        mostrarProjectA(resP)
 
 
-    }catch( error ){
-        console.log(" Error al cargar informacion")
+    }catch(error){
+        console.log(" Error al carga")
     }
 }
 
 
 
-const mostrarProjectA = ( data ) =>{
-    console.log(data[0].descPro)
+const mostrarProjectA = ( resP ) =>{
+    console.log(resP[0].titlePro)
 
-    tempProyect.querySelector("#titlePro"),textContent = data[0].titlePro
-    tempProyect.querySelector("#descriptionPro"),textContent = data[0].descPro
+    tempProyect.querySelector("#titlePro").textContent = resP[0].titlePro
+    tempProyect.querySelector("#descriptionPro").textContent = resP[0].descPro
 
 
     let cloneProject = tempProyect.cloneNode(true)

@@ -6,8 +6,6 @@ let contFragmentExp = document.createDocumentFragment()
 
 document.addEventListener("DOMContentLoaded", () =>{
     mostrarFuncionPrincipal()
-
-   
 })
 
 
