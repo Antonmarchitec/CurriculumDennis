@@ -22,7 +22,7 @@ const mostrarFuncionPrincipal = async () =>{
 
         document.addEventListener("click", (e) =>{
             if(e.target.id === "fecha1"){
-                console.log(" Fecha1 ")
+                //console.log(" Fecha1 ")
                 document.querySelector("#circleUno").style.background = "#56fbd3"
                 document.querySelector("#circleUno").style.transition = "1s all"
 
@@ -37,7 +37,7 @@ const mostrarFuncionPrincipal = async () =>{
 
 
             }else if(e.target.id === "fecha2"){
-                console.log(" Fecha2 ")
+                //console.log(" Fecha2 ")
                 document.querySelector("#circleUno").style.background = "#0c1b32"
                 document.querySelector("#circleDos").style.transition = "1s all"
 
@@ -50,7 +50,7 @@ const mostrarFuncionPrincipal = async () =>{
                 pintarSTProvin(res)
               
             }else if(e.target.id === "fecha3"){
-                console.log(" Fecha3 ")
+                //console.log(" Fecha3 ")
                 document.querySelector("#circleUno").style.background = "#0c1b32"
                 document.querySelector("#circleTres").style.transition = "1s all"
 
@@ -63,7 +63,7 @@ const mostrarFuncionPrincipal = async () =>{
                 pintarSTLive(res)
 
             }else if(e.target.id === "fecha4"){
-                console.log(" Fecha4 ")
+                //console.log(" Fecha4 ")
                 document.querySelector("#circleUno").style.background = "#0c1b32"
                 document.querySelector("#circleCuatro").style.transition = "1s all"
 
@@ -76,7 +76,7 @@ const mostrarFuncionPrincipal = async () =>{
                 pintarFrontend(res)
 
             }else if(e.target.id === "fecha5"){
-                console.log(" Fecha5 ")
+                //console.log(" Fecha5 ")
                 document.querySelector("#circleUno").style.background = "#0c1b32"
                 document.querySelector("#circleCinco").style.transition = "1s all"
 
@@ -102,7 +102,7 @@ const mostrarFuncionPrincipal = async () =>{
 
 
 const pintarInvertronic = ( res ) =>{
-    console.log(res)
+    //console.log(res)
 
     contTemplateExp.querySelector("#title1").textContent = res[4].title1
     contTemplateExp.querySelector("#title1").style.paddingBottom = "20px"
@@ -141,7 +141,7 @@ const pintarInvertronic = ( res ) =>{
 
 
 const pintarSTProvin = ( res ) =>{
-    console.log(res)
+    //console.log(res)
         
     contTemplateExp.querySelector("#title1").textContent = res[3].title1
     contTemplateExp.querySelector("#title2").textContent = res[3].title2
@@ -175,7 +175,7 @@ const pintarSTProvin = ( res ) =>{
 
 
 const pintarSTLive = (res) =>{
-    console.log(res)
+    //console.log(res)
         
     contTemplateExp.querySelector("#title1").textContent = res[2].title1
     contTemplateExp.querySelector("#text1").textContent = res[2].description1
@@ -205,7 +205,7 @@ const pintarSTLive = (res) =>{
 
 
 const pintarFrontend = (res) =>{
-    console.log(res)
+    //console.log(res)
         
     contTemplateExp.querySelector("#title1").textContent = res[1].title1
     contTemplateExp.querySelector("#title2").textContent = res[1].title2
@@ -235,7 +235,7 @@ const pintarFrontend = (res) =>{
 
 
 const pintarExpConecta = (res) =>{
-    console.log(res)
+    //console.log(res)
         
     contTemplateExp.querySelector("#title1").textContent = res[0].title1
     contTemplateExp.querySelector("#title2").textContent = res[0].title2

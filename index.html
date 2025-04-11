@@ -357,17 +357,22 @@
                           
                         </div>
 
-                        <div class="contProyectos__blockDesc">
-                            <div class="contProyectos__blockDescA">
-                                <h2 class="contProyectos__blockDesc__title"> Titulo del proyecto Titulo del proyect</h2>
-                                <hr class="contProyLine">
-                                <p class="contProyectos__blockDesc__text"> Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles </p>
-                                <a href=" https://antonmarchitec.github.io/veterinaria_vip/ " class="hiperProy"> https://antonmarchitec.github.io/veterinaria_vip/ </a>
-                            </div>
+                        <div class="contProyectos__blockDesc" id="contProyectosBase ">
+                           
 
-                            <figure class="contProyectos__blockDescB">
-                                <img src="./source/CurriculumDigitaldd.jpg" alt="" style="width: 100%;height: 100%;">
-                            </figure>
+
+                            <template id="tempProyect">
+                                <div class="contProyectos__blockDescA">
+                                    <h2 class="contProyectos__blockDesc__title" id="titlePro"> Titulo del proyecto</h2>
+                                    <hr class="contProyLine">
+                                    <p class="contProyectos__blockDesc__text" id="descriptionPro"> Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles </p>
+                                    <a href=" https://antonmarchitec.github.io/veterinaria_vip/ " class="hiperProy"> https://antonmarchitec.github.io/veterinaria_vip/ </a>
+                                </div>
+    
+                                <figure class="contProyectos__blockDescB">
+                                    <img style="width: 100%;height: 100%;" id="figurePro">
+                                </figure>
+                            </template>
                           
                         </div>
                     </section>
@@ -391,6 +396,7 @@
 
       <!--Personalizadp-->
      <script src="./js/main.js"></script>
+     <script src="./js/project.js"></script>
 
 </body>
 </html>

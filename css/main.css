@@ -440,8 +440,10 @@
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyectos__blockDesc__title {
   color: #0c1b32;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 24px;
   text-transform: uppercase;
+  line-height: 28px;
+  background-image: url(../source/CurriculumDigitaldd.jpg);
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyLine {
   margin-top: 10px;
