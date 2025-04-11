@@ -376,7 +376,6 @@ contBaseExp__text
             .contProyectos__section{
                 margin-top: 30px;
                 width: 100%;
-                background: rgba(128, 128, 128, 0.132);
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
@@ -411,23 +410,32 @@ contBaseExp__text
 
                 .contProyectos__blockDesc{
                     width: 100%;
-                    background: brown;
+                    background: white;
+                    padding: 20px;
                     display: flex;
                     justify-content: flex-start;
-                    align-items:center;
+                    align-items:flex-start;
                     
                     .contProyectos__blockDescA{
                         width: 68%;
                         padding:20px 30px;
-                        background: gold;
                         .contProyectos__blockDesc__title{
                             color: var.$blue;
                             font-weight: 500;
                             font-size: 22px;
                             text-transform: uppercase;   
                         }
+
+                        .contProyLine{
+                            margin-top: 10px;
+                            width: 120px;
+                            height: 6px;
+                            background: var.$blue;
+                            border: none;
+                        }
+
                         .contProyectos__blockDesc__text{
-                            margin: 10px 0px;
+                            margin: 20px 0px;
                             font-size: 14px;
                             font-weight: 300;
                             color: black;
@@ -443,7 +451,6 @@ contBaseExp__text
                     .contProyectos__blockDescB{
                         width: 200px;
                         height: 300px;
-                        padding: 10px 0px;
                         background: rgba(128, 128, 128, 0.31);
                     }
                 }
