@@ -427,11 +427,15 @@
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc {
   width: 100%;
-  background: white;
+  background: transparent;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase {
+  width: 100%;
   padding: 20px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+  background: white;
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA {
   width: 68%;
