@@ -407,6 +407,7 @@
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro {
   text-decoration: none;
   color: #0c1b32;
+  cursor: pointer;
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box {
   display: flex;
