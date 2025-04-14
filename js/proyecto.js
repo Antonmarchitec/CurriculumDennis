@@ -32,6 +32,10 @@ const mostrarProjectA = ( resP ) =>{
     templatePro.querySelector("#descPro").textContent = resP[0].descPro
     templatePro.querySelector("#figurePro").setAttribute("src",resP[0].figurePro)
     templatePro.querySelector("#figurePro").setAttribute("alt",resP[0].titlePro)
+    templatePro.querySelector("#hiperProy").setAttribute("href",resP[0].HiperPro)
+    templatePro.querySelector("#hiperProy").textContent = resP[0].NameHiper
+
+
 
 
 
