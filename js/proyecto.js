@@ -24,10 +24,16 @@ const loadingProject = async () =>{
                 contBasePro.textContent = mostrarProjectA(resP)
                 mostrarProjectA(resP)
 
+
+
+
             }else if(e.target.id === "pro2"){
                 console.log("pro2")
                 contBasePro.textContent = mostrarProjectB(resP)
                 mostrarProjectB(resP)
+
+
+
 
             }else if(e.target.id === "pro3"){
                 console.log("pro3")
