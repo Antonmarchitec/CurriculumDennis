@@ -406,6 +406,10 @@ contBaseExp__text
                                 text-decoration: none;
                                 color: var.$white;
                                 font-size: 14px;
+                                transition: 0.2s all;
+                            }
+                            .contProyectos__boxText:hover{
+                                color:var.$green;
                             }
                         }
                     }
@@ -461,7 +465,10 @@ contBaseExp__text
                         width: 200px;
                         height: 300px;
                         background: rgba(128, 128, 128, 0.31);
+                        box-shadow: 8px 8px 10px rgb(81, 81, 81);
                     }
+
+                  
                 }              
                 
             }

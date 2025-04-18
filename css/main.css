@@ -425,6 +425,10 @@
   text-decoration: none;
   color: #ffffff;
   font-size: 14px;
+  transition: 0.2s all;
+}
+.contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box .contProyectos__boxText:hover {
+  color: #56fbd3;
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc {
   width: 100%;
@@ -469,6 +473,7 @@
   width: 200px;
   height: 300px;
   background: rgba(128, 128, 128, 0.31);
+  box-shadow: 8px 8px 10px rgb(81, 81, 81);
 }
 
 /*
