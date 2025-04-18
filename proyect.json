@@ -5,25 +5,49 @@
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
         "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
         "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
-        "figurePro":"../source/CurriculumDigitaldd.jpg"
+        "figurePro":"../source/VISITTOKIO.jpg"
     },
 
     {
         "id":20,
-        "titlePro": "Landing page Restaurant ",
+        "titlePro": "Landing page Financial ",
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
         "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
         "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
-        "figurePro":"../source/CurriculumDigitaldd.jpg"
+        "figurePro":"../source/FINANCIAL.jpg"
     },
 
     {
         "id":30,
-        "titlePro": "Landing page Moda ",
+        "titlePro": "Landing page GAMER ",
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
         "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
         "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
-        "figurePro":"../source/CurriculumDigitaldd.jpg"
+        "figurePro":"../source/GAMER.jpg"
+    },
+    {
+        "id":40,
+        "titlePro": "Landing page HALLOWEEN ",
+        "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
+        "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
+        "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
+        "figurePro":"../source/HELLOWEEN.jpg"
+    },
+    {
+        "id":50,
+        "titlePro": "Landing page RESTAURANT ",
+        "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
+        "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
+        "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
+        "figurePro":"../source/RESTAURANT.jpg"
+    },
+    {
+        "id":60,
+        "titlePro": "Landing page MODA ",
+        "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
+        "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
+        "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
+        "figurePro":"../source/MODA.jpg"
     }
  
 ]

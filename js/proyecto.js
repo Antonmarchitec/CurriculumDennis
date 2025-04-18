@@ -45,6 +45,16 @@ const loadingProject = async () =>{
                 contBasePro.textContent = mostrarProjectD(resP)
                 mostrarProjectD(resP)
 
+            }else if(e.target.id === "pro5"){
+                console.log("pro5")
+                contBasePro.textContent = mostrarProjectE(resP)
+                mostrarProjectE(resP)
+
+            }else if(e.target.id === "pro6"){
+                console.log("pro6")
+                contBasePro.textContent = mostrarProjectF(resP)
+                mostrarProjectF(resP)
+
             }
 
             
@@ -122,6 +132,42 @@ const mostrarProjectD = ( resP ) =>{
     templatePro.querySelector("#figurePro").setAttribute("alt",resP[3].titlePro)
     templatePro.querySelector("#hiperProy").setAttribute("href",resP[3].HiperPro)
     templatePro.querySelector("#hiperProy").textContent = resP[3].NameHiper
+
+    //Bases apendChild
+    let cloneTemp = templatePro.cloneNode(true)
+    fragmentProyect.appendChild(cloneTemp)
+    contBasePro.appendChild(fragmentProyect)
+
+}
+
+
+const mostrarProjectE = ( resP ) =>{
+    //console.log(resP[0].id)
+
+    templatePro.querySelector("#titlePro").textContent = resP[4].titlePro
+    templatePro.querySelector("#descPro").textContent = resP[4].descPro
+    templatePro.querySelector("#figurePro").setAttribute("src",resP[4].figurePro)
+    templatePro.querySelector("#figurePro").setAttribute("alt",resP[4].titlePro)
+    templatePro.querySelector("#hiperProy").setAttribute("href",resP[4].HiperPro)
+    templatePro.querySelector("#hiperProy").textContent = resP[4].NameHiper
+
+    //Bases apendChild
+    let cloneTemp = templatePro.cloneNode(true)
+    fragmentProyect.appendChild(cloneTemp)
+    contBasePro.appendChild(fragmentProyect)
+
+}
+
+
+const mostrarProjectF = ( resP ) =>{
+    //console.log(resP[0].id)
+
+    templatePro.querySelector("#titlePro").textContent = resP[5].titlePro
+    templatePro.querySelector("#descPro").textContent = resP[5].descPro
+    templatePro.querySelector("#figurePro").setAttribute("src",resP[5].figurePro)
+    templatePro.querySelector("#figurePro").setAttribute("alt",resP[5].titlePro)
+    templatePro.querySelector("#hiperProy").setAttribute("href",resP[5].HiperPro)
+    templatePro.querySelector("#hiperProy").textContent = resP[5].NameHiper
 
     //Bases apendChild
     let cloneTemp = templatePro.cloneNode(true)

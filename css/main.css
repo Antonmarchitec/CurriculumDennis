@@ -400,12 +400,13 @@
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block {
   width: 260px;
-  padding: 20px;
-  background: rgba(0, 128, 128, 0.062);
+  padding: 30px 20px;
+  background: #0c1b32;
+  border-radius: 10px;
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro {
   text-decoration: none;
-  color: #0c1b32;
+  color: #56fbd3;
   cursor: pointer;
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box {
@@ -418,11 +419,11 @@
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box .iconProyect {
   font-size: 20px;
   margin-right: 10px;
-  color: #0c1b32;
+  color: #56fbd3;
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box .contProyectos__boxText {
   text-decoration: none;
-  color: #0c1b32;
+  color: #ffffff;
   font-size: 14px;
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc {
@@ -457,7 +458,7 @@
   margin: 20px 0px;
   font-size: 14px;
   font-weight: 300;
-  color: black;
+  color: #414141;
 }
 .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .hiperProy {
   text-decoration: none;

@@ -381,13 +381,15 @@ contBaseExp__text
                 flex-direction: row;
                 justify-content: space-around;
                 align-items: flex-start;
+                
                 .contProyectos__block{
                     width: 260px;
-                    padding: 20px;
-                    background: rgba(0, 128, 128, 0.062);
+                    padding: 30px 20px;
+                    background: var.$blue;
+                    border-radius: 10px;
                     .hiperPro{
                         text-decoration: none;
-                        color: var.$blue;
+                        color: var.$green;
                         cursor: pointer;
                         .contProyectos__box{
                             display: flex;
@@ -398,11 +400,11 @@ contBaseExp__text
                             .iconProyect{
                                 font-size: 20px;
                                 margin-right: 10px;
-                                color: var.$blue;
+                                color: var.$green;
                             }
                             .contProyectos__boxText{
                                 text-decoration: none;
-                                color: var.$blue;
+                                color: var.$white;
                                 font-size: 14px;
                             }
                         }
@@ -412,14 +414,13 @@ contBaseExp__text
 
                 .contProyectos__blockDesc{
                     width: 100%;
-                   
+                    
                     .contProyectosBase{
                         width: 100%;
                         padding: 20px;
                         display: flex;
                         justify-content: flex-start;
                         align-items:flex-start;
-                       
 
                     }
                     
@@ -446,7 +447,7 @@ contBaseExp__text
                             margin: 20px 0px;
                             font-size: 14px;
                             font-weight: 300;
-                            color: black;
+                            color: var.$parrafo-right;
                         }
     
                         .hiperProy{
