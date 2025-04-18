@@ -364,9 +364,8 @@
   color: #ffffff;
 }
 .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__figure {
-  width: 120px;
-  height: 120px;
-  background: grey;
+  width: 300px;
+  height: 110px;
 }
 .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__web {
   color: #56fbd3;
