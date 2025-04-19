@@ -1,8 +1,6 @@
 .contBase {
   width: 100%;
   max-width: 1440px;
-  padding: 30px 0px;
-  background: rgb(223, 223, 223);
   margin: auto;
 }
 
@@ -374,6 +372,7 @@
 .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__figure {
   width: 300px;
   height: 110px;
+  box-shadow: 10px 10px 0px black;
 }
 .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__web {
   color: #56fbd3;
