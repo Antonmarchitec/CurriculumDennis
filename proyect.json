@@ -1,10 +1,10 @@
 [
     {
         "id":10,
-        "titlePro": "Landing page vet ",
+        "titlePro": "Landing VISIT TOKIO ",
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
-        "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
-        "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
+        "HiperPro": "https://templatevisittokio.digitizingcode.com/",
+        "NameHiper":" https://templatevisittokio.digitizingcode.com/",
         "figurePro":"../source/VISITTOKIO.jpg"
     },
 
@@ -12,8 +12,8 @@
         "id":20,
         "titlePro": "Landing page Financial ",
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
-        "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
-        "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
+        "HiperPro": "https://templatefinancial.digitizingcode.com/",
+        "NameHiper":" https://templatefinancial.digitizingcode.com/",
         "figurePro":"../source/FINANCIAL.jpg"
     },
 
@@ -21,32 +21,32 @@
         "id":30,
         "titlePro": "Landing page GAMER ",
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
-        "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
-        "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
+        "HiperPro": "https://templategamer.digitizingcode.com/",
+        "NameHiper":" https://templategamer.digitizingcode.com/",
         "figurePro":"../source/GAMER.jpg"
     },
     {
         "id":40,
         "titlePro": "Landing page HALLOWEEN ",
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
-        "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
-        "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
+        "HiperPro": "https://templatehalloween.digitizingcode.com/",
+        "NameHiper":" https://templatehalloween.digitizingcode.com/",
         "figurePro":"../source/HELLOWEEN.jpg"
     },
     {
         "id":50,
         "titlePro": "Landing page RESTAURANT ",
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
-        "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
-        "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
+        "HiperPro": "https://templaterestaurant01.digitizingcode.com/",
+        "NameHiper":" https://templaterestaurant01.digitizingcode.com/",
         "figurePro":"../source/RESTAURANT.jpg"
     },
     {
         "id":60,
         "titlePro": "Landing page MODA ",
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
-        "HiperPro": "https://antonmarchitec.github.io/veterinaria_vip/",
-        "NameHiper":" https://antonmarchitec.github.io/veterinaria_vip/",
+        "HiperPro": "https://templatefashion.digitizingcode.com/",
+        "NameHiper":" https://templatefashion.digitizingcode.com/",
         "figurePro":"../source/MODA.jpg"
     }
  
