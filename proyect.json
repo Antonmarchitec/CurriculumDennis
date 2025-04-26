@@ -5,7 +5,7 @@
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
         "HiperPro": "https://templatevisittokio.digitizingcode.com/",
         "NameHiper":" https://templatevisittokio.digitizingcode.com/",
-        "figurePro":"./source/VISITTOKIO.jpg"
+        "figurePro":"/source/VISITTOKIO.jpg"
     },
 
     {
@@ -14,7 +14,7 @@
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
         "HiperPro": "https://templatefinancial.digitizingcode.com/",
         "NameHiper":" https://templatefinancial.digitizingcode.com/",
-        "figurePro":"./source/FINANCIAL.jpg"
+        "figurePro":"/source/FINANCIAL.jpg"
     },
 
     {
@@ -23,7 +23,7 @@
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
         "HiperPro": "https://templategamer.digitizingcode.com/",
         "NameHiper":" https://templategamer.digitizingcode.com/",
-        "figurePro":"./source/GAMER.jpg"
+        "figurePro":"/source/GAMER.jpg"
     },
     {
         "id":40,
@@ -31,7 +31,7 @@
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
         "HiperPro": "https://templatehalloween.digitizingcode.com/",
         "NameHiper":" https://templatehalloween.digitizingcode.com/",
-        "figurePro":"./source/HELLOWEEN.jpg"
+        "figurePro":"/source/HELLOWEEN.jpg"
     },
     {
         "id":50,
@@ -39,7 +39,7 @@
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
         "HiperPro": "https://templaterestaurant01.digitizingcode.com/",
         "NameHiper":" https://templaterestaurant01.digitizingcode.com/",
-        "figurePro":"./source/RESTAURANT.jpg"
+        "figurePro":"/source/RESTAURANT.jpg"
     },
     {
         "id":60,
@@ -47,7 +47,7 @@
         "descPro":  "Desarrollo de una landing page para consultorio veterinario construido con HTML, CSS Y SASS adaptable a dispositivos moviles.",
         "HiperPro": "https://templatefashion.digitizingcode.com/",
         "NameHiper":" https://templatefashion.digitizingcode.com/",
-        "figurePro":"./source/MODA.jpg"
+        "figurePro":"/source/MODA.jpg"
     }
  
 ]
