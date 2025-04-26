@@ -4,7 +4,7 @@
         "title1": " CONECTA REDES Y SERVICIOS ",
         "description1": "Me desempeño actualmente como operador de call center tigo cobranzas de forma organizada, con buena comunicación y firmeza al momento de realizar cobranzas, siempre manteniendo el respeto y la empatía con el cliente. Sé trabajar bajo objetivos y me adapto fácilmente a distintos equipos y protocolos.",
         "sitioWeb":"https://www.conecta.com.bo/",
-        "imagen":"../source/CONECTA.jpg"
+        "imagen":"/source/CONECTA.jpg"
     },
     {
         "id":200,
@@ -13,14 +13,14 @@
         "title2": " Diseño gráfico",
         "description2": "- Creacion de tarjetas personalizadas , flayers y logos personalizados en adobe Photoshop e illustrator.",
         "sitioWeb":" https://tarjetadigital.digitizingcode.com/ ",
-        "imagen":"../source/DIGITIZINGCODE.jpg"
+        "imagen":"/source/DIGITIZINGCODE.jpg"
     },
     {
         "id":300,
         "title1": " SUPERTICKET LIVE ",
         "description1": "- Manejo externo de la plataforma de ventas y transmisión de espectáculos vía digital.",
         "sitioWeb":" https://superticket.bo/ ",
-        "imagen":"../source/SUPERTICKET.jpg"
+        "imagen":"/source/SUPERTICKET.jpg"
     },
     {
         "id":400,
@@ -31,7 +31,7 @@
         "description4": "- Gestionar almacén e imprenta (verificar que todo el material de entrada y salida este registrado bajo planillas ya sea de tickets o equipos como computadoras u otros).",
         "description5": "- Atención al cliente y call center.",
         "sitioWeb":"https://superticket.bo/",
-        "imagen":"../source/SUPERTICKET.jpg"
+        "imagen":"/source/SUPERTICKET.jpg"
     },
     {
         "id":500,
@@ -39,6 +39,6 @@
         "description1": "- Encargado de almacén (Entrada y salida de materiales respaldado bajo planillas debidamente organizado).",
         "description2": "- Operador de computadoras. (desarrollo de documentos con Microsoft Word y elaboración de tablas de control con Excel).",
         "sitioWeb":" Sin sitio ",
-        "imagen":"../source/INVERTRONICS.jpg"
+        "imagen":"/source/INVERTRONICS.jpg"
     }
 ]
