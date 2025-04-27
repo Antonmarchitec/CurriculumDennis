@@ -132,7 +132,10 @@ const pintarInvertronic = ( res ) =>{
     let cloneTemp = contTemplateExp.cloneNode(true)
     contFragmentExp.appendChild(cloneTemp)
     contBaseExp.appendChild(contFragmentExp)
+    
 
+    let textWeb = document.querySelector("#textWeb")
+    textWeb.target = '_blank'; 
     
 
 }
@@ -169,6 +172,10 @@ const pintarSTProvin = ( res ) =>{
     contFragmentExp.appendChild(cloneTemp)
     contBaseExp.appendChild(contFragmentExp)
 
+
+    let textWeb = document.querySelector("#textWeb")
+    textWeb.target = '_blank'; 
+
 }
 
 
@@ -199,6 +206,10 @@ const pintarSTLive = (res) =>{
    contFragmentExp.appendChild(cloneTemp)
    contBaseExp.appendChild(contFragmentExp)
 
+
+   let textWeb = document.querySelector("#textWeb")
+   textWeb.target = '_blank'; 
+
 }
 
 
@@ -228,6 +239,8 @@ const pintarFrontend = (res) =>{
    contFragmentExp.appendChild(cloneTemp)
    contBaseExp.appendChild(contFragmentExp)
 
+   let textWeb = document.querySelector("#textWeb")
+    textWeb.target = '_blank'; 
 
 }
 
@@ -257,6 +270,8 @@ const pintarExpConecta = (res) =>{
    contBaseExp.appendChild(contFragmentExp)
 
 
+   let textWeb = document.querySelector("#textWeb")
+    textWeb.target = '_blank'; 
 }
 
 
