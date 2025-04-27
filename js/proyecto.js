@@ -84,6 +84,8 @@ const mostrarProjectA = ( resP ) =>{
     fragmentProyect.appendChild(cloneTemp)
     contBasePro.appendChild(fragmentProyect)
 
+    let hiperProy = document.querySelector("#hiperProy")
+    hiperProy.target = '_blank'; 
 }
 
 
@@ -101,6 +103,9 @@ const mostrarProjectB = ( resP ) =>{
     let cloneTemp = templatePro.cloneNode(true)
     fragmentProyect.appendChild(cloneTemp)
     contBasePro.appendChild(fragmentProyect)
+
+    let hiperProy = document.querySelector("#hiperProy")
+    hiperProy.target = '_blank'; 
 
 }
 
@@ -120,6 +125,9 @@ const mostrarProjectC = ( resP ) =>{
     fragmentProyect.appendChild(cloneTemp)
     contBasePro.appendChild(fragmentProyect)
 
+    let hiperProy = document.querySelector("#hiperProy")
+    hiperProy.target = '_blank'; 
+
 }
 
 
@@ -137,6 +145,9 @@ const mostrarProjectD = ( resP ) =>{
     let cloneTemp = templatePro.cloneNode(true)
     fragmentProyect.appendChild(cloneTemp)
     contBasePro.appendChild(fragmentProyect)
+
+    let hiperProy = document.querySelector("#hiperProy")
+    hiperProy.target = '_blank'; 
 
 }
 
@@ -156,6 +167,9 @@ const mostrarProjectE = ( resP ) =>{
     fragmentProyect.appendChild(cloneTemp)
     contBasePro.appendChild(fragmentProyect)
 
+    let hiperProy = document.querySelector("#hiperProy")
+    hiperProy.target = '_blank'; 
+
 }
 
 
@@ -173,5 +187,8 @@ const mostrarProjectF = ( resP ) =>{
     let cloneTemp = templatePro.cloneNode(true)
     fragmentProyect.appendChild(cloneTemp)
     contBasePro.appendChild(fragmentProyect)
+
+    let hiperProy = document.querySelector("#hiperProy")
+    hiperProy.target = '_blank'; 
 
 }
