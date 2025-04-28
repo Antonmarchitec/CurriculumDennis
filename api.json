@@ -23,11 +23,8 @@
     {
         "id":400,
         "title1": " PROVIN SRL. SuperTicket: ",
-        "description1": "- Encargado de equipos y soporte técnico (dar el mantenimiento correspondiente para que los equipos estén en funcionalidad óptima para su uso).",
-        "description2": "- Ventas de boletaje masivo y caja (apertura y cierre de caja, arqueo, rendición de cuentas, entrega de efectivo debidamente planchado y depositado).",
-        "description3": "- Supervisor de personal de controles y ventas (verificar que todo el personal contratado para los eventos ya sea en puntos de venta o controles cuenten con todo el material que necesiten y trabajen de manera óptima)",
-        "description4": "- Gestionar almacén e imprenta (verificar que todo el material de entrada y salida este registrado bajo planillas ya sea de tickets o equipos como computadoras u otros).",
-        "description5": "- Atención al cliente y call center.",
+        "description1": "Me desempeñé en el área de encargado de equipos y controles, soporte técnico, ventas de boletaje, supervisor de personal, gestión de almacén e impresión de tickets.",
+        "description2": " Provin SRL - SuperTicket es una empresa reconocida que se encarga de fabricar tickets de consumo masivo, como tambien gestionar y organizar espectaculos publicos y privados a nivel nacional.",
         "sitioWeb":"https://superticket.bo/",
         "imagen":"./source/SUPERTICKET.jpg"
     },
