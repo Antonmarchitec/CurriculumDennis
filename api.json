@@ -2,23 +2,21 @@
     {
         "id":100,
         "title1": " CONECTA REDES Y SERVICIOS ",
-        "description1": "Me desempeño actualmente como operador de call center tigo cobranzas de forma organizada, con buena comunicación y firmeza al momento de realizar cobranzas, siempre manteniendo el respeto y la empatía con el cliente. Sé trabajar bajo objetivos y me adapto fácilmente a distintos equipos y protocolos.",
+        "description1": " Actualmente me desempeño como operador de call center tigo cobranzas en conecta, una empresa reconocida a nivel nacional con sede en el departamento de Santa Cruz.",
         "sitioWeb":"https://www.conecta.com.bo/",
         "imagen":"./source/CONECTA.jpg"
     },
     {
         "id":200,
-        "title1": " DESARROLLO WEB FRONT-END ",
-        "description1": "- Desarrollo de landing page y sitios web con HTML, CSS3 y vanilla JavaScript.",
-        "title2": " Diseño gráfico",
-        "description2": "- Creacion de tarjetas personalizadas , flayers y logos personalizados en adobe Photoshop e illustrator.",
+        "title1": " DESARROLLO WEB Y EDICIÓN ",
+        "description1": "Me desempeño como desarrollador de sitios web de forma independiente utilizando tecnologías como HTML, CSS, JavaScript y Wordpress también realizo trabajos de diseño gráfico utilizando Adobe Photoshop, Illustrator y editores de video como Camptasia. ",
         "sitioWeb":" https://tarjetadigital.digitizingcode.com/ ",
         "imagen":"./source/DIGITIZINGCODE.jpg"
     },
     {
         "id":300,
         "title1": " SUPERTICKET LIVE ",
-        "description1": "- Manejo externo de la plataforma de ventas y transmisión de espectáculos vía digital.",
+        "description1": "Me desempeñé en el área de manejo externo de la plataforma de ventas y transmisión de espectáculos vía digital en SuperTicket una empresa reconocida en gestionar venta de entradas y organizar espectáculos públicos y privados a nivel nacional.",
         "sitioWeb":" https://superticket.bo/ ",
         "imagen":"./source/SUPERTICKET.jpg"
     },
