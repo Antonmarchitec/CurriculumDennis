@@ -1,5 +1,3 @@
-
-
 let contBaseExp = document.querySelector("#contBaseExp")
 let contTemplateExp = document.querySelector("#contTemplateExp").content
 let contFragmentExp = document.createDocumentFragment()
