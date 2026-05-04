@@ -69,9 +69,6 @@
   padding: 0px 10px;
   background: #0c1b32;
   /****************/
-  /******************/
-  /******************/
-  /******************/
 }
 .contBaseBloqueAB .contBloqueA .contBloqueA__base {
   width: 100%;
@@ -94,6 +91,9 @@
 .contBaseBloqueAB .contBloqueA .contBloqueA__base .contBloqueA__description {
   margin-top: 20px;
   color: #ffffff;
+}
+.contBaseBloqueAB .contBloqueA {
+  /******************/
 }
 .contBaseBloqueAB .contBloqueA .contBloqueB__base {
   width: 100%;
@@ -143,6 +143,9 @@
 .contBaseBloqueAB .contBloqueA .contBloqueB__base .contBloqueB__sectionIcons .contBloqueB__sectionIcons__icon .enlaceHi {
   text-decoration: none;
 }
+.contBaseBloqueAB .contBloqueA {
+  /******************/
+}
 .contBaseBloqueAB .contBloqueA .contBloqueC__base {
   width: 100%;
   padding: 20px 20px;
@@ -169,6 +172,9 @@
 .contBaseBloqueAB .contBloqueA .contBloqueC__base .contBloqueC__section .fa-solid {
   color: #56fbd3;
   margin-right: 5px;
+}
+.contBaseBloqueAB .contBloqueA {
+  /******************/
 }
 .contBaseBloqueAB .contBloqueA .contBloqueD__base {
   width: 100%;
@@ -351,12 +357,6 @@
   background: #0c1b32;
   margin-left: 30px;
   border-radius: 0px 10px 10px 0px;
-  /*
-                      contExperiencia__content
-  contBaseExp
-  contBaseExp__title
-  contBaseExp__text
-                      */
 }
 .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp {
   width: 100%;
@@ -381,6 +381,14 @@
 .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__web .webLink {
   color: #ffffff;
   text-decoration: none;
+}
+.contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content {
+  /*
+                      contExperiencia__content
+  contBaseExp
+  contBaseExp__title
+  contBaseExp__text
+                      */
 }
 .contBaseBloqueAB .contBloqueB .contProyectos {
   width: 100%;
