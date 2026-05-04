@@ -1,58 +1,313 @@
 @use "var";
 
+
+
+/* 📱 Base → móvil (sin media query) */
 .contHeader{
     width: 100%;
     background-image: url(../source/desarrollando.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
-    .contHeaderFondo{
+    background: rgb(23, 191, 209);
+     .contHeaderFondo{
+            width: 100%;
+            background: var.$blue-trans;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: center;
+            .contHeaderPhoto{
+                margin-left: 50px;
+                width: 240px;
+                height: 240px;
+                border-radius: 100%;
+                overflow: hidden;
+            }
+        
+            .contHeaderDescription{
+                margin-right: calc(50% - 550px);
+                width: 720px;
+                padding: 10px 20px;
+                text-align: center;
+                .contHeaderDescription__name{
+                    color: white;
+                    font-weight: 500;
+                    font-size: 38px;
+                }
+
+                .contHeaderDescription__description{
+                    color: white;
+                    font-size: 26px;
+                    color: var.$green;
+                }
+
+                .contHeaderDescription__line{
+                    margin: 16px auto;
+                    width: 200px;
+                    height: 1px;
+                    border: none;
+                    background: var.$green;
+                }
+                
+                .contHeaderDescription__nivel{
+                    margin-top: 40px;
+                    color: white;
+                    color: var.$green;
+
+                }
+            }
+        }
+} 
+
+
+
+   
+
+/* 📲 Tablet */
+@media (min-width: 768px) { 
+    .contHeader{
         width: 100%;
-        background: var.$blue-trans;
-        padding: 50px 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content:space-between;
-        align-items: center;
-        .contHeaderPhoto{
-            margin-left: 50px;
-            width: 240px;
-            height: 240px;
-            border-radius: 100%;
-            overflow: hidden;
+        background-image: url(../source/desarrollando.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background: rgb(51, 31, 235);
+        .contHeaderFondo{
+            width: 100%;
+            background: var.$blue-trans;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: center;
+            .contHeaderPhoto{
+                margin-left: 50px;
+                width: 240px;
+                height: 240px;
+                border-radius: 100%;
+                overflow: hidden;
+            }
+        
+            .contHeaderDescription{
+                margin-right: calc(50% - 550px);
+                width: 720px;
+                padding: 10px 20px;
+                text-align: center;
+                .contHeaderDescription__name{
+                    color: white;
+                    font-weight: 500;
+                    font-size: 38px;
+                }
+
+                .contHeaderDescription__description{
+                    color: white;
+                    font-size: 26px;
+                    color: var.$green;
+                }
+
+                .contHeaderDescription__line{
+                    margin: 16px auto;
+                    width: 200px;
+                    height: 1px;
+                    border: none;
+                    background: var.$green;
+                }
+                
+                .contHeaderDescription__nivel{
+                    margin-top: 40px;
+                    color: white;
+                    color: var.$green;
+
+                }
+            }
         }
     
-        .contHeaderDescription{
-            margin-right: calc(50% - 550px);
-            width: 720px;
-            padding: 10px 20px;
-            text-align: center;
-            .contHeaderDescription__name{
-                color: white;
-                font-weight: 500;
-                font-size: 38px;
-            }
+    } 
+}
 
-            .contHeaderDescription__description{
-                color: white;
-                font-size: 26px;
-                color: var.$green;
-            }
 
-            .contHeaderDescription__line{
-                margin: 16px auto;
-                width: 200px;
-                height: 1px;
-                border: none;
-                background: var.$green;
-            }
-            
-            .contHeaderDescription__nivel{
-                margin-top: 40px;
-                color: white;
-                color: var.$green;
 
+/* 💻 Laptop */
+@media (min-width: 1024px) { 
+    .contHeader{
+        width: 100%;
+        background-image: url(../source/desarrollando.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background: rgb(113, 246, 25);
+        .contHeaderFondo{
+            width: 100%;
+            background: var.$blue-trans;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: center;
+            .contHeaderPhoto{
+                margin-left: 50px;
+                width: 240px;
+                height: 240px;
+                border-radius: 100%;
+                overflow: hidden;
+            }
+        
+            .contHeaderDescription{
+                margin-right: calc(50% - 550px);
+                width: 720px;
+                padding: 10px 20px;
+                text-align: center;
+                .contHeaderDescription__name{
+                    color: white;
+                    font-weight: 500;
+                    font-size: 38px;
+                }
+
+                .contHeaderDescription__description{
+                    color: white;
+                    font-size: 26px;
+                    color: var.$green;
+                }
+
+                .contHeaderDescription__line{
+                    margin: 16px auto;
+                    width: 200px;
+                    height: 1px;
+                    border: none;
+                    background: var.$green;
+                }
+                
+                .contHeaderDescription__nivel{
+                    margin-top: 40px;
+                    color: white;
+                    color: var.$green;
+
+                }
             }
         }
+    
+    }  
+}
+
+
+
+/* 🖥️ Desktop */
+@media (min-width: 1280px) { 
+    .contHeader{
+        width: 100%;
+        background-image: url(../source/desarrollando.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background: red;
+        .contHeaderFondo{
+            width: 100%;
+            background: var.$blue-trans;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: center;
+            .contHeaderPhoto{
+                margin-left: 50px;
+                width: 240px;
+                height: 240px;
+                border-radius: 100%;
+                overflow: hidden;
+            }
+        
+            .contHeaderDescription{
+                margin-right: calc(50% - 550px);
+                width: 720px;
+                padding: 10px 20px;
+                text-align: center;
+                .contHeaderDescription__name{
+                    color: white;
+                    font-weight: 500;
+                    font-size: 38px;
+                }
+
+                .contHeaderDescription__description{
+                    color: white;
+                    font-size: 26px;
+                    color: var.$green;
+                }
+
+                .contHeaderDescription__line{
+                    margin: 16px auto;
+                    width: 200px;
+                    height: 1px;
+                    border: none;
+                    background: var.$green;
+                }
+                
+                .contHeaderDescription__nivel{
+                    margin-top: 40px;
+                    color: white;
+                    color: var.$green;
+
+                }
+            }
+        }
+    
     }
-   
+}
+
+
+/* 🖥️ Pantallas grandes */
+@media (min-width: 1440px) { 
+    .contHeader{
+        width: 100%;
+        background-image: url(../source/desarrollando.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        .contHeaderFondo{
+            width: 100%;
+            background: var.$blue-trans;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            align-items: center;
+            .contHeaderPhoto{
+                margin-left: 50px;
+                width: 240px;
+                height: 240px;
+                border-radius: 100%;
+                overflow: hidden;
+            }
+        
+            .contHeaderDescription{
+                margin-right: calc(50% - 550px);
+                width: 720px;
+                padding: 10px 20px;
+                text-align: center;
+                .contHeaderDescription__name{
+                    color: white;
+                    font-weight: 500;
+                    font-size: 38px;
+                }
+
+                .contHeaderDescription__description{
+                    color: white;
+                    font-size: 26px;
+                    color: var.$green;
+                }
+
+                .contHeaderDescription__line{
+                    margin: 16px auto;
+                    width: 200px;
+                    height: 1px;
+                    border: none;
+                    background: var.$green;
+                }
+                
+                .contHeaderDescription__nivel{
+                    margin-top: 40px;
+                    color: white;
+                    color: var.$green;
+
+                }
+            }
+        }
+    
+    }
 }

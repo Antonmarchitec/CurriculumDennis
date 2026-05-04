@@ -1,15 +1,11 @@
-.contBase {
-  width: 100%;
-  max-width: 1600px;
-  margin: auto;
-  overflow: hidden;
-}
-
+@charset "UTF-8";
+/* 📱 Base → móvil (sin media query) */
 .contHeader {
   width: 100%;
   background-image: url(../source/desarrollando.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
+  background: rgb(23, 191, 209);
 }
 .contHeader .contHeaderFondo {
   width: 100%;
@@ -56,6 +52,221 @@
   color: #56fbd3;
 }
 
+/* 📲 Tablet */
+@media (min-width: 768px) {
+  .contHeader {
+    width: 100%;
+    background-image: url(../source/desarrollando.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background: rgb(51, 31, 235);
+  }
+  .contHeader .contHeaderFondo {
+    width: 100%;
+    background: rgba(12, 27, 50, 0.768627451);
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contHeader .contHeaderFondo .contHeaderPhoto {
+    margin-left: 50px;
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription {
+    margin-right: calc(50% - 550px);
+    width: 720px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__name {
+    color: white;
+    font-weight: 500;
+    font-size: 38px;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__description {
+    color: white;
+    font-size: 26px;
+    color: #56fbd3;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__line {
+    margin: 16px auto;
+    width: 200px;
+    height: 1px;
+    border: none;
+    background: #56fbd3;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__nivel {
+    margin-top: 40px;
+    color: white;
+    color: #56fbd3;
+  }
+}
+/* 💻 Laptop */
+@media (min-width: 1024px) {
+  .contHeader {
+    width: 100%;
+    background-image: url(../source/desarrollando.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background: rgb(113, 246, 25);
+  }
+  .contHeader .contHeaderFondo {
+    width: 100%;
+    background: rgba(12, 27, 50, 0.768627451);
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contHeader .contHeaderFondo .contHeaderPhoto {
+    margin-left: 50px;
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription {
+    margin-right: calc(50% - 550px);
+    width: 720px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__name {
+    color: white;
+    font-weight: 500;
+    font-size: 38px;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__description {
+    color: white;
+    font-size: 26px;
+    color: #56fbd3;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__line {
+    margin: 16px auto;
+    width: 200px;
+    height: 1px;
+    border: none;
+    background: #56fbd3;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__nivel {
+    margin-top: 40px;
+    color: white;
+    color: #56fbd3;
+  }
+}
+/* 🖥️ Desktop */
+@media (min-width: 1280px) {
+  .contHeader {
+    width: 100%;
+    background-image: url(../source/desarrollando.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background: red;
+  }
+  .contHeader .contHeaderFondo {
+    width: 100%;
+    background: rgba(12, 27, 50, 0.768627451);
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contHeader .contHeaderFondo .contHeaderPhoto {
+    margin-left: 50px;
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription {
+    margin-right: calc(50% - 550px);
+    width: 720px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__name {
+    color: white;
+    font-weight: 500;
+    font-size: 38px;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__description {
+    color: white;
+    font-size: 26px;
+    color: #56fbd3;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__line {
+    margin: 16px auto;
+    width: 200px;
+    height: 1px;
+    border: none;
+    background: #56fbd3;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__nivel {
+    margin-top: 40px;
+    color: white;
+    color: #56fbd3;
+  }
+}
+/* 🖥️ Pantallas grandes */
+@media (min-width: 1440px) {
+  .contHeader {
+    width: 100%;
+    background-image: url(../source/desarrollando.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  .contHeader .contHeaderFondo {
+    width: 100%;
+    background: rgba(12, 27, 50, 0.768627451);
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contHeader .contHeaderFondo .contHeaderPhoto {
+    margin-left: 50px;
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription {
+    margin-right: calc(50% - 550px);
+    width: 720px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__name {
+    color: white;
+    font-weight: 500;
+    font-size: 38px;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__description {
+    color: white;
+    font-size: 26px;
+    color: #56fbd3;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__line {
+    margin: 16px auto;
+    width: 200px;
+    height: 1px;
+    border: none;
+    background: #56fbd3;
+  }
+  .contHeader .contHeaderFondo .contHeaderDescription .contHeaderDescription__nivel {
+    margin-top: 40px;
+    color: white;
+    color: #56fbd3;
+  }
+}
 .contBaseBloqueAB {
   width: 100%;
   background: #ffffff;
@@ -506,6 +717,13 @@
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
+  transition-duration: 0.5s;
+}
+
+.contBase {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */
