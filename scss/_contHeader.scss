@@ -96,9 +96,6 @@
                 width: 450px;
                 padding: 20px 10px;
                 text-align: center;
-                border-radius: 15px;
-                box-shadow: 0px 0px 5px black;
-                background: var.$blue-trans;
                 .contHeaderDescription__name{
                     color: white;
                     font-weight: 500;
@@ -135,9 +132,8 @@
 
 
 
-
 /* 💻 Laptop */
-@media (min-width: 1024px) { 
+@media (min-width:1024px) { 
     .contHeader{
         width: 100%;
         background-image: url(../source/desarrollando.jpg);
@@ -145,33 +141,37 @@
         background-attachment: fixed;
         .contHeaderFondo{
             width: 100%;
-            background: var.$blue-trans;
-            padding: 50px 20px;
+            background:rgba(0, 0, 0, 0.46);
+            padding: 50px 10px;
             display: flex;
-            flex-direction: row;
+            flex-direction:column;
             justify-content:space-around;
             align-items: center;
             .contHeaderPhoto{
                 margin-left: initial;
-                width: 230px;
-                height: 230px;
+                width: 220px;
+                height: 220px;
                 border-radius: 100%;
                 overflow: hidden;
             }
         
             .contHeaderDescription{
                 margin-right:initial;
-                width: 640px;
-                padding: 10px 20px;
+                margin: 20px auto;
+                width: 450px;
+                padding: 20px 10px;
                 text-align: center;
+             
                 .contHeaderDescription__name{
                     color: white;
                     font-weight: 500;
-                    font-size: 34px;
+                    line-height: 1;
+                    font-size: 30px;
                 }
 
                 .contHeaderDescription__description{
                     color: white;
+                    margin-top: 10px;
                     font-size: 22px;
                     font-weight: 400;
                     color: var.$green;
@@ -179,7 +179,7 @@
 
                 .contHeaderDescription__line{
                     margin: 12px auto;
-                    width: 200px;
+                    width: 162px;
                     height: 2px;
                     border: none;
                     background: var.$green;
@@ -199,7 +199,7 @@
 
 
 /* 🖥️ Desktop */
-@media (min-width: 1280px) { 
+@media (min-width:1280px) { 
     .contHeader{
         width: 100%;
         background-image: url(../source/desarrollando.jpg);
@@ -207,14 +207,14 @@
         background-attachment: fixed;
         .contHeaderFondo{
             width: 100%;
-            background: var.$blue-trans;
-            padding: 50px 20px;
+            background:rgba(0, 0, 0, 0.46);
+            padding: 50px 10px;
             display: flex;
-            flex-direction: row;
-            justify-content:space-between;
+            flex-direction:row-reverse;
+            justify-content:space-around;
             align-items: center;
             .contHeaderPhoto{
-                margin-left: 50px;
+                margin-right: 180px;
                 width: 240px;
                 height: 240px;
                 border-radius: 100%;
@@ -222,40 +222,44 @@
             }
         
             .contHeaderDescription{
-                margin-right: calc(50% - 550px);
-                width: 720px;
-                padding: 10px 20px;
+                margin-right:initial;
+                margin: 20px auto;
+                width: 60%;
+                padding: 20px 10px;
                 text-align: center;
+                //background: teal;
                 .contHeaderDescription__name{
                     color: white;
                     font-weight: 500;
-                    font-size: 38px;
+                    line-height: 1;
+                    font-size: 34px;
                 }
 
                 .contHeaderDescription__description{
                     color: white;
-                    font-size: 26px;
+                    margin-top: 10px;
+                    font-size: 24px;
+                    font-weight: 400;
                     color: var.$green;
                 }
 
                 .contHeaderDescription__line{
-                    margin: 16px auto;
-                    width: 200px;
-                    height: 1px;
+                    margin: 14px auto;
+                    width: 80%;
+                    height: 2px;
                     border: none;
                     background: var.$green;
                 }
                 
                 .contHeaderDescription__nivel{
-                    margin-top: 40px;
-                    color: white;
+                    margin-top: 50px;
                     color: var.$green;
-
+                    font-weight: 400;
                 }
             }
         }
     
-    }
+    }  
 }
 
 
