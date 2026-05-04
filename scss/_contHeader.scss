@@ -68,7 +68,7 @@
    
 
 /* 📲 Tablet */
-@media (min-width: 768px) { 
+@media (min-width:768px) { 
     .contHeader{
         width: 100%;
         background-image: url(../source/desarrollando.jpg);
@@ -76,34 +76,39 @@
         background-attachment: fixed;
         .contHeaderFondo{
             width: 100%;
-            background: var.$blue-trans;
+            background:rgba(0, 0, 0, 0.46);
             padding: 50px 10px;
             display: flex;
-            flex-direction: row;
-            justify-content:space-evenly;
+            flex-direction:column;
+            justify-content:space-around;
             align-items: center;
             .contHeaderPhoto{
                 margin-left: initial;
-                width: 220px;
-                height: 220px;
+                width: 198px;
+                height: 198px;
                 border-radius: 100%;
                 overflow: hidden;
-                display: block;
             }
         
             .contHeaderDescription{
                 margin-right:initial;
-                width: 480px;
-                padding: 10px 20px;
+                margin: 20px auto;
+                width: 450px;
+                padding: 20px 10px;
                 text-align: center;
+                border-radius: 15px;
+                box-shadow: 0px 0px 5px black;
+                background: var.$blue-trans;
                 .contHeaderDescription__name{
                     color: white;
                     font-weight: 500;
-                    font-size: 32px;
+                    line-height: 1;
+                    font-size: 28px;
                 }
 
                 .contHeaderDescription__description{
                     color: white;
+                    margin-top: 10px;
                     font-size: 20px;
                     font-weight: 400;
                     color: var.$green;
@@ -118,7 +123,7 @@
                 }
                 
                 .contHeaderDescription__nivel{
-                    margin-top: 40px;
+                    margin-top: 10px;
                     color: var.$green;
                     font-weight: 400;
                 }
@@ -252,6 +257,7 @@
     
     }
 }
+
 
 
 /* 🖥️ Pantallas grandes */
