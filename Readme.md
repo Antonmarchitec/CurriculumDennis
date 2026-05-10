@@ -20,3 +20,22 @@ RESPONSIVE APLICANDO MOVIL FIRST
 
 /* Móviles pequeños (hasta 480px) */
 @media (max-width: 480px) { ... }
+
+
+
+
+
+
+/* 📱 Base → móvil (sin media query) */
+
+/* 📲 Tablet */
+@media (min-width: 768px) { }
+
+/* 💻 Laptop */
+@media (min-width: 1024px) { }
+
+/* 🖥️ Desktop */
+@media (min-width: 1280px) { }
+
+/* 🖥️ Pantallas grandes */
+@media (min-width: 1440px) { }
