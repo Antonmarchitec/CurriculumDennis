@@ -460,13 +460,14 @@
   }
   .contBaseBloqueAB .contBloqueB {
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px;
     color: white;
-    background: rgb(72, 78, 78);
+    background: rgb(91, 129, 129);
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills {
     width: 100%;
     padding: 10px 0px;
+    background: yellowgreen;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .sectionRight_title {
     width: 240px;
@@ -485,14 +486,13 @@
     width: 100%;
     padding: 10px 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A {
-    width: 38%;
+    width: 300px;
     padding: 10px 0px;
-    background: transparent;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A .contBloqueB_contBloc {
     width: 100%;
@@ -513,9 +513,8 @@
     color: #0c1b32;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__B {
-    width: 38%;
+    width: 300px;
     padding: 10px 0px;
-    background: transparent;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__B .contBloqueB_contBloc {
     width: 100%;
@@ -538,6 +537,7 @@
   .contBaseBloqueAB .contBloqueB .contExperiencia {
     margin-top: 50px;
     width: 100%;
+    background: rgb(221, 255, 154);
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contExperiencia__title {
     width: 340px;
@@ -554,26 +554,34 @@
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp {
     margin-top: 30px;
     width: 100%;
-    padding: 10px 0px;
+    padding: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: initial;
+    background: teal;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas {
-    width: auto;
+    width: 100%;
     padding: 10px 20px;
     background: #0c1b32;
     text-align: center;
     border-radius: 10px 0px 0px 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas .contExperiencia__fechas__caja {
+    width: 85px;
     color: #56fbd3;
     font-size: 18px;
     font-weight: 300;
     line-height: 24px;
-    margin: 10px 0px;
+    margin: 10px 20px;
     cursor: pointer;
+    background: yellow;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .lineaVertical {
     margin-left: 30px;
@@ -585,6 +593,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-content: center;
+    display: none;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .lineaVertical .circulo {
     width: 22px;
@@ -635,6 +644,7 @@
   .contBaseBloqueAB .contBloqueB .contProyectos {
     width: 100%;
     padding: 50px 0px;
+    background: greenyellow;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__title {
     background: #0c1b32;
