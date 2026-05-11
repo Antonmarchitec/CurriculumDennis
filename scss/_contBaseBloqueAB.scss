@@ -1,485 +1,1040 @@
 @use "var";
 
-.contBaseBloqueAB{
-    width: 100%;
-    background: var.$white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
 
-    .contBloqueA{
-        width: 350px;
-        padding: 0px 10px;
-        background: var.$blue;
-        /****************/
-        .contBloqueA__base{
+
+
+
+/* 📱 Base → móvil (sin media query) ROJO*********************/
+@media (min-width: 320px) {
+    .contBaseBloqueAB{
+        width: 100%;
+        background: var.$white;
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: initial;
+        background: red;
+        .contBloqueA{
             width: 100%;
-            padding: 20px 20px;
-            background: transparent;
-
-            .contBloqueA__Subtitles{
-                font-size: 26px;
-                color: var.$white;
-                font-weight: 500;
-                text-transform: uppercase;
-            }
-            .contBloqueA__linea{
-                width: 38%;
-                height: 3px;
-                background: var.$green;
-                border: none;
-                margin-top: 18px;
-            }
-            .contBloqueA__description{
-                margin-top: 20px;
-                color: var.$white;
-            }
-        }
-
-        /******************/
-        .contBloqueB__base{
-            width: 100%;
-            padding: 20px 20px;
-            background: transparent;
-            .contBloqueB__Subtitles{
-                font-size: 26px;
-                color: var.$white;
-                font-weight: 500;
-                text-transform: uppercase;
-            }
-            .contBloqueB__linea{
-                margin-top: 18px;
-                width: 38%;
-                height: 3px;
-                background: var.$green;
-                border: none;
-            }
-            .contBloqueB__sectionIcons{
-                margin-top: 24px;
-                color: var.$parrafo-right;
-                .contBloqueB__sectionIcons__icon{
-                    padding: 5px 0px;
-                    margin-bottom: 2px;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: start;
-                    align-items: center;
-                    .iconContact{
-                        width: 45px;
-                        height: 45px;
-                        background: var.$green;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        color: var.$blue;
-                        font-size: 20px;
-                        border-radius: 50%;
-                        margin-right: 14px;
-                    }
-                    .iconText{
-                        color: var.$white;
-                    }
-
-                    .enlaceHi{
-                        text-decoration: none;
-                    }
-                }
-              
-            }
-         
-           
-        }
-
-        /******************/
-        .contBloqueC__base{
-            width: 100%;
-            padding: 20px 20px;
-            background: transparent;
-            .contBloqueC__Subtitles{
-                font-size: 26px;
-                color: var.$white;
-                font-weight: 500;
-                text-transform: uppercase;
-            }
-            .contBloqueC__linea{
-                width: 38%;
-                height: 3px;
-                background: var.$green;
-                border: none;
-                margin-top: 18px;
-            }
-            .contBloqueC__section{
+            padding: 0px 20px;
+            background: var.$blue;
+            /****************/
+            .contBloqueA__base{
                 width: 100%;
-                margin-top: 20px;
-                color: var.$white;
-                .fa-solid{
-                    color: var.$green;
-                    margin-right:5px;
-                    
-                }
-            }
-        }
-
-        /******************/
-        .contBloqueD__base{
-            width: 100%;
-            padding: 20px 20px;
-            background: transparent;
-            .contBloqueD__base{
-                font-size: 26px;
-                font-weight: 500;
-                text-transform: uppercase;
-            }
-            .contBloqueD__Subtitles{
-                font-size: 26px;
-                color: var.$white;
-                font-weight: 500;
-                text-transform: uppercase;
-            }
-            .contBloqueD__linea{
-                width: 38%;
-                height: 3px;
-                background: var.$green;
-                border: none;
-                margin-top: 18px;
-            }
-
-            .contBloqueD{
-                width: 100%;
-                padding: 10px 0px;
-                background: transparent;
-                .contBloqueD__bloque{
-                    margin: 10px 0px ;
-                    .contBloqueD__bloque__title{
-                        font-size: 16px;
-                        font-weight: 500;
-                        color: var.$green;
-                    }
-
-                    .contBloqueD__bloque__description{
-                        margin: 10px 30px;
-                        color: var.$parrafo-right;
-                        color: var.$white;
-                    }
-                }
-            }
-        }
-      
-    }
-
-    .contBloqueB{
-        width:70%;
-        padding: 10px 20px;
-        color: white;
-        //Bloque habilidades
-        .contBloqueB__baseSkills{
-            width: 100%;
-            padding: 10px 0px;
-
-            .sectionRight_title{
-                width: 240px;
-                border-radius: 20px;
-                margin: 30px auto;
-                padding: 3px 0px;
-                text-transform: uppercase;
-                font-weight: 500;
-                font-size: 26px;
+                padding: 20px;
                 text-align: center;
-                background: var.$blue;
-                color: var.$white;
-            }
-
-            .contBloqueB_cont{
-                margin-top: 20px;
-                width: 100%;
-                padding: 10px 0px;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: center;
-                .bloque__A{
-                    width: 38%;
-                    padding: 10px 0px;
-                    background: transparent;
-                    .contBloqueB_contBloc{
-                        width: 100%;
-                        background:transparent;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        align-items: center;
-                        .contBloqueB_contBloc__text{
-                            color: var.$parrafo-right;
-                            font-weight: 500;
-                            font-size: 20px;
-                        }
-                        .contBloqueB_contBloc__ball{
-                            background:transparent;
-                            padding: 3px;
-                            color: var.$blue;
-                            
-                        }
-                    }
+                .contBloqueA__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
                 }
-
-                .bloque__B{
-                    width: 38%;
-                    padding: 10px 0px;
-                    background: transparent;
-                    .contBloqueB_contBloc{
-                        width: 100%;
-                        background:transparent;
-                        display: flex;
-                        flex-direction: row;
-                        justify-content: space-between;
-                        align-items: center;
-                        .contBloqueB_contBloc__text{
-                            color: var.$parrafo-right;
-                            font-weight: 500;
-                            font-size: 20px;
-                        }
-                        .contBloqueB_contBloc__ball{
-                            background:transparent;
-                            padding: 3px;
-                            color: var.$blue;
-                        }
-                    }
-                }
-            }
-        }
-
-        //Bloque Experiencia Laboral
-        .contExperiencia{
-            margin-top: 50px;
-            width: 100%;
-            .contExperiencia__title{
-                width: 340px;
-                border-radius: 20px;
-                margin: auto;
-                padding: 3px 0px;
-                text-transform: uppercase;
-                font-weight: 500;
-                font-size: 26px;
-                text-align: center;
-                background: var.$blue;
-                color: var.$white;
-            }
-
-            .contBlockExp{
-                margin-top: 30px;
-                width: 100%;
-                padding: 10px 0px;
-                display: flex;
-                flex-direction: row;
-                justify-content: flex-start;
-                align-items: flex-start;
-                .contExperiencia__fechas{
-                    width: auto;
-                    padding: 10px 20px;
-                    background: var.$blue;
-                    text-align: center;
-                    border-radius: 10px 0px 0px 10px;
-                    .contExperiencia__fechas__caja{
-                        color: var.$green;
-                        font-size: 18px;
-                        font-weight: 300;
-                        line-height: 24px;
-                        margin: 10px 0px;
-                        cursor: pointer;
-                    }
-                }
-    
-                .lineaVertical{
-                    margin-left: 30px;
-                    background: var.$blue;
-                    height: 480px;
-                    width: 10px;
+                .contBloqueA__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
                     border: none;
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-evenly;
-                    align-content: center;
-                    .circulo{
-                        width: 22px;
-                        height: 22px;
-                        background: var.$blue;
-                        border-radius: 50%;
-                        margin-left: -6px;
-                    }
+                    margin: 18px calc(20%);
                 }
-                
-                .contExperiencia__content{
-                    width: calc(100% - 180px);
-                    padding: 30px;
-                    background: var.$blue;
-                    margin-left: 30px;
-                    border-radius: 0px 10px 10px 0px;
+                .contBloqueA__description{
+                    margin-top: 20px;
+                    color: var.$white;
+                }
+            }
 
+            /******************/
+            .contBloqueB__base{
+                width: 100%;
+                padding: 20px 10px;
+                text-align: center;
+                .contBloqueB__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
 
-                    .contBaseExp{
-                        width: 100%;
-                        .contBaseExp__title{
-                            color: var.$green;
-                            font-weight: 500;
-                            font-size: 24px;
-                            text-transform: uppercase;
-                            
+                .contBloqueB__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+
+                .contBloqueB__sectionIcons{
+                    width:280px;
+                    margin: 24px auto;
+                    color: var.$parrafo-right;
+                    .contBloqueB__sectionIcons__icon{
+                        padding: 5px 0px;
+                        margin: 2px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: start;
+                        align-items: center;
+                        .iconContact{
+                            width: 45px;
+                            height: 45px;
+                            background: var.$green;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: var.$blue;
+                            font-size: 20px;
+                            border-radius: 50%;
+                            margin-right: 14px;
                         }
-
-                        .contBaseExp__text{
+                        .iconText{
                             color: var.$white;
                         }
 
-                        .contBaseExp__figure{
-                            width: 300px;
-                            height: 110px;
-                            box-shadow: 10px 10px 0px black;
-                         
-                        }
-
-                        .contBaseExp__web{
-                            color: #56fbd3;
-                            .webLink{
-                                color: var.$white;
-                                text-decoration: none;
-                            }
+                        .enlaceHi{
+                            text-decoration: none;
                         }
                     }
-                    /*
-                    contExperiencia__content
-contBaseExp
-contBaseExp__title
-contBaseExp__text
-                    */
+                
+                }
+            
+            
+            }
+
+            /******************/
+            .contBloqueC__base{
+                width: 100%;
+                padding: 20px;
+                text-align: center;
+                .contBloqueC__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+
+                .contBloqueC__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+                
+                .contBloqueC__section{
+                    width: 250px;
+                    margin: 20px auto;
+                    color: var.$white;
+                    text-align: left;
+                    .fa-solid{
+                        color: var.$green;
+                        margin-right:5px;
+                        
+                    }
                 }
             }
-            
-        }
-        
-        //Bloque proyecto web
-        .contProyectos{
-            width: 100%;
-            padding: 50px 0px ;
-            .contProyectos__title{
-                background: var.$blue;
-                font-size: 26px;
-                width: 340px;
-                border-radius: 20px;
-                margin: auto;
-                padding: 3px 0px;
-                color: var.$white;
-                text-transform: uppercase;
-                font-weight: 500;
-                text-align: center;
 
-            }
-
-            .contProyectos__section{
-                margin-top: 30px;
+            /******************/
+            .contBloqueD__base{
                 width: 100%;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
-                align-items: flex-start;
-                
-                .contProyectos__block{
-                    width: 260px;
-                    padding: 30px 20px;
+                padding: 20px;
+                text-align: center;
+                .contBloqueD__base{
+                    font-size: 26px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueD__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    line-height: 28px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueD__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+
+                .contBloqueD{
+                    width: 100%;
+                    padding: 10px 0px;
+                    background: transparent;
+                    .contBloqueD__bloque{
+                        margin: 10px 0px ;
+                        .contBloqueD__bloque__title{
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: var.$green;
+                        }
+
+                        .contBloqueD__bloque__description{
+                            margin: 10px 30px;
+                            color: var.$parrafo-right;
+                            color: var.$white;
+                        }
+                    }
+                }
+            }
+        
+        }
+
+        .contBloqueB{
+            width:100%;
+            padding: 10px 20px;
+            color: white;
+            background: rgb(72, 78, 78);
+            //Bloque habilidades
+            .contBloqueB__baseSkills{
+                width: 100%;
+                padding: 10px 0px;
+
+                .sectionRight_title{
+                    width: 240px;
+                    border-radius: 20px;
+                    margin: 30px auto;
+                    padding: 3px 0px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 26px;
+                    text-align: center;
                     background: var.$blue;
-                    border-radius: 10px;
-                    .hiperPro{
-                        text-decoration: none;
-                        color: var.$green;
-                        cursor: pointer;
-                        .contProyectos__box{
+                    color: var.$white;
+                }
+
+                .contBloqueB_cont{
+                    margin-top: 20px;
+                    width: 100%;
+                    padding: 10px 0px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    .bloque__A{
+                        width: 38%;
+                        padding: 10px 0px;
+                        background: transparent;
+                        .contBloqueB_contBloc{
+                            width: 100%;
+                            background:transparent;
                             display: flex;
                             flex-direction: row;
-                            justify-content: flex-start;
+                            justify-content: space-between;
                             align-items: center;
-                            margin-top:5px;
-                            .iconProyect{
+                            .contBloqueB_contBloc__text{
+                                color: var.$parrafo-right;
+                                font-weight: 500;
                                 font-size: 20px;
-                                margin-right: 10px;
-                                color: var.$green;
                             }
-                            .contProyectos__boxText{
-                                text-decoration: none;
-                                color: var.$white;
-                                font-size: 14px;
-                                transition: 0.2s all;
-                            }
-                            .contProyectos__boxText:hover{
-                                color:var.$green;
+                            .contBloqueB_contBloc__ball{
+                                background:transparent;
+                                padding: 3px;
+                                color: var.$blue;
+                                
                             }
                         }
                     }
-                   
+
+                    .bloque__B{
+                        width: 38%;
+                        padding: 10px 0px;
+                        background: transparent;
+                        .contBloqueB_contBloc{
+                            width: 100%;
+                            background:transparent;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            .contBloqueB_contBloc__text{
+                                color: var.$parrafo-right;
+                                font-weight: 500;
+                                font-size: 20px;
+                            }
+                            .contBloqueB_contBloc__ball{
+                                background:transparent;
+                                padding: 3px;
+                                color: var.$blue;
+                            }
+                        }
+                    }
+                }
+            }
+
+            //Bloque Experiencia Laboral
+            .contExperiencia{
+                margin-top: 50px;
+                width: 100%;
+                .contExperiencia__title{
+                    width: 340px;
+                    border-radius: 20px;
+                    margin: auto;
+                    padding: 3px 0px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 26px;
+                    text-align: center;
+                    background: var.$blue;
+                    color: var.$white;
                 }
 
-                .contProyectos__blockDesc{
+                .contBlockExp{
+                    margin-top: 30px;
                     width: 100%;
-                    
-                    .contProyectosBase{
-                        width: 100%;
-                        padding: 20px;
-                        display: flex;
-                        justify-content: flex-start;
-                        align-items:flex-start;
-
-                    }
-                    
-                    .contProyectos__blockDescA{
-                        width: 68%;
-                        padding:20px 30px;
-                        .contProyectos__blockDesc__title{
-                            color: var.$blue;
-                            font-weight: 500;
-                            font-size: 24px;
-                            text-transform: uppercase;
-                            line-height: 28px;   
-                        }
-
-                        .contProyLine{
-                            margin-top: 10px;
-                            width: 120px;
-                            height: 6px;
-                            background: var.$blue;
-                            border: none;
-                        }
-
-                        .contProyectos__blockDesc__text{
-                            margin: 20px 0px;
-                            font-size: 14px;
+                    padding: 10px 0px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    .contExperiencia__fechas{
+                        width: auto;
+                        padding: 10px 20px;
+                        background: var.$blue;
+                        text-align: center;
+                        border-radius: 10px 0px 0px 10px;
+                        .contExperiencia__fechas__caja{
+                            color: var.$green;
+                            font-size: 18px;
                             font-weight: 300;
-                            color: var.$parrafo-right;
-                        }
-    
-                        .hiperProy{
-                            text-decoration: none;
-                            color: var.$blue;
-                            font-size: 14px;
+                            line-height: 24px;
+                            margin: 10px 0px;
+                            cursor: pointer;
                         }
                     }
-
-                    .contProyectos__blockDescB{
-                        width: 200px;
-                        height: 300px;
-                        background: rgba(128, 128, 128, 0.31);
-                        box-shadow: 8px 8px 10px rgb(81, 81, 81);
+        
+                    .lineaVertical{
+                        margin-left: 30px;
+                        background: var.$blue;
+                        height: 480px;
+                        width: 10px;
+                        border: none;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        align-content: center;
+                        .circulo{
+                            width: 22px;
+                            height: 22px;
+                            background: var.$blue;
+                            border-radius: 50%;
+                            margin-left: -6px;
+                        }
                     }
+                    
+                    .contExperiencia__content{
+                        width: calc(100% - 180px);
+                        padding: 30px;
+                        background: var.$blue;
+                        margin-left: 30px;
+                        border-radius: 0px 10px 10px 0px;
 
-                  
-                }              
+
+                        .contBaseExp{
+                            width: 100%;
+                            .contBaseExp__title{
+                                color: var.$green;
+                                font-weight: 500;
+                                font-size: 24px;
+                                text-transform: uppercase;
+                                
+                            }
+
+                            .contBaseExp__text{
+                                color: var.$white;
+                            }
+
+                            .contBaseExp__figure{
+                                width: 300px;
+                                height: 110px;
+                                box-shadow: 10px 10px 0px black;
+                            
+                            }
+
+                            .contBaseExp__web{
+                                color: #56fbd3;
+                                .webLink{
+                                    color: var.$white;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        /*
+                        contExperiencia__content
+    contBaseExp
+    contBaseExp__title
+    contBaseExp__text
+                        */
+                    }
+                }
                 
             }
-          
+            
+            //Bloque proyecto web
+            .contProyectos{
+                width: 100%;
+                padding: 50px 0px ;
+                .contProyectos__title{
+                    background: var.$blue;
+                    font-size: 26px;
+                    width: 340px;
+                    border-radius: 20px;
+                    margin: auto;
+                    padding: 3px 0px;
+                    color: var.$white;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    text-align: center;
+
+                }
+
+                .contProyectos__section{
+                    margin-top: 30px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    
+                    .contProyectos__block{
+                        width: 260px;
+                        padding: 30px 20px;
+                        background: var.$blue;
+                        border-radius: 10px;
+                        .hiperPro{
+                            text-decoration: none;
+                            color: var.$green;
+                            cursor: pointer;
+                            .contProyectos__box{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start;
+                                align-items: center;
+                                margin-top:5px;
+                                .iconProyect{
+                                    font-size: 20px;
+                                    margin-right: 10px;
+                                    color: var.$green;
+                                }
+                                .contProyectos__boxText{
+                                    text-decoration: none;
+                                    color: var.$white;
+                                    font-size: 14px;
+                                    transition: 0.2s all;
+                                }
+                                .contProyectos__boxText:hover{
+                                    color:var.$green;
+                                }
+                            }
+                        }
+                    
+                    }
+
+                    .contProyectos__blockDesc{
+                        width: 100%;
+                        
+                        .contProyectosBase{
+                            width: 100%;
+                            padding: 20px;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items:flex-start;
+
+                        }
+                        
+                        .contProyectos__blockDescA{
+                            width: 68%;
+                            padding:20px 30px;
+                            .contProyectos__blockDesc__title{
+                                color: var.$blue;
+                                font-weight: 500;
+                                font-size: 24px;
+                                text-transform: uppercase;
+                                line-height: 28px;   
+                            }
+
+                            .contProyLine{
+                                margin-top: 10px;
+                                width: 120px;
+                                height: 6px;
+                                background: var.$blue;
+                                border: none;
+                            }
+
+                            .contProyectos__blockDesc__text{
+                                margin: 20px 0px;
+                                font-size: 14px;
+                                font-weight: 300;
+                                color: var.$parrafo-right;
+                            }
+        
+                            .hiperProy{
+                                text-decoration: none;
+                                color: var.$blue;
+                                font-size: 14px;
+                            }
+                        }
+
+                        .contProyectos__blockDescB{
+                            width: 200px;
+                            height: 300px;
+                            background: rgba(128, 128, 128, 0.31);
+                            box-shadow: 8px 8px 10px rgb(81, 81, 81);
+                        }
+
+                    
+                    }              
+                    
+                }
+            
+
+            }
+
+
 
         }
+    } 
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 📲 Tablet YELLOW******************************************/
+@media (min-width: 768px) {
+    .contBaseBloqueAB{
+        background: yellow;
     }
+}
 
 
+
+/* 💻 Laptop GREEN******************************************/
+@media (min-width: 1024px) {
+     .contBaseBloqueAB{
+        background: green;
+    }
+}
+
+
+
+
+/* 🖥️ Desktop BLUE******************************************/
+@media (min-width: 1280px) {
+    .contBaseBloqueAB{
+        background: blue;
+    }
+}
+
+
+
+
+/* 🖥️ Pantallas grandes VIOLET******************************/
+@media (min-width: 1440px) {
+    .contBaseBloqueAB{
+        width: 100%;
+        background: var.$white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        display: none;
+        .contBloqueA{
+            width: 350px;
+            padding: 0px 10px;
+            background: var.$blue;
+            /****************/
+            .contBloqueA__base{
+                width: 100%;
+                padding: 20px 20px;
+                background: transparent;
+
+                .contBloqueA__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueA__linea{
+                    width: 38%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin-top: 18px;
+                }
+                .contBloqueA__description{
+                    margin-top: 20px;
+                    color: var.$white;
+                }
+            }
+
+            /******************/
+            .contBloqueB__base{
+                width: 100%;
+                padding: 20px 20px;
+                background: transparent;
+                .contBloqueB__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueB__linea{
+                    margin-top: 18px;
+                    width: 38%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                }
+                .contBloqueB__sectionIcons{
+                    margin-top: 24px;
+                    color: var.$parrafo-right;
+                    .contBloqueB__sectionIcons__icon{
+                        padding: 5px 0px;
+                        margin-bottom: 2px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: start;
+                        align-items: center;
+                        .iconContact{
+                            width: 45px;
+                            height: 45px;
+                            background: var.$green;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: var.$blue;
+                            font-size: 20px;
+                            border-radius: 50%;
+                            margin-right: 14px;
+                        }
+                        .iconText{
+                            color: var.$white;
+                        }
+
+                        .enlaceHi{
+                            text-decoration: none;
+                        }
+                    }
+                
+                }
+            
+            
+            }
+
+            /******************/
+            .contBloqueC__base{
+                width: 100%;
+                padding: 20px 20px;
+                background: transparent;
+                .contBloqueC__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueC__linea{
+                    width: 38%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin-top: 18px;
+                }
+                .contBloqueC__section{
+                    width: 100%;
+                    margin-top: 20px;
+                    color: var.$white;
+                    .fa-solid{
+                        color: var.$green;
+                        margin-right:5px;
+                        
+                    }
+                }
+            }
+
+            /******************/
+            .contBloqueD__base{
+                width: 100%;
+                padding: 20px 20px;
+                background: transparent;
+                .contBloqueD__base{
+                    font-size: 26px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueD__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueD__linea{
+                    width: 38%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin-top: 18px;
+                }
+
+                .contBloqueD{
+                    width: 100%;
+                    padding: 10px 0px;
+                    background: transparent;
+                    .contBloqueD__bloque{
+                        margin: 10px 0px ;
+                        .contBloqueD__bloque__title{
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: var.$green;
+                        }
+
+                        .contBloqueD__bloque__description{
+                            margin: 10px 30px;
+                            color: var.$parrafo-right;
+                            color: var.$white;
+                        }
+                    }
+                }
+            }
+        
+        }
+
+        .contBloqueB{
+            width:70%;
+            padding: 10px 20px;
+            color: white;
+            //Bloque habilidades
+            .contBloqueB__baseSkills{
+                width: 100%;
+                padding: 10px 0px;
+
+                .sectionRight_title{
+                    width: 240px;
+                    border-radius: 20px;
+                    margin: 30px auto;
+                    padding: 3px 0px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 26px;
+                    text-align: center;
+                    background: var.$blue;
+                    color: var.$white;
+                }
+
+                .contBloqueB_cont{
+                    margin-top: 20px;
+                    width: 100%;
+                    padding: 10px 0px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    .bloque__A{
+                        width: 38%;
+                        padding: 10px 0px;
+                        background: transparent;
+                        .contBloqueB_contBloc{
+                            width: 100%;
+                            background:transparent;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            .contBloqueB_contBloc__text{
+                                color: var.$parrafo-right;
+                                font-weight: 500;
+                                font-size: 20px;
+                            }
+                            .contBloqueB_contBloc__ball{
+                                background:transparent;
+                                padding: 3px;
+                                color: var.$blue;
+                                
+                            }
+                        }
+                    }
+
+                    .bloque__B{
+                        width: 38%;
+                        padding: 10px 0px;
+                        background: transparent;
+                        .contBloqueB_contBloc{
+                            width: 100%;
+                            background:transparent;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            align-items: center;
+                            .contBloqueB_contBloc__text{
+                                color: var.$parrafo-right;
+                                font-weight: 500;
+                                font-size: 20px;
+                            }
+                            .contBloqueB_contBloc__ball{
+                                background:transparent;
+                                padding: 3px;
+                                color: var.$blue;
+                            }
+                        }
+                    }
+                }
+            }
+
+            //Bloque Experiencia Laboral
+            .contExperiencia{
+                margin-top: 50px;
+                width: 100%;
+                .contExperiencia__title{
+                    width: 340px;
+                    border-radius: 20px;
+                    margin: auto;
+                    padding: 3px 0px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 26px;
+                    text-align: center;
+                    background: var.$blue;
+                    color: var.$white;
+                }
+
+                .contBlockExp{
+                    margin-top: 30px;
+                    width: 100%;
+                    padding: 10px 0px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    .contExperiencia__fechas{
+                        width: auto;
+                        padding: 10px 20px;
+                        background: var.$blue;
+                        text-align: center;
+                        border-radius: 10px 0px 0px 10px;
+                        .contExperiencia__fechas__caja{
+                            color: var.$green;
+                            font-size: 18px;
+                            font-weight: 300;
+                            line-height: 24px;
+                            margin: 10px 0px;
+                            cursor: pointer;
+                        }
+                    }
+        
+                    .lineaVertical{
+                        margin-left: 30px;
+                        background: var.$blue;
+                        height: 480px;
+                        width: 10px;
+                        border: none;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        align-content: center;
+                        .circulo{
+                            width: 22px;
+                            height: 22px;
+                            background: var.$blue;
+                            border-radius: 50%;
+                            margin-left: -6px;
+                        }
+                    }
+                    
+                    .contExperiencia__content{
+                        width: calc(100% - 180px);
+                        padding: 30px;
+                        background: var.$blue;
+                        margin-left: 30px;
+                        border-radius: 0px 10px 10px 0px;
+
+
+                        .contBaseExp{
+                            width: 100%;
+                            .contBaseExp__title{
+                                color: var.$green;
+                                font-weight: 500;
+                                font-size: 24px;
+                                text-transform: uppercase;
+                                
+                            }
+
+                            .contBaseExp__text{
+                                color: var.$white;
+                            }
+
+                            .contBaseExp__figure{
+                                width: 300px;
+                                height: 110px;
+                                box-shadow: 10px 10px 0px black;
+                            
+                            }
+
+                            .contBaseExp__web{
+                                color: #56fbd3;
+                                .webLink{
+                                    color: var.$white;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        /*
+                        contExperiencia__content
+    contBaseExp
+    contBaseExp__title
+    contBaseExp__text
+                        */
+                    }
+                }
+                
+            }
+            
+            //Bloque proyecto web
+            .contProyectos{
+                width: 100%;
+                padding: 50px 0px ;
+                .contProyectos__title{
+                    background: var.$blue;
+                    font-size: 26px;
+                    width: 340px;
+                    border-radius: 20px;
+                    margin: auto;
+                    padding: 3px 0px;
+                    color: var.$white;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    text-align: center;
+
+                }
+
+                .contProyectos__section{
+                    margin-top: 30px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    
+                    .contProyectos__block{
+                        width: 260px;
+                        padding: 30px 20px;
+                        background: var.$blue;
+                        border-radius: 10px;
+                        .hiperPro{
+                            text-decoration: none;
+                            color: var.$green;
+                            cursor: pointer;
+                            .contProyectos__box{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start;
+                                align-items: center;
+                                margin-top:5px;
+                                .iconProyect{
+                                    font-size: 20px;
+                                    margin-right: 10px;
+                                    color: var.$green;
+                                }
+                                .contProyectos__boxText{
+                                    text-decoration: none;
+                                    color: var.$white;
+                                    font-size: 14px;
+                                    transition: 0.2s all;
+                                }
+                                .contProyectos__boxText:hover{
+                                    color:var.$green;
+                                }
+                            }
+                        }
+                    
+                    }
+
+                    .contProyectos__blockDesc{
+                        width: 100%;
+                        
+                        .contProyectosBase{
+                            width: 100%;
+                            padding: 20px;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items:flex-start;
+
+                        }
+                        
+                        .contProyectos__blockDescA{
+                            width: 68%;
+                            padding:20px 30px;
+                            .contProyectos__blockDesc__title{
+                                color: var.$blue;
+                                font-weight: 500;
+                                font-size: 24px;
+                                text-transform: uppercase;
+                                line-height: 28px;   
+                            }
+
+                            .contProyLine{
+                                margin-top: 10px;
+                                width: 120px;
+                                height: 6px;
+                                background: var.$blue;
+                                border: none;
+                            }
+
+                            .contProyectos__blockDesc__text{
+                                margin: 20px 0px;
+                                font-size: 14px;
+                                font-weight: 300;
+                                color: var.$parrafo-right;
+                            }
+        
+                            .hiperProy{
+                                text-decoration: none;
+                                color: var.$blue;
+                                font-size: 14px;
+                            }
+                        }
+
+                        .contProyectos__blockDescB{
+                            width: 200px;
+                            height: 300px;
+                            background: rgba(128, 128, 128, 0.31);
+                            box-shadow: 8px 8px 10px rgb(81, 81, 81);
+                        }
+
+                    
+                    }              
+                    
+                }
+            
+
+            }
+
+
+
+        }
+    } 
 }

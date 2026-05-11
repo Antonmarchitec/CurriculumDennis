@@ -2,13 +2,14 @@
 
 
 
-/* 📱 Base → móvil (sin media query) */
+/* 📱 Base → móvil (sin media query) ROJO*********************/
 @media (min-width: 320px) { 
     .contHeader{
         width: 100%;
         background-image: url(../source/desarrollando.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
+        background: red;
         .contHeaderFondo{
             width: 100%;
             background:rgba(0, 0, 0, 0.46);
@@ -26,22 +27,24 @@
             }
         
             .contHeaderDescription{
+                width: 100%;
                 margin-right:initial;
                 margin: 20px auto;
-                width: 100%;
-                padding: 10px 20px;
+                padding: 10px 10px;
                 text-align: center;
                 .contHeaderDescription__name{
+                    width: 100%;
                     color: white;
                     font-weight: 500;
                     line-height: 1;
-                    font-size: 28px;
+                    font-size: 32px;
                 }
 
                 .contHeaderDescription__description{
+                    width: 100%;
+                    margin-top: 0;
                     color: white;
-                    margin-top: 10px;
-                    font-size: 20px;
+                    font-size: 22px;
                     font-weight: 400;
                     color: var.$green;
                 }
@@ -67,13 +70,14 @@
 
    
 
-/* 📲 Tablet */
+/* 📲 Tablet YELLOW******************************************/
 @media (min-width:768px) { 
     .contHeader{
         width: 100%;
         background-image: url(../source/desarrollando.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
+        background: yellow;
         .contHeaderFondo{
             width: 100%;
             background:rgba(0, 0, 0, 0.46);
@@ -132,13 +136,14 @@
 
 
 
-/* 💻 Laptop */
+/* 💻 Laptop GREEN******************************************/
 @media (min-width:1024px) { 
     .contHeader{
         width: 100%;
         background-image: url(../source/desarrollando.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
+        background: green;
         .contHeaderFondo{
             width: 100%;
             background:rgba(0, 0, 0, 0.46);
@@ -198,13 +203,14 @@
 
 
 
-/* 🖥️ Desktop */
+/* 🖥️ Desktop BLUE******************************************/
 @media (min-width:1280px) { 
     .contHeader{
         width: 100%;
         background-image: url(../source/desarrollando.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
+        background: blue;
         .contHeaderFondo{
             width: 100%;
             background:rgba(0, 0, 0, 0.46);
@@ -264,13 +270,14 @@
 
 
 
-/* 🖥️ Pantallas grandes */
+/* 🖥️ Pantallas grandes VIOLET******************************/
 @media (min-width:1440px) { 
     .contHeader{
         width: 100%;
         background-image: url(../source/desarrollando.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
+        background: violet;
         .contHeaderFondo{
             width: 100%;
             background:rgba(0, 0, 0, 0.46);
