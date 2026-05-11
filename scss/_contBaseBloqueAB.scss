@@ -286,7 +286,6 @@
                     flex-direction: column;
                     justify-content: initial;
                     align-items: initial;
-                    background: teal;
                     .contExperiencia__fechas{
                         width:100%;
                         padding: 10px 20px;
@@ -299,14 +298,13 @@
                         justify-content: center;
                         align-items: center;
                         .contExperiencia__fechas__caja{
-                            width: 85px;
-                            color: var.$green;
-                            font-size: 18px;
-                            font-weight: 300;
-                            line-height: 24px;
-                            margin: 10px 20px;
-                            cursor: pointer;
-                            background: yellow;
+                           width: 85%;
+                           color: var.$green;
+                           font-size: 18px;
+                           font-weight: 300px;
+                           line-height: 24px;
+                           margin: 10px 20px;
+                           cursor: pointer;
                         }
                     }
         
@@ -331,15 +329,17 @@
                     }
                     
                     .contExperiencia__content{
-                        width: calc(100% - 180px);
-                        padding: 30px;
+                        //width: calc(100% - 180px);
+                        width: 100%;
+                        padding: 30px 10px;
                         background: var.$blue;
-                        margin-left: 30px;
+                        margin-left: initial;
                         border-radius: 0px 10px 10px 0px;
 
 
                         .contBaseExp{
                             width: 100%;
+                            text-align: center;
                             .contBaseExp__title{
                                 color: var.$green;
                                 font-weight: 500;
@@ -350,13 +350,14 @@
 
                             .contBaseExp__text{
                                 color: var.$white;
+                                background: teal;
                             }
 
                             .contBaseExp__figure{
                                 width: 300px;
                                 height: 110px;
                                 box-shadow: 10px 10px 0px black;
-                            
+                                margin: auto;
                             }
 
                             .contBaseExp__web{

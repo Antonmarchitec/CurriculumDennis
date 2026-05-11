@@ -559,7 +559,6 @@
     flex-direction: column;
     justify-content: initial;
     align-items: initial;
-    background: teal;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas {
     width: 100%;
@@ -574,14 +573,13 @@
     align-items: center;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas .contExperiencia__fechas__caja {
-    width: 85px;
+    width: 85%;
     color: #56fbd3;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 300px;
     line-height: 24px;
     margin: 10px 20px;
     cursor: pointer;
-    background: yellow;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .lineaVertical {
     margin-left: 30px;
@@ -603,14 +601,15 @@
     margin-left: -6px;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content {
-    width: calc(100% - 180px);
-    padding: 30px;
+    width: 100%;
+    padding: 30px 10px;
     background: #0c1b32;
-    margin-left: 30px;
+    margin-left: initial;
     border-radius: 0px 10px 10px 0px;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp {
     width: 100%;
+    text-align: center;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__title {
     color: #56fbd3;
@@ -620,11 +619,13 @@
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__text {
     color: #ffffff;
+    background: teal;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__figure {
     width: 300px;
     height: 110px;
     box-shadow: 10px 10px 0px black;
+    margin: auto;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__web {
     color: #56fbd3;
