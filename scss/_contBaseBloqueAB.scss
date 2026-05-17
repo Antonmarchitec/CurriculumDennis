@@ -16,7 +16,7 @@
         background: red;
         .contBloqueA{
             width: 100%;
-            padding: 0px 20px;
+            padding: 10px 20px;
             background: var.$blue;
             /****************/
             .contBloqueA__base{
@@ -184,12 +184,12 @@
             width:100%;
             padding: 10px;
             color: white;
-            background: rgb(91, 129, 129);
+            background: rgb(17, 34, 188);
+
             //Bloque habilidades
             .contBloqueB__baseSkills{
                 width: 100%;
                 padding: 10px 0px;
-                background: yellowgreen;
                 .sectionRight_title{
                     width: 240px;
                     border-radius: 20px;
@@ -264,7 +264,6 @@
             .contExperiencia{
                 margin-top: 50px;
                 width: 100%;
-                background: rgb(221, 255, 154);
                 .contExperiencia__title{
                     width: 340px;
                     border-radius: 20px;
@@ -298,7 +297,7 @@
                         justify-content: center;
                         align-items: center;
                         .contExperiencia__fechas__caja{
-                           width: 85%;
+                           width: 30%;
                            color: var.$green;
                            font-size: 18px;
                            font-weight: 300px;
@@ -336,21 +335,22 @@
                         margin-left: initial;
                         border-radius: 0px 10px 10px 0px;
 
-
                         .contBaseExp{
                             width: 100%;
                             text-align: center;
                             .contBaseExp__title{
+                                width: 80%;
                                 color: var.$green;
                                 font-weight: 500;
+                                line-height: 28px;
                                 font-size: 24px;
                                 text-transform: uppercase;
+                                margin: auto;
                                 
                             }
 
                             .contBaseExp__text{
                                 color: var.$white;
-                                background: teal;
                             }
 
                             .contBaseExp__figure{
@@ -376,14 +376,13 @@
                         */
                     }
                 }
-                
             }
             
             //Bloque proyecto web
             .contProyectos{
                 width: 100%;
                 padding: 50px 0px ;
-                background: greenyellow;
+                background: rgb(10, 180, 10);
                 .contProyectos__title{
                     background: var.$blue;
                     font-size: 26px;

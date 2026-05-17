@@ -304,7 +304,7 @@
   }
   .contBaseBloqueAB .contBloqueA {
     width: 100%;
-    padding: 0px 20px;
+    padding: 10px 20px;
     background: #0c1b32;
     /****************/
   }
@@ -462,12 +462,11 @@
     width: 100%;
     padding: 10px;
     color: white;
-    background: rgb(91, 129, 129);
+    background: rgb(17, 34, 188);
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills {
     width: 100%;
     padding: 10px 0px;
-    background: yellowgreen;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .sectionRight_title {
     width: 240px;
@@ -537,7 +536,6 @@
   .contBaseBloqueAB .contBloqueB .contExperiencia {
     margin-top: 50px;
     width: 100%;
-    background: rgb(221, 255, 154);
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contExperiencia__title {
     width: 340px;
@@ -573,7 +571,7 @@
     align-items: center;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas .contExperiencia__fechas__caja {
-    width: 85%;
+    width: 30%;
     color: #56fbd3;
     font-size: 18px;
     font-weight: 300px;
@@ -612,14 +610,16 @@
     text-align: center;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__title {
+    width: 80%;
     color: #56fbd3;
     font-weight: 500;
+    line-height: 28px;
     font-size: 24px;
     text-transform: uppercase;
+    margin: auto;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__text {
     color: #ffffff;
-    background: teal;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__figure {
     width: 300px;
@@ -645,7 +645,7 @@
   .contBaseBloqueAB .contBloqueB .contProyectos {
     width: 100%;
     padding: 50px 0px;
-    background: greenyellow;
+    background: rgb(10, 180, 10);
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__title {
     background: #0c1b32;
