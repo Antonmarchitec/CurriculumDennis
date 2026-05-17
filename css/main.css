@@ -666,6 +666,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+    background: teal;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block {
     width: 260px;
