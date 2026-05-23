@@ -663,10 +663,11 @@
     margin-top: 30px;
     width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    background: teal;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 0px;
+    background: rgb(68, 72, 72);
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block {
     width: 260px;
@@ -702,17 +703,20 @@
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc {
     width: 100%;
+    background: hotpink;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase {
     width: 100%;
     padding: 20px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA {
-    width: 68%;
+    width: 100%;
     padding: 20px 30px;
+    background: #56fbd3;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyectos__blockDesc__title {
     color: #0c1b32;

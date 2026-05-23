@@ -401,15 +401,17 @@
                     margin-top: 30px;
                     width: 100%;
                     display: flex;
-                    flex-direction: row;
-                    justify-content: space-around;
-                    align-items: flex-start;
-                    background: teal;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding: 10px 0px;
+                    background: rgb(68, 72, 72);
                     .contProyectos__block{
                         width: 260px;
                         padding: 30px 20px;
                         background: var.$blue;
                         border-radius: 10px;
+                        
                         .hiperPro{
                             text-decoration: none;
                             color: var.$green;
@@ -441,19 +443,21 @@
 
                     .contProyectos__blockDesc{
                         width: 100%;
-                        
+                        background: hotpink;
                         .contProyectosBase{
                             width: 100%;
                             padding: 20px;
                             display: flex;
-                            justify-content: flex-start;
-                            align-items:flex-start;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items:center;
 
                         }
                         
                         .contProyectos__blockDescA{
-                            width: 68%;
+                            width: 100%;
                             padding:20px 30px;
+                            background: #56fbd3;
                             .contProyectos__blockDesc__title{
                                 color: var.$blue;
                                 font-weight: 500;
