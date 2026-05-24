@@ -180,9 +180,11 @@
         
         }
 
+
+        
         .contBloqueB{
             width:100%;
-            padding: 10px;
+            padding: 10px 0px;
             color: white;
             background: var.$white;
 
@@ -228,6 +230,7 @@
                             justify-content: center;
                             align-items: center;
                             background: var.$blue;
+                            border-radius:16px;
                             .contBloqueB_contBloc__image{
                                 width: 100px;
                                 height: 100px;
@@ -260,7 +263,7 @@
                 margin-top: 50px;
                 width: 100%;
                 .contExperiencia__title{
-                    width: 340px;
+                    width: 240px;
                     border-radius: 20px;
                     margin: auto;
                     padding: 3px 0px;
@@ -278,21 +281,26 @@
                     padding: 10px;
                     display: flex;
                     flex-direction: column;
-                    justify-content: initial;
-                    align-items: initial;
+                    justify-content: start;
+                    align-items: end;
+                    position: relative;
                     .contExperiencia__fechas{
-                        width:100%;
-                        padding: 10px 20px;
+                        width:55px;
+                        padding: 5px;
                         background: var.$blue;
+                        background: rgba(0, 0, 0, 0.491);
                         text-align: center;
-                        border-radius: 10px 0px 0px 10px;
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
                         justify-content: center;
                         align-items: center;
+                        position: absolute;
+                        top: 0;
+                        left: -100%;
+                      
                         .contExperiencia__fechas__caja{
-                           width: 30%;
+                           width: 100%;
                            color: var.$green;
                            font-size: 18px;
                            font-weight: 300px;
@@ -301,6 +309,12 @@
                            cursor: pointer;
                         }
                     }
+                    //evento_js
+                    .mostrar{
+                        //left: -50%;
+                        left: 0;
+                    }
+
         
                     .lineaVertical{
                         margin-left: 30px;
@@ -325,23 +339,22 @@
                     .contExperiencia__content{
                         //width: calc(100% - 180px);
                         width: 100%;
-                        padding: 30px 10px;
+                        padding: 30px;
                         background: var.$blue;
-                        margin-left: initial;
                         border-radius: 0px 10px 10px 0px;
-
+                        
                         .contBaseExp{
                             width: 100%;
                             text-align: center;
                             .contBaseExp__title{
-                                width: 80%;
+                                width: 200px;
                                 color: var.$green;
                                 font-weight: 500;
-                                line-height: 28px;
-                                font-size: 24px;
+                                line-height: 22px;
+                                font-size: 1.3rem;
                                 text-transform: uppercase;
                                 margin: auto;
-                                
+
                             }
 
                             .contBaseExp__text{
@@ -349,8 +362,8 @@
                             }
 
                             .contBaseExp__figure{
-                                width: 300px;
-                                height: 110px;
+                                width: calc(100% - 30px);
+                                height: auto;
                                 box-shadow: 10px 10px 0px black;
                                 margin: auto;
                             }
@@ -363,12 +376,7 @@
                                 }
                             }
                         }
-                        /*
-                        contExperiencia__content
-    contBaseExp
-    contBaseExp__title
-    contBaseExp__text
-                        */
+                      
                     }
                 }
             }

@@ -460,7 +460,7 @@
   }
   .contBaseBloqueAB .contBloqueB {
     width: 100%;
-    padding: 10px;
+    padding: 10px 0px;
     color: white;
     background: #ffffff;
   }
@@ -507,6 +507,7 @@
     justify-content: center;
     align-items: center;
     background: #0c1b32;
+    border-radius: 16px;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A .contBloqueB_contBloc .contBloqueB_contBloc__image {
     width: 100px;
@@ -529,7 +530,7 @@
     width: 100%;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contExperiencia__title {
-    width: 340px;
+    width: 240px;
     border-radius: 20px;
     margin: auto;
     padding: 3px 0px;
@@ -546,29 +547,36 @@
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: initial;
-    align-items: initial;
+    justify-content: start;
+    align-items: end;
+    position: relative;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas {
-    width: 100%;
-    padding: 10px 20px;
+    width: 55px;
+    padding: 5px;
     background: #0c1b32;
+    background: rgba(0, 0, 0, 0.491);
     text-align: center;
-    border-radius: 10px 0px 0px 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
+    left: -100%;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas .contExperiencia__fechas__caja {
-    width: 30%;
+    width: 100%;
     color: #56fbd3;
     font-size: 18px;
     font-weight: 300px;
     line-height: 24px;
     margin: 10px 20px;
     cursor: pointer;
+  }
+  .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .mostrar {
+    left: 0;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .lineaVertical {
     margin-left: 30px;
@@ -591,9 +599,8 @@
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content {
     width: 100%;
-    padding: 30px 10px;
+    padding: 30px;
     background: #0c1b32;
-    margin-left: initial;
     border-radius: 0px 10px 10px 0px;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp {
@@ -601,11 +608,11 @@
     text-align: center;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__title {
-    width: 80%;
+    width: 200px;
     color: #56fbd3;
     font-weight: 500;
-    line-height: 28px;
-    font-size: 24px;
+    line-height: 22px;
+    font-size: 1.3rem;
     text-transform: uppercase;
     margin: auto;
   }
@@ -613,8 +620,8 @@
     color: #ffffff;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__figure {
-    width: 300px;
-    height: 110px;
+    width: calc(100% - 30px);
+    height: auto;
     box-shadow: 10px 10px 0px black;
     margin: auto;
   }
@@ -624,14 +631,6 @@
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__web .webLink {
     color: #ffffff;
     text-decoration: none;
-  }
-  .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content {
-    /*
-                        contExperiencia__content
-    contBaseExp
-    contBaseExp__title
-    contBaseExp__text
-                        */
   }
   .contBaseBloqueAB .contBloqueB .contProyectos {
     width: 100%;
