@@ -385,11 +385,12 @@
             .contProyectos{
                 width: 100%;
                 padding: 50px 0px ;
-                background: rgb(10, 180, 10);
+                background: rgb(106, 234, 106);
+                position: relative;
                 .contProyectos__title{
                     background: var.$blue;
                     font-size: 26px;
-                    width: 340px;
+                    width: 260px;
                     border-radius: 20px;
                     margin: auto;
                     padding: 3px 0px;
@@ -400,6 +401,21 @@
 
                 }
 
+                .contProyectos__btn{
+                    width: 50px;
+                    height: 50px;
+                    margin: 15px auto;
+                    background: rgb(3, 8, 35);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    .iconoPro{
+                        font-size: 28px;
+                        cursor: pointer;
+                    }
+                }
+
                 .contProyectos__section{
                     margin-top: 30px;
                     width: 100%;
@@ -408,13 +424,21 @@
                     justify-content: flex-start;
                     align-items: center;
                     padding: 10px 0px;
-                    background: rgb(68, 72, 72);
+                    background: rgb(111, 238, 38);
+                   
                     .contProyectos__block{
-                        width: 260px;
-                        padding: 30px 20px;
+                        width: 90%;
+                        padding: 50px 20px;
                         background: var.$blue;
                         border-radius: 10px;
-                        
+                        background:var.$blue-trans;
+                        position: absolute;
+                        top: 180px;
+                        left: 18px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: transform 1s ease;
+
                         .hiperPro{
                             text-decoration: none;
                             color: var.$green;
@@ -441,12 +465,18 @@
                                 }
                             }
                         }
-                    
                     }
+                    .contProyectos__block_JS{
+                        opacity: 1;
+                        visibility: visible;
+                        background: yellowgreen;
+                    }
+
+
 
                     .contProyectos__blockDesc{
                         width: 100%;
-                        background: hotpink;
+                        background: rgb(141, 80, 111);
                         .contProyectosBase{
                             width: 100%;
                             padding: 20px;
