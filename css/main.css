@@ -462,7 +462,7 @@
     width: 100%;
     padding: 10px;
     color: white;
-    background: rgb(17, 34, 188);
+    background: #ffffff;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills {
     width: 100%;
@@ -490,48 +490,39 @@
     align-items: center;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A {
-    width: 300px;
+    width: 90%;
     padding: 10px 0px;
-  }
-  .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A .contBloqueB_contBloc {
-    width: 100%;
-    background: transparent;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
+  }
+  .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A .contBloqueB_contBloc {
+    width: 140px;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0c1b32;
+  }
+  .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A .contBloqueB_contBloc .contBloqueB_contBloc__image {
+    width: 100px;
+    height: 100px;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A .contBloqueB_contBloc .contBloqueB_contBloc__text {
     color: #414141;
     font-weight: 500;
     font-size: 20px;
+    margin-left: 10px;
+    display: none;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A .contBloqueB_contBloc .contBloqueB_contBloc__ball {
-    background: transparent;
     padding: 3px;
-    color: #0c1b32;
-  }
-  .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__B {
-    width: 300px;
-    padding: 10px 0px;
-  }
-  .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__B .contBloqueB_contBloc {
-    width: 100%;
-    background: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__B .contBloqueB_contBloc .contBloqueB_contBloc__text {
-    color: #414141;
-    font-weight: 500;
-    font-size: 20px;
-  }
-  .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__B .contBloqueB_contBloc .contBloqueB_contBloc__ball {
-    background: transparent;
-    padding: 3px;
-    color: #0c1b32;
+    color: #ffffff;
+    margin-left: 10px;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia {
     margin-top: 50px;

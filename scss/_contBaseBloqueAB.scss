@@ -184,7 +184,7 @@
             width:100%;
             padding: 10px;
             color: white;
-            background: rgb(17, 34, 188);
+            background: var.$white;
 
             //Bloque habilidades
             .contBloqueB__baseSkills{
@@ -212,51 +212,46 @@
                     justify-content: space-around;
                     align-items: center;
                     .bloque__A{
-                        width:300px;
+                        width:90%;
                         padding: 10px 0px;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
                         .contBloqueB_contBloc{
-                            width: 100%;
-                            background:transparent;
+                            width: 140px;
+                            padding: 10px;
+                            margin-bottom: 5px;
                             display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
+                            flex-direction:column;
+                            justify-content: center;
                             align-items: center;
+                            background: var.$blue;
+                            .contBloqueB_contBloc__image{
+                                width: 100px;
+                                height: 100px;
+                            }
+
                             .contBloqueB_contBloc__text{
                                 color: var.$parrafo-right;
                                 font-weight: 500;
                                 font-size: 20px;
+                                margin-left: 10px;
+                                display: none;
                             }
                             .contBloqueB_contBloc__ball{
-                                background:transparent;
                                 padding: 3px;
-                                color: var.$blue;
-                                
+                                color: var.$white;
+                                margin-left: 10px;
+
                             }
                         }
                     }
 
-                    .bloque__B{
-                        width:300px;
-                        padding: 10px 0px;
-                        .contBloqueB_contBloc{
-                            width: 100%;
-                            background:transparent;
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
-                            align-items: center;
-                            .contBloqueB_contBloc__text{
-                                color: var.$parrafo-right;
-                                font-weight: 500;
-                                font-size: 20px;
-                            }
-                            .contBloqueB_contBloc__ball{
-                                background:transparent;
-                                padding: 3px;
-                                color: var.$blue;
-                            }
-                        }
-                    }
+
+
+
                 }
             }
 
