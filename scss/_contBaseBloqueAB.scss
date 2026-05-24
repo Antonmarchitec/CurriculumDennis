@@ -13,7 +13,6 @@
         flex-direction: column;
         justify-content: initial;
         align-items: initial;
-        background: red;
         .contBloqueA{
             width: 100%;
             padding: 10px 20px;
@@ -179,9 +178,7 @@
             }
         
         }
-
-
-        
+      
         .contBloqueB{
             width:100%;
             padding: 10px 0px;
@@ -385,7 +382,6 @@
             .contProyectos{
                 width: 100%;
                 padding: 50px 0px ;
-                background: rgb(106, 234, 106);
                 position: relative;
                 .contProyectos__title{
                     background: var.$blue;
@@ -402,8 +398,8 @@
                 }
 
                 .contProyectos__btn{
-                    width: 50px;
-                    height: 50px;
+                    width: 40px;
+                    height: 40px;
                     margin: 15px auto;
                     background: rgb(3, 8, 35);
                     display: flex;
@@ -411,33 +407,32 @@
                     align-items: center;
                     border-radius: 50%;
                     .iconoPro{
-                        font-size: 28px;
+                        font-size: 24px;
                         cursor: pointer;
                     }
                 }
 
                 .contProyectos__section{
-                    margin-top: 30px;
+                    margin-top: 10px;
                     width: 100%;
                     display: flex;
                     flex-direction: column;
                     justify-content: flex-start;
                     align-items: center;
                     padding: 10px 0px;
-                    background: rgb(111, 238, 38);
                    
                     .contProyectos__block{
-                        width: 90%;
+                        width: 95%;
                         padding: 50px 20px;
                         background: var.$blue;
                         border-radius: 10px;
                         background:var.$blue-trans;
                         position: absolute;
                         top: 180px;
-                        left: 18px;
+                        left: 10px;
                         opacity: 0;
                         visibility: hidden;
-                        transition: transform 1s ease;
+                        transition: 0.5s ease;
 
                         .hiperPro{
                             text-decoration: none;
@@ -469,64 +464,68 @@
                     .contProyectos__block_JS{
                         opacity: 1;
                         visibility: visible;
-                        background: yellowgreen;
                     }
 
 
 
                     .contProyectos__blockDesc{
                         width: 100%;
-                        background: rgb(141, 80, 111);
                         .contProyectosBase{
                             width: 100%;
-                            padding: 20px;
+                            padding: 20px 10px;
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items:center;
+                            .contProyectos__blockDescA{
+                            margin-top: -20px;
+                            width: 100%;
+                            padding:20px;
+                            background: var.$blue;
+                            border-radius: 10px;
+                                .contProyectos__blockDesc__title{
+                                    color: var.$white;
+                                    font-weight: 500;
+                                    font-size: 1.5rem;
+                                    text-transform: uppercase;
+                                    line-height: 28px;   
+                                }
+
+                                .contProyLine{
+                                    margin-top: 10px;
+                                    width: 120px;
+                                    height: 6px;
+                                    background: var.$green;
+                                    border: none;
+                                }
+
+                                .contProyectos__blockDesc__text{
+                                    margin: 20px 0px;
+                                    font-size: 14px;
+                                    font-weight: 300;
+                                    color: var.$parrafos;
+                                }
+            
+                                .hiperProy{
+                                        display: block;
+                                        width: 200px;
+                                        text-decoration: none;
+                                        color: var.$green;
+                                        font-size: 14px;
+                                }
+                            }
+
+                            .contProyectos__blockDescB{
+                                margin-top: 10px;
+                                width: 200px;
+                                height: 300px;
+                                background: rgba(128, 128, 128, 0.31);
+                                box-shadow: 8px 8px 10px rgb(81, 81, 81);
+                            }
 
                         }
                         
-                        .contProyectos__blockDescA{
-                            width: 100%;
-                            padding:20px 30px;
-                            background: #56fbd3;
-                            .contProyectos__blockDesc__title{
-                                color: var.$blue;
-                                font-weight: 500;
-                                font-size: 24px;
-                                text-transform: uppercase;
-                                line-height: 28px;   
-                            }
-
-                            .contProyLine{
-                                margin-top: 10px;
-                                width: 120px;
-                                height: 6px;
-                                background: var.$blue;
-                                border: none;
-                            }
-
-                            .contProyectos__blockDesc__text{
-                                margin: 20px 0px;
-                                font-size: 14px;
-                                font-weight: 300;
-                                color: var.$parrafo-right;
-                            }
-        
-                            .hiperProy{
-                                text-decoration: none;
-                                color: var.$blue;
-                                font-size: 14px;
-                            }
-                        }
-
-                        .contProyectos__blockDescB{
-                            width: 200px;
-                            height: 300px;
-                            background: rgba(128, 128, 128, 0.31);
-                            box-shadow: 8px 8px 10px rgb(81, 81, 81);
-                        }
+                        
 
                     
                     }              

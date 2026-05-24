@@ -6,7 +6,6 @@
     background-image: url(../source/desarrollando.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
-    background: red;
   }
   .contHeader .contHeaderFondo {
     width: 100%;
@@ -300,7 +299,6 @@
     flex-direction: column;
     justify-content: initial;
     align-items: initial;
-    background: red;
   }
   .contBaseBloqueAB .contBloqueA {
     width: 100%;
@@ -635,7 +633,6 @@
   .contBaseBloqueAB .contBloqueB .contProyectos {
     width: 100%;
     padding: 50px 0px;
-    background: rgb(106, 234, 106);
     position: relative;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__title {
@@ -651,8 +648,8 @@
     text-align: center;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__btn {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin: 15px auto;
     background: rgb(3, 8, 35);
     display: flex;
@@ -661,31 +658,30 @@
     border-radius: 50%;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__btn .iconoPro {
-    font-size: 28px;
+    font-size: 24px;
     cursor: pointer;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section {
-    margin-top: 30px;
+    margin-top: 10px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 10px 0px;
-    background: rgb(111, 238, 38);
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block {
-    width: 90%;
+    width: 95%;
     padding: 50px 20px;
     background: #0c1b32;
     border-radius: 10px;
     background: rgba(12, 27, 50, 0.768627451);
     position: absolute;
     top: 180px;
-    left: 18px;
+    left: 10px;
     opacity: 0;
     visibility: hidden;
-    transition: transform 1s ease;
+    transition: 0.5s ease;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro {
     text-decoration: none;
@@ -716,51 +712,54 @@
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block_JS {
     opacity: 1;
     visibility: visible;
-    background: yellowgreen;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc {
     width: 100%;
-    background: rgb(141, 80, 111);
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase {
     width: 100%;
-    padding: 20px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA {
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA {
+    margin-top: -20px;
     width: 100%;
-    padding: 20px 30px;
-    background: #56fbd3;
+    padding: 20px;
+    background: #0c1b32;
+    border-radius: 10px;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyectos__blockDesc__title {
-    color: #0c1b32;
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA .contProyectos__blockDesc__title {
+    color: #ffffff;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     line-height: 28px;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyLine {
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA .contProyLine {
     margin-top: 10px;
     width: 120px;
     height: 6px;
-    background: #0c1b32;
+    background: #56fbd3;
     border: none;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyectos__blockDesc__text {
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA .contProyectos__blockDesc__text {
     margin: 20px 0px;
     font-size: 14px;
     font-weight: 300;
-    color: #414141;
+    color: #e7e7e7;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .hiperProy {
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA .hiperProy {
+    display: block;
+    width: 200px;
     text-decoration: none;
-    color: #0c1b32;
+    color: #56fbd3;
     font-size: 14px;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescB {
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescB {
+    margin-top: 10px;
     width: 200px;
     height: 300px;
     background: rgba(128, 128, 128, 0.31);
