@@ -540,20 +540,32 @@
     color: #ffffff;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp {
-    margin-top: 30px;
     width: 100%;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: end;
+    align-items: center;
     position: relative;
   }
+  .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contBlockExp__btn {
+    width: 40px;
+    height: 40px;
+    margin: 15px auto;
+    background: rgb(3, 8, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contBlockExp__btn .iconoPro {
+    font-size: 24px;
+    cursor: pointer;
+  }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas {
-    width: 55px;
-    padding: 5px;
-    background: #0c1b32;
-    background: rgba(0, 0, 0, 0.491);
+    width: 100%;
+    padding: 25px;
+    background: rgba(12, 27, 50, 0.768627451);
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -561,7 +573,7 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 0;
+    top: 80px;
     left: -100%;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__fechas .contExperiencia__fechas__caja {
@@ -599,7 +611,8 @@
     width: 100%;
     padding: 30px;
     background: #0c1b32;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 5px black;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp {
     width: 100%;

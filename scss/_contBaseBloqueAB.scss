@@ -273,19 +273,32 @@
                 }
 
                 .contBlockExp{
-                    margin-top: 30px;
                     width: 100%;
                     padding: 10px;
                     display: flex;
                     flex-direction: column;
                     justify-content: start;
-                    align-items: end;
+                    align-items: center;
                     position: relative;
+
+                    .contBlockExp__btn{
+                        width: 40px;
+                        height: 40px;
+                        margin: 15px auto;
+                        background: rgb(3, 8, 35);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        .iconoPro{
+                            font-size: 24px;
+                            cursor: pointer;
+                        }
+                    }
                     .contExperiencia__fechas{
-                        width:55px;
-                        padding: 5px;
-                        background: var.$blue;
-                        background: rgba(0, 0, 0, 0.491);
+                        width:100%;
+                        padding: 25px;
+                        background: var.$blue-trans;
                         text-align: center;
                         display: flex;
                         flex-direction: row;
@@ -293,7 +306,7 @@
                         justify-content: center;
                         align-items: center;
                         position: absolute;
-                        top: 0;
+                        top: 80px;
                         left: -100%;
                       
                         .contExperiencia__fechas__caja{
@@ -338,8 +351,8 @@
                         width: 100%;
                         padding: 30px;
                         background: var.$blue;
-                        border-radius: 0px 10px 10px 0px;
-                        
+                        border-radius: 10px 10px ;
+                        box-shadow: 0px 0px 5px black;
                         .contBaseExp{
                             width: 100%;
                             text-align: center;
