@@ -435,14 +435,12 @@
                     padding: 10px 0px;
                    
                     .contProyectos__block{
-                        width: 95%;
-                        padding: 50px 20px;
-                        background: var.$blue;
-                        border-radius: 10px;
+                        width: 100%;
+                        padding: 100px 20px;
                         background:var.$blue-trans;
                         position: absolute;
-                        top: 180px;
-                        left: 10px;
+                        top: 160px;
+                        left: 0px;
                         opacity: 0;
                         visibility: hidden;
                         transition: 0.5s ease;
