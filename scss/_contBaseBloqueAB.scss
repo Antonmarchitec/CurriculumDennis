@@ -553,46 +553,1141 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 📲 Tablet YELLOW******************************************/
 @media (min-width: 768px) {
     .contBaseBloqueAB{
-        background: yellow;
-    }
+        width: 100%;
+        background: var.$white;
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: initial;
+        .contBloqueA{
+            width: 100%;
+            padding: 10px 20px;
+            background: var.$blue;
+            /****************/
+            .contBloqueA__base{
+                width: 100%;
+                padding: 20px;
+                text-align: center;
+                .contBloqueA__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueA__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+                .contBloqueA__description{
+                    margin-top: 20px;
+                    color: var.$white;
+                }
+            }
+
+            /******************/
+            .contBloqueB__base{
+                width: 100%;
+                padding: 20px 10px;
+                text-align: center;
+                .contBloqueB__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+
+                .contBloqueB__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+
+                .contBloqueB__sectionIcons{
+                    width:280px;
+                    margin: 24px auto;
+                    color: var.$parrafo-right;
+                    .contBloqueB__sectionIcons__icon{
+                        padding: 5px 0px;
+                        margin: 2px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: start;
+                        align-items: center;
+                        .iconContact{
+                            width: 45px;
+                            height: 45px;
+                            background: var.$green;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: var.$blue;
+                            font-size: 20px;
+                            border-radius: 50%;
+                            margin-right: 14px;
+                        }
+                        .iconText{
+                            color: var.$white;
+                        }
+
+                        .enlaceHi{
+                            text-decoration: none;
+                        }
+                    }
+                
+                }
+            
+            
+            }
+
+            /******************/
+            .contBloqueC__base{
+                width: 100%;
+                padding: 20px;
+                text-align: center;
+                .contBloqueC__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+
+                .contBloqueC__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+                
+                .contBloqueC__section{
+                    width: 250px;
+                    margin: 20px auto;
+                    color: var.$white;
+                    text-align: left;
+                    .fa-solid{
+                        color: var.$green;
+                        margin-right:5px;
+                        
+                    }
+                }
+            }
+
+            /******************/
+            .contBloqueD__base{
+                width: 100%;
+                padding: 20px;
+                text-align: center;
+                .contBloqueD__base{
+                    font-size: 26px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueD__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    line-height: 28px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueD__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+
+                .contBloqueD{
+                    width: 100%;
+                    padding: 10px 0px;
+                    background: transparent;
+                    .contBloqueD__bloque{
+                        margin: 10px 0px ;
+                        .contBloqueD__bloque__title{
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: var.$green;
+                        }
+
+                        .contBloqueD__bloque__description{
+                            margin: 10px 30px;
+                            color: var.$parrafo-right;
+                            color: var.$white;
+                        }
+                    }
+                }
+            }
+        
+        }
+      
+        .contBloqueB{
+            width:100%;
+            padding: 10px 0px;
+            color: white;
+            background: var.$white;
+            //Bloque habilidades
+            .contBloqueB__baseSkills{
+                width: 70%;
+                padding: 10px 0px;
+                margin: auto;
+                .sectionRight_title{
+                    width: 240px;
+                    border-radius: 20px;
+                    margin: 30px auto;
+                    padding: 3px 0px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 26px;
+                    text-align: center;
+                    background: var.$blue;
+                    color: var.$white;
+                }
+
+                .contBloqueB_cont{
+                    margin-top: 20px;
+                    width: 100%;
+                    padding: 10px 0px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    .bloque__A{
+                        width:90%;
+                        padding: 10px 0px;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
+                        .contBloqueB_contBloc{
+                            width: 140px;
+                            padding: 10px;
+                            margin-bottom: 5px;
+                            display: flex;
+                            flex-direction:column;
+                            justify-content: center;
+                            align-items: center;
+                            background: var.$blue;
+                            border-radius:16px;
+                            
+                            .contBloqueB_contBloc__image{
+                                width: 100px;
+                                height: 100px;
+                            }
+
+                            .contBloqueB_contBloc__text{
+                                color: var.$parrafo-right;
+                                font-weight: 500;
+                                font-size: 20px;
+                                margin-left: 10px;
+                                display: none;
+                            }
+                            .contBloqueB_contBloc__ball{
+                                padding: 3px;
+                                color: var.$white;
+                                margin-left: 10px;
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            //Bloque Experiencia Laboral
+            .contExperiencia{
+                margin-top: 50px;
+                width: 100%;
+                
+                .contExperiencia__title{
+                    width: 240px;
+                    border-radius: 20px;
+                    margin: auto;
+                    padding: 3px 0px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 26px;
+                    text-align: center;
+                    background: var.$blue;
+                    color: var.$white;
+                    
+                }
+
+                .contBlockExp{
+                    width: 100%;
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                    align-items: center;
+                    position: relative;
+
+                    .contBlockExp__btn{
+                        width: 40px;
+                        height: 40px;
+                        margin: 15px auto;
+                        background: rgb(3, 8, 35);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        
+                        .iconoPro{
+                            font-size: 24px;
+                            cursor: pointer;
+                        }
+                    }
+                    .contExperiencia__fechas{
+                        width:100%;
+                        padding: 25px;
+                        background: var.$blue-trans;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: 80px;
+                        left: -100%;
+                      
+                        .contExperiencia__fechas__caja{
+                           width: 100%;
+                           color: var.$green;
+                           font-size: 18px;
+                           font-weight: 300px;
+                           line-height: 24px;
+                           margin: 10px 20px;
+                           cursor: pointer;
+                        }
+                    }
+                    //evento_js
+                    .mostrar{
+                        //left: -50%;
+                        left: 0;
+                    }
+
+        
+                    .lineaVertical{
+                        margin-left: 30px;
+                        background: var.$blue;
+                        height: 480px;
+                        width: 10px;
+                        border: none;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        align-content: center;
+                        display: none;
+                        .circulo{
+                            width: 22px;
+                            height: 22px;
+                            background: var.$blue;
+                            border-radius: 50%;
+                            margin-left: -6px;
+                        }
+                    }
+                    
+                    .contExperiencia__content{
+                        //width: calc(100% - 180px);
+                        width: 75%;
+                        padding: 30px;
+                        background: var.$blue;
+                        border-radius: 10px 10px ;
+                        box-shadow: 0px 0px 5px black;
+
+                        .contBaseExp{
+                            width: 100%;
+                            text-align: center;
+                            
+                            .contBaseExp__title{
+                                width: 200px;
+                                color: var.$green;
+                                font-weight: 500;
+                                line-height: 22px;
+                                font-size: 1.5rem;
+                                text-transform: uppercase;
+                                margin: auto;
+
+                            }
+
+                            .contBaseExp__text{
+                                width: 80%;
+                                color: var.$white;
+                                margin: auto;
+
+                            }
+
+                            .contBaseExp__figure{
+                                width: calc(100% - 30px);
+                                height: auto;
+                                box-shadow: 10px 10px 0px black;
+                                margin: auto;
+                            }
+
+                            .contBaseExp__web{
+                                color: #56fbd3;
+                                .webLink{
+                                    color: var.$white;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                      
+                    }
+                }
+            }
+            
+            //Bloque proyecto web
+            .contProyectos{
+                width: 100%;
+                padding: 50px 0px ;
+                position: relative;
+                
+                .contProyectos__title{
+                    background: var.$blue;
+                    font-size: 26px;
+                    width: 260px;
+                    border-radius: 20px;
+                    margin: auto;
+                    padding: 3px 0px;
+                    color: var.$white;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    text-align: center;
+
+                }
+
+                .contProyectos__btn{
+                    width: 40px;
+                    height: 40px;
+                    margin: 15px auto;
+                    background: rgb(3, 8, 35);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    .iconoPro{
+                        font-size: 24px;
+                        cursor: pointer;
+                    }
+                }
+
+                .contProyectos__section{
+                    margin-top: 10px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding: 10px 0px;
+                    
+                    .contProyectos__block{
+                        width: 100%;
+                        padding: 100px 20px;
+                        background:var.$blue-trans;
+                        box-shadow: 0px 0px 10px black;
+                        position: absolute;
+                        top: 160px;
+                        left: 0px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 0.5s ease;
+                        z-index: 100;
+                        .hiperPro{
+                            text-decoration: none;
+                            color: var.$green;
+                            cursor: pointer;
+                            
+                            .contProyectos__box{
+                                width: 300px;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start;
+                                align-items: center;
+                                margin:5px auto;
+                                .iconProyect{
+                                    font-size: 20px;
+                                    margin-right: 10px;
+                                    color: var.$green;
+                                }
+                                .contProyectos__boxText{
+                                    text-decoration: none;
+                                    color: var.$white;
+                                    font-size: 14px;
+                                    transition: 0.2s all;
+                                }
+                                .contProyectos__boxText:hover{
+                                    color:var.$green;
+                                }
+                            }
+                        }
+                    }
+                    .contProyectos__block_JS{
+                        opacity: 1;
+                        visibility: visible;
+                    }
+
+
+
+                    .contProyectos__blockDesc{
+                        width: 100%;
+                        .contProyectosBase{
+                            width: 100%;
+                            padding: 20px 10px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items:center;
+                            
+                            .contProyectos__blockDescA{
+                            margin-top: -20px;
+                            width: 75%;
+                            padding:20px;
+                            background: var.$blue;
+                            border-radius: 10px;
+
+                                .contProyectos__blockDesc__title{
+                                    color: var.$white;
+                                    font-weight: 500;
+                                    font-size: 1.5rem;
+                                    text-transform: uppercase;
+                                    line-height: 28px;   
+                                }
+
+                                .contProyLine{
+                                    margin-top: 10px;
+                                    width: 120px;
+                                    height: 6px;
+                                    background: var.$green;
+                                    border: none;
+                                }
+
+                                .contProyectos__blockDesc__text{
+                                    margin: 20px 0px;
+                                    font-size: 14px;
+                                    font-weight: 300;
+                                    color: var.$parrafos;
+                                }
+            
+                                .hiperProy{
+                                        display: block;
+                                        width: 200px;
+                                        text-decoration: none;
+                                        color: var.$green;
+                                        font-size: 14px;
+                                }
+                            }
+
+                            .contProyectos__blockDescB{
+                                margin-top: 30px;
+                                width: 200px;
+                                height: 300px;
+                                background: rgba(128, 128, 128, 0.31);
+                                box-shadow: 8px 8px 10px rgb(0, 0, 0);
+                            }
+
+                        }
+                        
+                        
+
+                    
+                    }              
+                    
+                }
+            
+
+            }
+        }
+    } 
 }
+
+
+
 
 
 
 /* 💻 Laptop GREEN******************************************/
 @media (min-width: 1024px) {
      .contBaseBloqueAB{
-        background: green;
-    }
+        width: 100%;
+        background: var.$white;
+        display: flex;
+        flex-direction: column;
+        justify-content: initial;
+        align-items: initial;
+        .contBloqueA{
+            width: 100%;
+            padding: 10px 20px;
+            background: var.$blue;
+            /****************/
+            .contBloqueA__base{
+                width: 100%;
+                padding: 20px;
+                text-align: center;
+                .contBloqueA__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueA__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+                .contBloqueA__description{
+                    margin-top: 20px;
+                    color: var.$white;
+                }
+            }
+
+            /******************/
+            .contBloqueB__base{
+                width: 100%;
+                padding: 20px 10px;
+                text-align: center;
+                .contBloqueB__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+
+                .contBloqueB__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+
+                .contBloqueB__sectionIcons{
+                    width:280px;
+                    margin: 24px auto;
+                    color: var.$parrafo-right;
+                    .contBloqueB__sectionIcons__icon{
+                        padding: 5px 0px;
+                        margin: 2px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: start;
+                        align-items: center;
+                        .iconContact{
+                            width: 45px;
+                            height: 45px;
+                            background: var.$green;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: var.$blue;
+                            font-size: 20px;
+                            border-radius: 50%;
+                            margin-right: 14px;
+                        }
+                        .iconText{
+                            color: var.$white;
+                        }
+
+                        .enlaceHi{
+                            text-decoration: none;
+                        }
+                    }
+                
+                }
+            
+            
+            }
+
+            /******************/
+            .contBloqueC__base{
+                width: 100%;
+                padding: 20px;
+                text-align: center;
+                .contBloqueC__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+
+                .contBloqueC__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+                
+                .contBloqueC__section{
+                    width: 250px;
+                    margin: 20px auto;
+                    color: var.$white;
+                    text-align: left;
+                    .fa-solid{
+                        color: var.$green;
+                        margin-right:5px;
+                        
+                    }
+                }
+            }
+
+            /******************/
+            .contBloqueD__base{
+                width: 100%;
+                padding: 20px;
+                text-align: center;
+                .contBloqueD__base{
+                    font-size: 26px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueD__Subtitles{
+                    font-size: 26px;
+                    color: var.$white;
+                    line-height: 28px;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                }
+                .contBloqueD__linea{
+                    width: 60%;
+                    height: 3px;
+                    background: var.$green;
+                    border: none;
+                    margin: 18px calc(20%);
+                }
+
+                .contBloqueD{
+                    width: 100%;
+                    padding: 10px 0px;
+                    background: transparent;
+                    .contBloqueD__bloque{
+                        margin: 10px 0px ;
+                        .contBloqueD__bloque__title{
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: var.$green;
+                        }
+
+                        .contBloqueD__bloque__description{
+                            margin: 10px 30px;
+                            color: var.$parrafo-right;
+                            color: var.$white;
+                        }
+                    }
+                }
+            }
+        
+        }
+      
+        .contBloqueB{
+            width:100%;
+            padding: 10px 0px;
+            color: white;
+            background: var.$white;
+            //Bloque habilidades
+            .contBloqueB__baseSkills{
+                width: 70%;
+                padding: 10px 0px;
+                margin: auto;
+                .sectionRight_title{
+                    width: 240px;
+                    border-radius: 20px;
+                    margin: 30px auto;
+                    padding: 3px 0px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 26px;
+                    text-align: center;
+                    background: var.$blue;
+                    color: var.$white;
+                }
+
+                .contBloqueB_cont{
+                    margin-top: 20px;
+                    width: 100%;
+                    padding: 10px 0px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    .bloque__A{
+                        width:90%;
+                        padding: 10px 0px;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
+                        .contBloqueB_contBloc{
+                            width: 140px;
+                            padding: 10px;
+                            margin-bottom: 5px;
+                            display: flex;
+                            flex-direction:column;
+                            justify-content: center;
+                            align-items: center;
+                            background: var.$blue;
+                            border-radius:16px;
+                            
+                            .contBloqueB_contBloc__image{
+                                width: 100px;
+                                height: 100px;
+                            }
+
+                            .contBloqueB_contBloc__text{
+                                color: var.$parrafo-right;
+                                font-weight: 500;
+                                font-size: 20px;
+                                margin-left: 10px;
+                                display: none;
+                            }
+                            .contBloqueB_contBloc__ball{
+                                padding: 3px;
+                                color: var.$white;
+                                margin-left: 10px;
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            //Bloque Experiencia Laboral
+            .contExperiencia{
+                margin-top: 50px;
+                width: 100%;
+                
+                .contExperiencia__title{
+                    width: 240px;
+                    border-radius: 20px;
+                    margin: auto;
+                    padding: 3px 0px;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 26px;
+                    text-align: center;
+                    background: var.$blue;
+                    color: var.$white;
+                    
+                }
+
+                .contBlockExp{
+                    width: 100%;
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                    align-items: center;
+                    position: relative;
+
+                    .contBlockExp__btn{
+                        width: 40px;
+                        height: 40px;
+                        margin: 15px auto;
+                        background: rgb(3, 8, 35);
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        
+                        .iconoPro{
+                            font-size: 24px;
+                            cursor: pointer;
+                        }
+                    }
+                    .contExperiencia__fechas{
+                        width:100%;
+                        padding: 25px;
+                        background: var.$blue-trans;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: 80px;
+                        left: -100%;
+                      
+                        .contExperiencia__fechas__caja{
+                           width: 100%;
+                           color: var.$green;
+                           font-size: 18px;
+                           font-weight: 300px;
+                           line-height: 24px;
+                           margin: 10px 20px;
+                           cursor: pointer;
+                        }
+                    }
+                    //evento_js
+                    .mostrar{
+                        //left: -50%;
+                        left: 0;
+                    }
+
+        
+                    .lineaVertical{
+                        margin-left: 30px;
+                        background: var.$blue;
+                        height: 480px;
+                        width: 10px;
+                        border: none;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        align-content: center;
+                        display: none;
+                        .circulo{
+                            width: 22px;
+                            height: 22px;
+                            background: var.$blue;
+                            border-radius: 50%;
+                            margin-left: -6px;
+                        }
+                    }
+                    
+                    .contExperiencia__content{
+                        //width: calc(100% - 180px);
+                        width: 75%;
+                        padding: 30px;
+                        background: var.$blue;
+                        border-radius: 10px 10px ;
+                        box-shadow: 0px 0px 5px black;
+
+                        .contBaseExp{
+                            width: 100%;
+                            text-align: center;
+                            
+                            .contBaseExp__title{
+                                width: 200px;
+                                color: var.$green;
+                                font-weight: 500;
+                                line-height: 22px;
+                                font-size: 1.5rem;
+                                text-transform: uppercase;
+                                margin: auto;
+
+                            }
+
+                            .contBaseExp__text{
+                                width: 80%;
+                                color: var.$white;
+                                margin: auto;
+
+                            }
+
+                            .contBaseExp__figure{
+                                width: calc(100% - 30px);
+                                height: auto;
+                                box-shadow: 10px 10px 0px black;
+                                margin: auto;
+                            }
+
+                            .contBaseExp__web{
+                                color: #56fbd3;
+                                .webLink{
+                                    color: var.$white;
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                      
+                    }
+                }
+            }
+            
+            //Bloque proyecto web
+            .contProyectos{
+                width: 100%;
+                padding: 50px 0px ;
+                position: relative;
+                
+                .contProyectos__title{
+                    background: var.$blue;
+                    font-size: 26px;
+                    width: 260px;
+                    border-radius: 20px;
+                    margin: auto;
+                    padding: 3px 0px;
+                    color: var.$white;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    text-align: center;
+
+                }
+
+                .contProyectos__btn{
+                    width: 40px;
+                    height: 40px;
+                    margin: 15px auto;
+                    background: rgb(3, 8, 35);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    .iconoPro{
+                        font-size: 24px;
+                        cursor: pointer;
+                    }
+                }
+
+                .contProyectos__section{
+                    margin-top: 10px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    padding: 10px 0px;
+                    
+                    .contProyectos__block{
+                        width: 100%;
+                        padding: 100px 20px;
+                        background:var.$blue-trans;
+                        box-shadow: 0px 0px 10px black;
+                        position: absolute;
+                        top: 160px;
+                        left: 0px;
+                        opacity: 0;
+                        visibility: hidden;
+                        transition: 0.5s ease;
+                        z-index: 100;
+                        .hiperPro{
+                            text-decoration: none;
+                            color: var.$green;
+                            cursor: pointer;
+                            
+                            .contProyectos__box{
+                                width: 300px;
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: flex-start;
+                                align-items: center;
+                                margin:5px auto;
+                                .iconProyect{
+                                    font-size: 20px;
+                                    margin-right: 10px;
+                                    color: var.$green;
+                                }
+                                .contProyectos__boxText{
+                                    text-decoration: none;
+                                    color: var.$white;
+                                    font-size: 14px;
+                                    transition: 0.2s all;
+                                }
+                                .contProyectos__boxText:hover{
+                                    color:var.$green;
+                                }
+                            }
+                        }
+                    }
+                    .contProyectos__block_JS{
+                        opacity: 1;
+                        visibility: visible;
+                    }
+
+
+
+                    .contProyectos__blockDesc{
+                        width: 100%;
+                        .contProyectosBase{
+                            width: 100%;
+                            padding: 20px 10px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items:center;
+                            
+                            .contProyectos__blockDescA{
+                            margin-top: -20px;
+                            width: 75%;
+                            padding:20px;
+                            background: var.$blue;
+                            border-radius: 10px;
+
+                                .contProyectos__blockDesc__title{
+                                    color: var.$white;
+                                    font-weight: 500;
+                                    font-size: 1.5rem;
+                                    text-transform: uppercase;
+                                    line-height: 28px;   
+                                }
+
+                                .contProyLine{
+                                    margin-top: 10px;
+                                    width: 120px;
+                                    height: 6px;
+                                    background: var.$green;
+                                    border: none;
+                                }
+
+                                .contProyectos__blockDesc__text{
+                                    margin: 20px 0px;
+                                    font-size: 14px;
+                                    font-weight: 300;
+                                    color: var.$parrafos;
+                                }
+            
+                                .hiperProy{
+                                        display: block;
+                                        width: 200px;
+                                        text-decoration: none;
+                                        color: var.$green;
+                                        font-size: 14px;
+                                }
+                            }
+
+                            .contProyectos__blockDescB{
+                                margin-top: 30px;
+                                width: 200px;
+                                height: 300px;
+                                background: rgba(128, 128, 128, 0.31);
+                                box-shadow: 8px 8px 10px rgb(0, 0, 0);
+                            }
+
+                        }
+                        
+                        
+
+                    
+                    }              
+                    
+                }
+            
+
+            }
+        }
+    } 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
