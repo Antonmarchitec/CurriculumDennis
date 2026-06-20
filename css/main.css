@@ -122,6 +122,7 @@
     background-image: url(../source/desarrollando.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
+    background: violet;
   }
   .contHeader .contHeaderFondo {
     width: 100%;
@@ -1275,20 +1276,21 @@
     width: 100%;
     background: #ffffff;
     display: flex;
-    flex-direction: column;
-    justify-content: initial;
-    align-items: initial;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgb(92, 23, 92);
   }
   .contBaseBloqueAB .contBloqueA {
-    width: 100%;
-    padding: 10px 20px;
+    width: calc(50% - 50px);
+    padding: 10px 30px;
     background: #0c1b32;
     /****************/
   }
   .contBaseBloqueAB .contBloqueA .contBloqueA__base {
     width: 100%;
-    padding: 20px;
-    text-align: center;
+    padding: 20px 0px;
+    text-align: start;
   }
   .contBaseBloqueAB .contBloqueA .contBloqueA__base .contBloqueA__Subtitles {
     font-size: 26px;
@@ -1301,7 +1303,7 @@
     height: 3px;
     background: #56fbd3;
     border: none;
-    margin: 18px 20%;
+    margin: 18px 0;
   }
   .contBaseBloqueAB .contBloqueA .contBloqueA__base .contBloqueA__description {
     margin-top: 20px;
@@ -1313,7 +1315,7 @@
   .contBaseBloqueAB .contBloqueA .contBloqueB__base {
     width: 100%;
     padding: 20px 10px;
-    text-align: center;
+    text-align: start;
   }
   .contBaseBloqueAB .contBloqueA .contBloqueB__base .contBloqueB__Subtitles {
     font-size: 26px;
@@ -1326,7 +1328,7 @@
     height: 3px;
     background: #56fbd3;
     border: none;
-    margin: 18px 20%;
+    margin: 18px 0;
   }
   .contBaseBloqueAB .contBloqueA .contBloqueB__base .contBloqueB__sectionIcons {
     width: 280px;
@@ -1365,7 +1367,7 @@
   .contBaseBloqueAB .contBloqueA .contBloqueC__base {
     width: 100%;
     padding: 20px;
-    text-align: center;
+    text-align: start;
   }
   .contBaseBloqueAB .contBloqueA .contBloqueC__base .contBloqueC__Subtitles {
     font-size: 26px;
@@ -1378,7 +1380,7 @@
     height: 3px;
     background: #56fbd3;
     border: none;
-    margin: 18px 20%;
+    margin: 18px 0;
   }
   .contBaseBloqueAB .contBloqueA .contBloqueC__base .contBloqueC__section {
     width: 250px;
@@ -1396,7 +1398,7 @@
   .contBaseBloqueAB .contBloqueA .contBloqueD__base {
     width: 100%;
     padding: 20px;
-    text-align: center;
+    text-align: start;
   }
   .contBaseBloqueAB .contBloqueA .contBloqueD__base .contBloqueD__base {
     font-size: 26px;
@@ -1415,7 +1417,7 @@
     height: 3px;
     background: #56fbd3;
     border: none;
-    margin: 18px 20%;
+    margin: 18px 0;
   }
   .contBaseBloqueAB .contBloqueA .contBloqueD__base .contBloqueD {
     width: 100%;
@@ -1442,7 +1444,7 @@
     background: #ffffff;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills {
-    width: 70%;
+    width: 80%;
     padding: 10px 0px;
     margin: auto;
   }
