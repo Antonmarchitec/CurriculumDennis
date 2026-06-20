@@ -141,48 +141,46 @@
         background-image: url(../source/desarrollando.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
-        background: rgb(139, 198, 43);
         .contHeaderFondo{
             width: 100%;
             background:rgba(0, 0, 0, 0.46);
             padding: 50px 10px;
             display: flex;
-            flex-direction:column;
-            justify-content:space-around;
+            flex-direction:row;
+            justify-content:center;
             align-items: center;
             .contHeaderPhoto{
-                margin-left: initial;
-                width: 220px;
-                height: 220px;
+                margin-left: calc(20% - 50px);
+                width: 240px;
+                height: 240px;
                 border-radius: 100%;
                 overflow: hidden;
             }
         
             .contHeaderDescription{
-                margin-right:initial;
-                margin: 20px auto;
-                width: 450px;
-                padding: 20px 10px;
+                margin-right:calc(25% - 150px);
+                width: 500px;
+                padding: 15px 0px;
                 text-align: center;
-             
                 .contHeaderDescription__name{
                     color: white;
-                    font-weight: 500;
+                    font-weight: 700;
                     line-height: 1;
-                    font-size: 30px;
+                    letter-spacing: 8px;
+                    font-size: 40px;
                 }
 
                 .contHeaderDescription__description{
                     color: white;
-                    margin-top: 10px;
-                    font-size: 22px;
+                    margin-top: initial;
+                    font-size: 26px;
                     font-weight: 400;
                     color: var.$green;
                 }
 
                 .contHeaderDescription__line{
                     margin: 12px auto;
-                    width: 162px;
+                    width: 240px;
                     height: 2px;
                     border: none;
                     background: var.$green;
@@ -190,6 +188,7 @@
                 
                 .contHeaderDescription__nivel{
                     margin-top: 40px;
+                    font-size: 24px;
                     color: var.$green;
                     font-weight: 400;
                 }
@@ -198,6 +197,24 @@
     
     }  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
