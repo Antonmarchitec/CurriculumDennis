@@ -1461,9 +1461,9 @@
     color: #ffffff;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
-    padding: 10px 0px;
+    padding: 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -1490,8 +1490,8 @@
     border-radius: 16px;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A .contBloqueB_contBloc .contBloqueB_contBloc__image {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   .contBaseBloqueAB .contBloqueB .contBloqueB__baseSkills .contBloqueB_cont .bloque__A .contBloqueB_contBloc .contBloqueB_contBloc__text {
     color: #414141;
