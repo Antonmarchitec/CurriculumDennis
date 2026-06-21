@@ -1285,6 +1285,7 @@
     width: calc(50% - 50px);
     padding: 10px 30px;
     background: #0c1b32;
+    z-index: 100;
     /****************/
   }
   .contBaseBloqueAB .contBloqueA .contBloqueA__base {
@@ -1590,7 +1591,7 @@
     margin-left: -6px;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content {
-    width: 75%;
+    width: 85%;
     padding: 30px;
     background: #0c1b32;
     border-radius: 10px 10px;
@@ -1615,7 +1616,7 @@
     margin: auto;
   }
   .contBaseBloqueAB .contBloqueB .contExperiencia .contBlockExp .contExperiencia__content .contBaseExp .contBaseExp__figure {
-    width: calc(100% - 30px);
+    width: calc(60% - 30px);
     height: auto;
     box-shadow: 10px 10px 0px black;
     margin: auto;

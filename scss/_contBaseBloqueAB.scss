@@ -1129,6 +1129,7 @@
             width: calc(50% - 50px);
             padding: 10px 30px;
             background: var.$blue;
+            z-index: 100;
             /****************/
             .contBloqueA__base{
                 width: 100%;
@@ -1370,7 +1371,6 @@
             .contExperiencia{
                 margin-top: 50px;
                 width: 100%;
-                
                 .contExperiencia__title{
                     width: 240px;
                     border-radius: 20px;
@@ -1393,7 +1393,7 @@
                     justify-content: start;
                     align-items: center;
                     position: relative;
-
+                    
                     .contBlockExp__btn{
                         width: 40px;
                         height: 40px;
@@ -1422,7 +1422,7 @@
                         position: absolute;
                         top: 80px;
                         left: -100%;
-                      
+
                         .contExperiencia__fechas__caja{
                            width: 100%;
                            color: var.$green;
@@ -1462,7 +1462,7 @@
                     
                     .contExperiencia__content{
                         //width: calc(100% - 180px);
-                        width: 75%;
+                        width: 85%;
                         padding: 30px;
                         background: var.$blue;
                         border-radius: 10px 10px ;
@@ -1491,7 +1491,7 @@
                             }
 
                             .contBaseExp__figure{
-                                width: calc(100% - 30px);
+                                width: calc(60% - 30px);
                                 height: auto;
                                 box-shadow: 10px 10px 0px black;
                                 margin: auto;
