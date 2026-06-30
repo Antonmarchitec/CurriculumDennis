@@ -1112,8 +1112,6 @@
 
 
 
-
-
 /* 💻 Laptop GREEN******************************************/
 @media (min-width: 1024px) {
      .contBaseBloqueAB{
@@ -1123,7 +1121,6 @@
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
-        background: rgb(92, 23, 92);
 
         .contBloqueA{
             width: calc(50% - 50px);
@@ -1552,7 +1549,6 @@
                     justify-content: flex-start;
                     align-items: center;
                     padding: 10px 0px;
-
                     .contProyectos__block{
                         width: 100%;
                         padding: 100px 20px;
@@ -1608,17 +1604,16 @@
                             width: 100%;
                             padding: 20px 10px;
                             display: flex;
-                            flex-direction: column;
-                            justify-content: center;
+                            flex-direction: row;
+                            justify-content: space-around;
                             align-items:center;
                             
                             .contProyectos__blockDescA{
-                            margin-top: -20px;
-                            width: 85%;
-                            padding:20px;
+                            margin-top: 0px;
+                            width: calc(55% - 10px);
+                            padding:60px 25px;
                             background: var.$blue;
                             border-radius: 10px;
-                                background: yellow;
                                 .contProyectos__blockDesc__title{
                                     color: var.$white;
                                     font-weight: 500;
@@ -1653,17 +1648,14 @@
 
                             .contProyectos__blockDescB{
                                 margin-top: 30px;
-                                width: 200px;
-                                height: 300px;
+                                width: 250px;
+                                height: 380px;
                                 background: rgba(128, 128, 128, 0.31);
                                 box-shadow: 8px 8px 10px rgb(0, 0, 0);
                             }
 
                         }
                         
-                        
-
-                    
                     }              
                     
                 }
@@ -1677,30 +1669,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 🖥️ Desktop BLUE******************************************/
 @media (min-width: 1280px) {
-    .contBaseBloqueAB{
-        background: blue;
-    }
+   
 }
 
 
@@ -1715,7 +1686,6 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: start;
-        display: none;
         .contBloqueA{
             width: 350px;
             padding: 0px 10px;
@@ -1877,13 +1847,15 @@
         }
 
         .contBloqueB{
-            width:70%;
+            width:calc(80% - 80px);
             padding: 10px 20px;
             color: white;
+
             //Bloque habilidades
             .contBloqueB__baseSkills{
-                width: 100%;
+                width:750px;
                 padding: 10px 0px;
+                margin: auto;
 
                 .sectionRight_title{
                     width: 240px;
@@ -1899,58 +1871,49 @@
                 }
 
                 .contBloqueB_cont{
-                    margin-top: 20px;
+                    margin-top: 10px;
                     width: 100%;
-                    padding: 10px 0px;
+                    padding: 0px 0px;
                     display: flex;
-                    flex-direction: row;
+                    flex-direction: column;
                     justify-content: space-around;
                     align-items: center;
                     .bloque__A{
-                        width: 38%;
+                        width:90%;
                         padding: 10px 0px;
-                        background: transparent;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
                         .contBloqueB_contBloc{
-                            width: 100%;
-                            background:transparent;
+                            width: 140px;
+                            padding: 10px;
+                            margin-bottom: 5px;
                             display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
+                            flex-direction:column;
+                            justify-content: center;
                             align-items: center;
-                            .contBloqueB_contBloc__text{
-                                color: var.$parrafo-right;
-                                font-weight: 500;
-                                font-size: 20px;
+                            background: var.$blue;
+                            border-radius:16px;
+                            
+                            .contBloqueB_contBloc__image{
+                                width: 80px;
+                                height: 80px;
                             }
-                            .contBloqueB_contBloc__ball{
-                                background:transparent;
-                                padding: 3px;
-                                color: var.$blue;
-                                
-                            }
-                        }
-                    }
 
-                    .bloque__B{
-                        width: 38%;
-                        padding: 10px 0px;
-                        background: transparent;
-                        .contBloqueB_contBloc{
-                            width: 100%;
-                            background:transparent;
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
-                            align-items: center;
                             .contBloqueB_contBloc__text{
                                 color: var.$parrafo-right;
                                 font-weight: 500;
                                 font-size: 20px;
+                                margin-left: 10px;
+                                display: none;
                             }
                             .contBloqueB_contBloc__ball{
-                                background:transparent;
                                 padding: 3px;
-                                color: var.$blue;
+                                color: var.$white;
+                                margin-left: 10px;
+
                             }
                         }
                     }
@@ -1962,7 +1925,7 @@
                 margin-top: 50px;
                 width: 100%;
                 .contExperiencia__title{
-                    width: 340px;
+                    width: 240px;
                     border-radius: 20px;
                     margin: auto;
                     padding: 3px 0px;
@@ -1971,79 +1934,114 @@
                     font-size: 26px;
                     text-align: center;
                     background: var.$blue;
-                    color: var.$white;
+                    color: var.$white;  
                 }
 
                 .contBlockExp{
-                    margin-top: 30px;
                     width: 100%;
-                    padding: 10px 0px;
+                    padding: 10px;
                     display: flex;
                     flex-direction: row;
                     justify-content: flex-start;
                     align-items: flex-start;
-                    .contExperiencia__fechas{
-                        width: auto;
-                        padding: 10px 20px;
-                        background: var.$blue;
-                        text-align: center;
-                        border-radius: 10px 0px 0px 10px;
-                        .contExperiencia__fechas__caja{
-                            color: var.$green;
-                            font-size: 18px;
-                            font-weight: 300;
-                            line-height: 24px;
-                            margin: 10px 0px;
+                    margin-top: 35px;
+                    position: initial;
+                    .contBlockExp__btn{
+                        display: none;
+                        .iconoPro{
+                            font-size: 24px;
                             cursor: pointer;
                         }
                     }
+                    .contExperiencia__fechas{
+                        width:100px;
+                        padding: 25px;
+                        background: var.$blue;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                        position: initial;
+                        top: 0;
+                        left: 0;
+                        border-radius: 10px;
+
+                        .contExperiencia__fechas__caja{
+                           width: 100%;
+                           color: var.$green;
+                           font-size: 18px;
+                           font-weight: 300px;
+                           line-height: 24px;
+                           margin: 10px 20px;
+                           cursor: pointer;
+                        }
+                    }
+                    //evento_js
+                    .mostrar{
+                        //left: -50%;
+                        left: initial;
+                    }
+
         
                     .lineaVertical{
                         margin-left: 30px;
                         background: var.$blue;
-                        height: 480px;
+                        height: 500px;
                         width: 10px;
                         border: none;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-evenly;
                         align-content: center;
+                        display: block;
+                        border-radius: 10px;
                         .circulo{
                             width: 22px;
                             height: 22px;
                             background: var.$blue;
                             border-radius: 50%;
+                            margin-top: 40px;
                             margin-left: -6px;
+                            
                         }
                     }
                     
                     .contExperiencia__content{
-                        width: calc(100% - 180px);
+                        width: 100%;
                         padding: 30px;
                         background: var.$blue;
+                        border-radius: 10px 10px ;
+                        box-shadow: 0px 0px 5px black;
                         margin-left: 30px;
-                        border-radius: 0px 10px 10px 0px;
-
-
                         .contBaseExp{
                             width: 100%;
+                            text-align: center;
+                            
                             .contBaseExp__title{
+                                width: 200px;
                                 color: var.$green;
                                 font-weight: 500;
-                                font-size: 24px;
+                                line-height: 22px;
+                                font-size: 1.5rem;
                                 text-transform: uppercase;
-                                
+                                margin: auto;
+
                             }
 
                             .contBaseExp__text{
+                                width: 80%;
                                 color: var.$white;
+                                margin: auto;
+
                             }
 
                             .contBaseExp__figure{
-                                width: 300px;
-                                height: 110px;
+                                width: calc(60% - 30px);
+                                height: auto;
                                 box-shadow: 10px 10px 0px black;
-                            
+                                margin: auto;
                             }
 
                             .contBaseExp__web{
@@ -2054,15 +2052,9 @@
                                 }
                             }
                         }
-                        /*
-                        contExperiencia__content
-    contBaseExp
-    contBaseExp__title
-    contBaseExp__text
-                        */
+                      
                     }
                 }
-                
             }
             
             //Bloque proyecto web

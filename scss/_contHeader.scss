@@ -141,7 +141,6 @@
         background-image: url(../source/desarrollando.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
-        background: violet;
         .contHeaderFondo{
             width: 100%;
             background:rgba(0, 0, 0, 0.46);
@@ -200,42 +199,24 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* 🖥️ Desktop BLUE******************************************/
-@media (min-width:1280px) { 
+@media (min-width:1280px){ 
     .contHeader{
         width: 100%;
         background-image: url(../source/desarrollando.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
-        background: blue;
         .contHeaderFondo{
             width: 100%;
             background:rgba(0, 0, 0, 0.46);
             padding: 50px 10px;
             display: flex;
-            flex-direction:row-reverse;
-            justify-content:space-around;
+            flex-direction:row;
+            justify-content:center;
             align-items: center;
+            background: orange;
             .contHeaderPhoto{
-                margin-right: 180px;
+                margin-left: calc(20% - 50px);
                 width: 240px;
                 height: 240px;
                 border-radius: 100%;
@@ -243,66 +224,64 @@
             }
         
             .contHeaderDescription{
-                margin-right:initial;
-                margin: 20px auto;
-                width: 60%;
-                padding: 20px 10px;
+                margin-right:calc(25% - 150px);
+                width: 500px;
+                padding: 15px 0px;
                 text-align: center;
-                //background: teal;
                 .contHeaderDescription__name{
                     color: white;
-                    font-weight: 500;
+                    font-weight: 700;
                     line-height: 1;
-                    font-size: 34px;
+                    letter-spacing: 8px;
+                    font-size: 40px;
                 }
 
                 .contHeaderDescription__description{
                     color: white;
-                    margin-top: 10px;
-                    font-size: 24px;
+                    margin-top: initial;
+                    font-size: 26px;
                     font-weight: 400;
                     color: var.$green;
                 }
 
                 .contHeaderDescription__line{
-                    margin: 14px auto;
-                    width: 80%;
+                    margin: 12px auto;
+                    width: 240px;
                     height: 2px;
                     border: none;
                     background: var.$green;
                 }
                 
                 .contHeaderDescription__nivel{
-                    margin-top: 50px;
+                    margin-top: 40px;
+                    font-size: 24px;
                     color: var.$green;
                     font-weight: 400;
                 }
             }
         }
-    
     }  
 }
 
 
-
 /* 🖥️ Pantallas grandes VIOLET******************************/
 @media (min-width:1440px) { 
-    .contHeader{
+   .contHeader{
         width: 100%;
         background-image: url(../source/desarrollando.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
-        background: violet;
         .contHeaderFondo{
             width: 100%;
             background:rgba(0, 0, 0, 0.46);
-            padding: 60px 10px;
+            padding: 50px 10px;
             display: flex;
-            flex-direction:row-reverse;
-            justify-content:space-around;
+            flex-direction:row;
+            justify-content:center;
             align-items: center;
+            background: teal;
             .contHeaderPhoto{
-                margin-right: 180px;
+                margin-left: calc(20% - 50px);
                 width: 240px;
                 height: 240px;
                 border-radius: 100%;
@@ -310,42 +289,41 @@
             }
         
             .contHeaderDescription{
-                margin-right:initial;
-                margin: 20px auto;
-                width: 60%;
-                padding: 20px 10px;
+                margin-right:calc(25% - 150px);
+                width: 500px;
+                padding: 15px 0px;
                 text-align: center;
-                //background: teal;
                 .contHeaderDescription__name{
                     color: white;
-                    font-weight: 500;
+                    font-weight: 700;
                     line-height: 1;
-                    font-size: 34px;
+                    letter-spacing: 8px;
+                    font-size: 40px;
                 }
 
                 .contHeaderDescription__description{
                     color: white;
-                    margin-top: 10px;
-                    font-size: 24px;
+                    margin-top: initial;
+                    font-size: 26px;
                     font-weight: 400;
                     color: var.$green;
                 }
 
                 .contHeaderDescription__line{
-                    margin: 14px auto;
-                    width: 80%;
+                    margin: 12px auto;
+                    width: 240px;
                     height: 2px;
                     border: none;
                     background: var.$green;
                 }
                 
                 .contHeaderDescription__nivel{
-                    margin-top: 50px;
+                    margin-top: 40px;
+                    font-size: 24px;
                     color: var.$green;
                     font-weight: 400;
                 }
             }
         }
-    
     }  
 }
