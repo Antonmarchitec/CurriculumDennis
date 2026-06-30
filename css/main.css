@@ -1725,10 +1725,11 @@
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA {
     margin-top: -20px;
-    width: 75%;
+    width: 85%;
     padding: 20px;
     background: #0c1b32;
     border-radius: 10px;
+    background: yellow;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA .contProyectos__blockDesc__title {
     color: #ffffff;

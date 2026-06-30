@@ -1515,7 +1515,6 @@
                 width: 100%;
                 padding: 50px 0px ;
                 position: relative;
-                
                 .contProyectos__title{
                     background: var.$blue;
                     font-size: 26px;
@@ -1553,7 +1552,7 @@
                     justify-content: flex-start;
                     align-items: center;
                     padding: 10px 0px;
-                    
+
                     .contProyectos__block{
                         width: 100%;
                         padding: 100px 20px;
@@ -1578,6 +1577,7 @@
                                 justify-content: flex-start;
                                 align-items: center;
                                 margin:5px auto;
+                                
                                 .iconProyect{
                                     font-size: 20px;
                                     margin-right: 10px;
@@ -1614,11 +1614,11 @@
                             
                             .contProyectos__blockDescA{
                             margin-top: -20px;
-                            width: 75%;
+                            width: 85%;
                             padding:20px;
                             background: var.$blue;
                             border-radius: 10px;
-
+                                background: yellow;
                                 .contProyectos__blockDesc__title{
                                     color: var.$white;
                                     font-weight: 500;
