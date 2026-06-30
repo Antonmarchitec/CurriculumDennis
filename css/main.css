@@ -189,7 +189,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: orange;
   }
   .contHeader .contHeaderFondo .contHeaderPhoto {
     margin-left: calc(20% - 50px);
@@ -248,7 +247,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: teal;
   }
   .contHeader .contHeaderFondo .contHeaderPhoto {
     margin-left: calc(20% - 50px);
@@ -2119,11 +2117,12 @@
   .contBaseBloqueAB .contBloqueB .contProyectos {
     width: 100%;
     padding: 50px 0px;
+    position: relative;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__title {
     background: #0c1b32;
     font-size: 26px;
-    width: 340px;
+    width: 260px;
     border-radius: 20px;
     margin: auto;
     padding: 3px 0px;
@@ -2132,18 +2131,42 @@
     font-weight: 500;
     text-align: center;
   }
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__btn {
+    width: 40px;
+    height: 40px;
+    margin: 15px auto;
+    background: rgb(3, 8, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    display: none;
+  }
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__btn .iconoPro {
+    font-size: 24px;
+    cursor: pointer;
+  }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section {
     margin-top: 30px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
+    padding: 10px 0px;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block {
-    width: 260px;
+    width: 300px;
     padding: 30px 20px;
     background: #0c1b32;
+    box-shadow: 0px 0px 10px black;
+    position: initial;
+    top: 0px;
+    left: 0px;
+    opacity: initial;
+    visibility: visible;
+    transition: 0.5s ease;
+    z-index: 100;
     border-radius: 10px;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro {
@@ -2152,11 +2175,12 @@
     cursor: pointer;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box {
+    width: auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 5px;
+    margin: 15px auto;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box .iconProyect {
     font-size: 20px;
@@ -2172,50 +2196,60 @@
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block .hiperPro .contProyectos__box .contProyectos__boxText:hover {
     color: #56fbd3;
   }
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__block_JS {
+    opacity: 1;
+    visibility: visible;
+  }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc {
     width: 100%;
   }
   .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase {
     width: 100%;
-    padding: 20px;
+    padding: 0px 10px;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA {
-    width: 68%;
-    padding: 20px 30px;
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA {
+    margin-top: 0px;
+    width: calc(55% - 10px);
+    padding: 40px 30px;
+    background: #0c1b32;
+    border-radius: 10px;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyectos__blockDesc__title {
-    color: #0c1b32;
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA .contProyectos__blockDesc__title {
+    color: #ffffff;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-transform: uppercase;
     line-height: 28px;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyLine {
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA .contProyLine {
     margin-top: 10px;
     width: 120px;
     height: 6px;
-    background: #0c1b32;
+    background: #56fbd3;
     border: none;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .contProyectos__blockDesc__text {
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA .contProyectos__blockDesc__text {
     margin: 20px 0px;
     font-size: 14px;
     font-weight: 300;
-    color: #414141;
+    color: #e7e7e7;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescA .hiperProy {
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescA .hiperProy {
+    display: block;
+    width: 200px;
     text-decoration: none;
-    color: #0c1b32;
+    color: #56fbd3;
     font-size: 14px;
   }
-  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectos__blockDescB {
-    width: 200px;
-    height: 300px;
-    background: rgba(128, 128, 128, 0.31);
-    box-shadow: 8px 8px 10px rgb(81, 81, 81);
+  .contBaseBloqueAB .contBloqueB .contProyectos .contProyectos__section .contProyectos__blockDesc .contProyectosBase .contProyectos__blockDescB {
+    margin-top: 30px;
+    width: 250px;
+    height: 380px;
+    box-shadow: 8px 8px 10px rgb(0, 0, 0);
   }
 }
 /*
