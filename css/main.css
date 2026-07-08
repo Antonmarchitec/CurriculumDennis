@@ -775,6 +775,17 @@
     background: rgba(128, 128, 128, 0.31);
     box-shadow: 8px 8px 10px rgb(81, 81, 81);
   }
+  .contFooter {
+    width: 100%;
+    padding: 30px 20px;
+    background: #0c1b32;
+  }
+  .contFooter .contFooterText {
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
 }
 /* 📲 Tablet YELLOW******************************************/
 @media (min-width: 768px) {

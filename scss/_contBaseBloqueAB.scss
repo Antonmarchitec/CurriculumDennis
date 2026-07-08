@@ -547,6 +547,20 @@
             }
         }
     } 
+
+
+    .contFooter{
+        width: 100%;
+        padding: 30px 20px;
+        background: var.$blue;
+        .contFooterText{
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+            color:white;
+        }
+
+    }
 }
 
 
