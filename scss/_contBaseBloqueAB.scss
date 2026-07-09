@@ -296,9 +296,10 @@
                         }
                     }
                     .contExperiencia__fechas{
-                        width:100%;
+                        width:120px;
                         padding: 25px;
-                        background: var.$blue-trans;
+                        background: var.$blue;
+                        box-shadow: 0px 0px 10px black;
                         text-align: center;
                         display: flex;
                         flex-direction: row;
@@ -307,12 +308,12 @@
                         align-items: center;
                         position: absolute;
                         top: 80px;
-                        left: -100%;
+                        left:-50%;
                       
                         .contExperiencia__fechas__caja{
                            width: 100%;
                            color: var.$green;
-                           font-size: 18px;
+                           font-size: 16px;
                            font-weight: 300px;
                            line-height: 24px;
                            margin: 10px 20px;
@@ -562,6 +563,11 @@
 
     }
 }
+
+
+
+
+
 
 
 
@@ -859,9 +865,9 @@
                         }
                     }
                     .contExperiencia__fechas{
-                        width:100%;
+                        width:calc(40% - 200px);
                         padding: 25px;
-                        background: var.$blue-trans;
+                        background: var.$blue;
                         text-align: center;
                         display: flex;
                         flex-direction: row;
@@ -869,9 +875,8 @@
                         justify-content: center;
                         align-items: center;
                         position: absolute;
-                        top: 80px;
+                        top: 50px;
                         left: -100%;
-                      
                         .contExperiencia__fechas__caja{
                            width: 100%;
                            color: var.$green;
@@ -1414,16 +1419,18 @@
                         justify-content: center;
                         align-items: center;
                         border-radius: 50%;
-                        
+                        display: none;
                         .iconoPro{
                             font-size: 24px;
                             cursor: pointer;
                         }
                     }
+
+
                     .contExperiencia__fechas{
-                        width:100%;
+                        width:120px;
                         padding: 25px;
-                        background: var.$blue-trans;
+                        background: var.$blue;
                         text-align: center;
                         display: flex;
                         flex-direction: row;
@@ -1431,9 +1438,8 @@
                         justify-content: center;
                         align-items: center;
                         position: absolute;
-                        top: 80px;
-                        left: -100%;
-
+                        top: 20px;
+                        left:20px;
                         .contExperiencia__fechas__caja{
                            width: 100%;
                            color: var.$green;
@@ -1447,7 +1453,7 @@
                     //evento_js
                     .mostrar{
                         //left: -50%;
-                        left: 0;
+                        left: 20px;
                     }
 
         
@@ -1473,12 +1479,12 @@
                     
                     .contExperiencia__content{
                         //width: calc(100% - 180px);
-                        width: 85%;
+                        width: 70%;
                         padding: 30px;
                         background: var.$blue;
                         border-radius: 10px 10px ;
                         box-shadow: 0px 0px 5px black;
-
+                        margin-top: 30px;
                         .contBaseExp{
                             width: 100%;
                             text-align: center;
